@@ -17,7 +17,7 @@ Adamiani is an informative wedding-vow renewal website with the aim of providing
 ## Table of Contents
 
 1. [User Experience (UX)](#user-experience-ux)
-2. [Five Planes of UX](# Five Planes of UX)
+2. [Five Planes of UX](#five-planes-of-ux)
 
 ## User Experience (UX) <a name="user-experience-ux"></a>
 ### User Stories
@@ -38,7 +38,7 @@ Adamiani is an informative wedding-vow renewal website with the aim of providing
 	3. As a Frequent Visitor, I want to see background information on the couple.
 	4. As a Frequent Visitor, I want to be able to contact the married couple if I have any personal queries that are not answered in the FAQs.
 
-## Five Planes of UX
+## Five Planes of UX <a name="five-planes-of-ux"></a>
 ### Strategy
 - What value does the project provide?
 This wedding-renewal website allows guests to the event to see key information included, but not limited to:
@@ -65,24 +65,20 @@ Through research on other wedding websites and blogs; the following criteria wer
     - Local recommendations
     - Link to a registry
 
-#### Visability and Feasibility
+#### Viability and Feasibility
 Followed is an analysis of the above value and user and business needs:
-|   Syntax  |   Desctiption |
-| --------- | ------------- |
-| test | test |
-
-    | Task                               | Importance | Viability/Feasibility |
-    |------------------------------------|:----------:|:---------------------:|
-    | Time and Place information section | 5          | 5                     |
-    | Travel and accomodation section    | 4          | 4                     |
-    | FAQ section                        | 5          | 5                     |
-    | Contact details                    | 4          | 5                     |
-    | Background information section     | 3          | 4                     |
-    | Social media links                 | 2          | 4                     |
-    | RSVP form                          | 5          | 5                     |
-    | Updates                            | 3          | 1                     |
-    | Link to a wedding register         | 1          | 1                     |
-    | Responsive on all devices          | 5          | 4                     |
+|   Task |   Importance | Viability/Feasibility |
+| --------- | ------------- | ----------------- |
+| Time and place information section | 5 | 5 |
+| Travel and accommodation section | 4 | 4 |
+| FAQ section | 5 | 5 |
+| Contact details | 4 | 5 |
+| Background information section| 3 | 2 |
+| Social media links | 2 | 4 |
+| RSVP form | 5 | 5 |
+| Updates | 3 | 1 |
+| Link to wedding register | 1 | 1 |
+| Responsive on all devices | 5 | 4 |
 
 ### Scope
 
