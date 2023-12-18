@@ -213,12 +213,13 @@ The **FAQ** page will resemble the RSVP page but with a bootstrap accordion comp
 ## Wireframes <a name="wireframes"></a>
 
 ### Home page
-- [Desktop](link)
-- [Tablet] (link)
-- [Mobile] (link)
+- [Desktop](assets/documentation/homepage_desktop.png)
+- [Tablet] (assets/documentation/homepage_tablet.png)
+- [Mobile] (assets/documentation/homepage_mobile.png)
 
 ### About us
-- [Desktop](assets\documentation\aboutus_desktop.png)
+- [Desktop](assets/documentation/aboutus_desktop.png)
+
 - [Tablet] (link)
 - [Mobile] (link)
 
