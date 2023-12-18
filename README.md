@@ -214,29 +214,28 @@ The **FAQ** page will resemble the RSVP page but with a bootstrap accordion comp
 
 ### Home page
 - [Desktop](assets/documentation/homepage_desktop.png)
-- [Tablet] (assets/documentation/homepage_tablet.png)
-- [Mobile] (assets/documentation/homepage_mobile.png)
+- [Tablet](assets/documentation/homepage_tablet.png)
+- [Mobile](assets/documentation/homepage_mobile.png)
 
 ### About us
 - [Desktop](assets/documentation/aboutus_desktop.png)
-
-- [Tablet] (link)
-- [Mobile] (link)
+- [Tablet](assets/documentation/aboutus_tablet.png)
+- [Mobile](assets/documentation/aboutus_mobile.png)
 
 ### Travel
-- [Desktop](link)
-- [Tablet] (link)
-- [Mobile] (link)
+- [Desktop](assets/documentation/travel_desktop.png)
+- [Tablet](assets/documentation/travel_tablet.png)
+- [Mobile](assets/documentation/travel_mobile.png)
 
 ### RSVP
-- [Desktop](link)
-- [Tablet] (link)
-- [Mobile] (link)
+- [Desktop](assets/documentation/rsvp_desktop.png)
+- [Tablet](assets/documentation/rsvp_tablet.png)
+- [Mobile](assets/documentation/rsvp_mobile.png)
 
 ### FAQ
-- [Desktop](link)
-- [Tablet] (link)
-- [Mobile] (link)
+- [Desktop](assets/documentation/faq_desktop.png)
+- [Tablet](assets/documentation/faq_tablet.png)
+- [Mobile](assets/documentation/faq_mobile.png)
 
 ## Credits <a name="credits"></a>
 
