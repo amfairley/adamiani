@@ -189,7 +189,8 @@ The **homepage** will be split into four sections on desktop to be clear and con
 - A link and reminder to RSVP will be included
 - On tablet; the ceremony and reception information sections will be split 1:1 with the image, there will only be 2 images in the images section
 - On mobile; the overlaid text on the hero image will instead appear below it. The ceremony image will be placed vertically above the ceremony details. Likewise with the reception details and image. The images section preceding the footer will contain only 1 image
-- The about us page will consist of a title with an image underneath and then 4 sections containing an image and text
+
+The **about us** page will consist of a title with an image underneath and then 4 sections containing an image and text.
 - The header section will use take up half of the page width and will be centred
 - The text and image sections will also take up half of the page width and will be centred to create a pleasing column effect to the page  
 - The images used to accompany the text sections will be small, stylised, and vertically centred
@@ -209,8 +210,32 @@ The **RSVP** page will consist of a title, a central RSVP form and a border imag
 The **FAQ** page will resemble the RSVP page but with a bootstrap accordion component housing the questions instead of a form
 
 
+## Wireframes <a name="wireframes"></a>
 
+### Home page
+- [Desktop](link)
+- [Tablet] (link)
+- [Mobile] (link)
 
+### About us
+- [Desktop](assets\documentation\aboutus_desktop.png)
+- [Tablet] (link)
+- [Mobile] (link)
+
+### Travel
+- [Desktop](link)
+- [Tablet] (link)
+- [Mobile] (link)
+
+### RSVP
+- [Desktop](link)
+- [Tablet] (link)
+- [Mobile] (link)
+
+### FAQ
+- [Desktop](link)
+- [Tablet] (link)
+- [Mobile] (link)
 
 ## Credits <a name="credits"></a>
 
