@@ -18,6 +18,8 @@ Adamiani is an informative wedding-vow renewal website with the aim of providing
 
 1. [User Experience (UX)](#user-experience-ux)
 2. [Five Planes of UX](#five-planes-of-ux)
+3. [Wireframes](#wireframes)
+4. [Credits](#credits)
 
 ## User Experience (UX) <a name="user-experience-ux"></a>
 ### User Stories
@@ -115,6 +117,7 @@ Each page will consist of:
 - **Navigation bar**: Meeting the navigation requirement
 - **Main section**: Meeting the requirements of the page
 - **Footer**: Meeting the contact details and social media requirements
+
 Required pages and their main sections:
 - **Home**: Meets the time and place information requirement
     1. Header describing the title of the site and time and location of event
@@ -162,50 +165,56 @@ Any new content flowing down the page will utilise content hinting where appropr
 [Balsamiq Wireframes](https://balsamiq.com/) was used during this section to create wireframes.
 
 
-* To maintain a pleasing layout and consistency throughout the website:
-	* All pages will follow the same layout to enable easy navigation for the user. They will consist of the same navigation bar arranged at the top of the page, the same footer arranged at the bottom of the page, and a central section providing the page information
-	* Sections within the pages containing elements will keep to the same size or keep within a ratio of sizes
-	* The rule of thirds will be kept to where possible 
-	* The navigation bar and the footer will be the same height
-	* On smaller (phone) screens the navigation bar will be reduced to a hamburger menu
-	* On tablet screens "Travel/Accommodation" will be changed to "Travel/Accom"
-* The navigation bar will be organised in the following order:
-	*Logo: On the top left of the navigation bar, following current accepted convention for its location, it will link to the homepage
-	*A home button: allowing the user to navigate back to the homepage without having to click the logo
-	*About us: Third on the navigation bar, allowing the navigation bar to follow the intuitve pattern for wedding websites of home/the couple/travel suggestions/RSVP/FAQ
-	*Travel: Fourth on the navigation bar, having the most useful information for the user when planning their trip, earning it a place above the RSVP and FAQ
-	*RSVP: Though important for the business (the couple), RSVP will be placed below the bulk of the information that the user (guest) would need to consult before deciding on their attendence 
-	*FAQ: Though quite high in importance to the user, this will be placed at the far right of the navigation bar, following current accepted convention, so that the user will intuitively look for it in this location	 
-* The footer will contain a logo, contact details, and social media links that will open in a new tab
-	* On smaller (tablet and phone) screens the footer will not show the physical mailing address, as this takes up much needed room and is likely not a requiremnt for the user whilst on the go
-	* On smaller (tablet and phone) screens the footer will not show the logo, as it takes up too much space that could otherwise be used for more important information such as the contact details and social media links
-* The homepage will be split into four sections on desktop to be clear and conise; a hero image with key information overlayed, a ceremony details and image section (split 2:1), a reception details and image section (split 2:1), and an images section (split 1:1:1) to add some space between the information and footer
-	* A link and reminder to RSVP will be included
-	* On tablet; the ceremony and reception information sections will be split 1:1 with the image, there will only be 2 images in the images section
-	* On mobile; the overlaid text on the hero image will instead appear below it. The ceremony image will be placed vertically above the ceremony details. Likewise with the reception details and image. The images section preceding the footer will contain only 1 image
-* The about us page will consist of a title with an image underneath and then 4 sections containing an image and text
-	* The header section will use take up half of the page width and will be centred
-	* The text and image sections will also take up half of the page width and will be centred to create a pleasing column effect to the page  
-	* The images used to accompany the text sections will be small, stylised, and vertically centred
-	* The order of text/image will be reversed for each section giving the impression of pages in a book
-	* On tablet; the sections will be set to 100%
-	* On mobile; the images will be removed from the text sections and instead appear above the footer
-* The travel/accommodation page will consist of a heading, followed by three sections detailing flights, travel to the ceremoney, and travel to the reception. These three sections will be split equalling into a text element with the information, an image, and a map element. Each consecutive section will have the position of the map and image flipped. Before the footer there will be an accommodation section detailing hotel options for three budgets and links to the respective hotel websites.
-	*At tablet sizes the images will be lost for the flight, ceremony, and travel sections with the containing elements now taking up 50% of the width each
-	*On tablets the hotel options will be split over two lines, equally sized and centred on the page
-	*On mobiles the flight, ceremony, and reception details will appear above the map elements and the hotel options will appear on their own lines arranged vertically
-	*On mobiles the column width for content will take up 70% of the width
-* The RSVP page will consist of a title, a central RSVP form and a border image each side
-	*On tablet and mobile the border images will be moved to inside the title and below the RSVP form
-* The FAQ page will resemble the RSVP page but with a bootstrap accordion component housing the questions instead of a form
+To maintain a pleasing layout and consistency throughout the website:
+- All pages will follow the same layout to enable easy navigation for the user. They will consist of the same navigation bar arranged at the top of the page, the same footer arranged at the bottom of the page, and a central section providing the page information
+- Sections within the pages containing elements will keep to the same size or keep within a ratio of sizes
+- The rule of thirds will be kept to where possible 
+- The navigation bar and the footer will be the same height
+- On smaller (phone) screens the navigation bar will be reduced to a hamburger menu
+- On tablet screens "Travel/Accommodation" will be changed to "Travel/Accom"
+
+The **navigation bar** will be organised in the following order:
+- Logo: On the top left of the navigation bar, following current accepted convention for its location, it will link to the homepage
+- A home button: allowing the user to navigate back to the homepage without having to click the logo
+- About us: Third on the navigation bar, allowing the navigation bar to follow the intuitve pattern for wedding websites of home/the couple/travel suggestions/RSVP/FAQ
+- Travel: Fourth on the navigation bar, having the most useful information for the user when planning their trip, earning it a place above the RSVP and FAQ
+- RSVP: Though important for the business (the couple), RSVP will be placed below the bulk of the information that the user (guest) would need to consult before deciding on their attendence 
+- FAQ: Though quite high in importance to the user, this will be placed at the far right of the navigation bar, following current accepted convention, so that the user will intuitively look for it in this location	 
+
+The **footer** will contain a logo, contact details, and social media links that will open in a new tab.
+- On smaller (tablet and phone) screens the footer will not show the physical mailing address, as this takes up much needed room and is likely not a requiremnt for the user whilst on the go
+- On smaller (tablet and phone) screens the footer will not show the logo, as it takes up too much space that could otherwise be used for more important information such as the contact details and social media links
+
+The **homepage** will be split into four sections on desktop to be clear and conise; a hero image with key information overlayed, a ceremony details and image section (split 2:1), a reception details and image section (split 2:1), and an images section (split 1:1:1) to add some space between the information and footer.
+- A link and reminder to RSVP will be included
+- On tablet; the ceremony and reception information sections will be split 1:1 with the image, there will only be 2 images in the images section
+- On mobile; the overlaid text on the hero image will instead appear below it. The ceremony image will be placed vertically above the ceremony details. Likewise with the reception details and image. The images section preceding the footer will contain only 1 image
+- The about us page will consist of a title with an image underneath and then 4 sections containing an image and text
+- The header section will use take up half of the page width and will be centred
+- The text and image sections will also take up half of the page width and will be centred to create a pleasing column effect to the page  
+- The images used to accompany the text sections will be small, stylised, and vertically centred
+- The order of text/image will be reversed for each section giving the impression of pages in a book
+- On tablet; the sections will be set to 100%
+- On mobile; the images will be removed from the text sections and instead appear above the footer
+
+The **travel/accommodation** page will consist of a heading, followed by three sections detailing flights, travel to the ceremoney, and travel to the reception. These three sections will be split equalling into a text element with the information, an image, and a map element. Each consecutive section will have the position of the map and image flipped. Before the footer there will be an accommodation section detailing hotel options for three budgets and links to the respective hotel websites.
+- At tablet sizes the images will be lost for the flight, ceremony, and travel sections with the containing elements now taking up 50% of the width each
+- On tablets the hotel options will be split over two lines, equally sized and centred on the page
+- On mobiles the flight, ceremony, and reception details will appear above the map elements and the hotel options will appear on their own lines arranged vertically
+- On mobiles the column width for content will take up 70% of the width
+
+The **RSVP** page will consist of a title, a central RSVP form and a border image each side
+- On tablet and mobile the border images will be moved to inside the title and below the RSVP form
+
+The **FAQ** page will resemble the RSVP page but with a bootstrap accordion component housing the questions instead of a form
 
 
 
 
 
-## Credits
+## Credits <a name="credits"></a>
 
-+ ####Documentation
-	- The code-institute [template] (https://github.com/Code-Institute-Org/ci-full-template) was used in order to have necessary tools preinstalled
+#### Documentation
+- The code-institute [template] (https://github.com/Code-Institute-Org/ci-full-template) was used in order to have necessary tools preinstalled
 	
 
