@@ -89,25 +89,25 @@ A mobile-first approach is taken to ensure optimal performance on mobile devices
 The following proposed web-pages and sections will cover the remaining content and feature requirements established in the strategy plane:
 
 ##### Section: Navigation bar
-	* This section will be present on every page to create a cohesive structure across the site
+- This section will be present on every page to create a cohesive structure across the site
 ##### Section: Footer
-	* This section will be present on every page to create unity across the site
-	* This section will house contact details, as to be available on every webpage
-	* The contact details will cover email address, whatsapp, and postal address
-	* Social media links will be grouped here
+- This section will be present on every page to create unity across the site
+- This section will house contact details, as to be available on every webpage
+- The contact details will cover email address, whatsapp, and postal address
+- Social media links will be grouped here
 ##### Webpage: Homepage
-	* The heading and hero image will convey the time and location of the event
+- The heading and hero image will convey the time and location of the event
 ##### Webpage: About Us
-	* This will house background information on the couple and their journey together
-	* Mixed media will be used to accentuate the story including images and video footage
+- This will house background information on the couple and their journey together
+- Mixed media will be used to accentuate the story including images and video footage
 ##### Webpage: Travel/Accommodation
-	* This will house sections detailing travel and accommodation options
-	* Information will be emphasised using mixed media including images, a map, and links to different options
+- This will house sections detailing travel and accommodation options
+- Information will be emphasised using mixed media including images, a map, and links to different options
 ##### Webpage: RSVP
-	* This page will hold the RSVP form
+- This page will hold the RSVP form
 ##### Webpage: FAQ
-	*This will house a list of Frequently Asked Questions including dress-code and the child-friendly nature of the event
-	*There will be no images as to not detract from the information
+- This will house a list of Frequently Asked Questions including dress-code and the child-friendly nature of the event
+- There will be no images as to not detract from the information
 
 
 ### Structure
