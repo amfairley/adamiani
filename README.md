@@ -2,7 +2,7 @@
 
 ---
 
-#H1 Website Title
+# Adamiani
 
 ### This site is designed as a vow renewal website to be used by those invited to the festivities.
 
@@ -16,23 +16,23 @@ Adamiani is an informative wedding-vow renewal website with the aim of providing
 
 ## Table of Contents
 
-1. [Planning & Development](#User Experience (UX))
-2. [Five Planes of UX](#Five Planes of UX)
+1. [Planning & Development](# User Experience (UX))
+2. [Five Planes of UX](# Five Planes of UX)
 
-##User Experience (UX)
-###User Stories
-* ####First Time Visitor Goals
+## User Experience (UX)
+### User Stories
+* #### First Time Visitor Goals
 	1. As a First Time Visitor, I want to immediately know the purpose of the site, who is involved, and the time and location of the event.
 	2. As a First Time Visitor, I want the site navigation to be intuitive allowing easy access to desired information.
 	3. As a First Time Visitor, I want to be able to RSVP to the event.
 
-* ####Returning Visitor Goals
+* #### Returning Visitor Goals
 	1. As a Returning Visitor, I want to see accommadation options near the event.
 	2. As a Returning Visitor, I want to see travel options to get to the event.
 	3. As a Returning Visitor, I want to be able to contact the married couple.
 	4. As a Returning Visitor, I want to see if my children are welcome at the event.
 	5. As a Returning Visitor, I want to be able to check some Frequently Asked Questions to answer my question or inform me of things I have not yet considered.
-* ####Frequent Visitor Goals
+* #### Frequent Visitor Goals
 	1. As a Frequent Visitor, I want to see the itinerary for the day of the event.
 	2. As a Frequent Visitor, I want to see social links for any updates or image sharing.
 	3. As a Frequent Visitor, I want to see background information on the couple.
@@ -40,33 +40,37 @@ Adamiani is an informative wedding-vow renewal website with the aim of providing
 
 ## Five Planes of UX
 ### Strategy
-*What value does the project provide?
+- What value does the project provide?
 This wedding-renewal website allows guests to the event to see key information included, but not limited to:
-	*Who the event is celebrating
-	*When and where the event is
-	*Travel and accommadation options for the event
-*What are the business needs?
+	- Who the event is celebrating
+	- When and where the event is
+	- Travel and accommadation options for the event
+- What are the business needs?
 The business in this case would be the couple arranging the event. Their needs would be:
-	*Easy way to get RSVP responses
-	*An FAQ page that answers basic questions, in order to reduce repeating answers to different invitees
-*Who is the target audience?
+	- Easy way to get RSVP responses
+	- An FAQ page that answers basic questions, in order to reduce repeating answers to different invitees
+- Who is the target audience?
 The target audience is the invited guests to the vow-renewal service.
-*What are the user needs?
+- What are the user needs?
 Through previous use of wedding websites, brainstorming, and discussions with friends and colleagues; the following are requirements for an all-encompassing wedding or wedding vow renewal website:
-	* **Who?**: A clear indication of who is having the ceremony
-**When?**: The time and date of the ceremony
-**Where?**: The location of the ceremony, travel details, and accommodation recommendations
-**Guests**: What is the dress code and is the event child-friendly?
-**RSVP**: What are the meal options, when do I need to submit the RSVP by, and can I access this data after sending?
-**Contact**: The contact details of the couple including social media
-**Background information**: Background information on the couple and location
-Through research on other wedding websites and blogs; the following criteria were found to be suggested by [The Knot](https://www.theknot.com/content/what-to-put-on-your-wedding-website) and [Wedsites](https://blog.wedsites.com/include-wedding-website/)
+- **Who?**: A clear indication of who is having the ceremony
+- **When?**: The time and date of the ceremony
+- **Where?**: The location of the ceremony, travel details, and accommodation recommendations
+- **Guests**: What is the dress code and is the event child-friendly?
+- **RSVP**: What are the meal options, when do I need to submit the RSVP by, and can I access this data after sending?
+- **Contact**: The contact details of the couple including social media
+- **Background information**: Background information on the couple and location
+Through research on other wedding websites and blogs; the following criteria were found to be suggested by [The Knot](https://www.theknot.com/content/what-to-put-on-your-wedding-website) and [Wedsites](https://blog.wedsites.com/include-wedding-website/):
 - Rules about social media
 - Local recommendations
 - Link to a registry
 
-####Visability and Feasibility
+#### Visability and Feasibility
 Followed is an analysis of the above value and user and business needs:
+|   Syntax  |   Desctiption |
+| --------- | ------------- |
+| test | test |
+
     | Task                               | Importance | Viability/Feasibility |
     |------------------------------------|:----------:|:---------------------:|
     | Time and Place information section | 5          | 5                     |
