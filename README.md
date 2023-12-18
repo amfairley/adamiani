@@ -240,6 +240,6 @@ The **FAQ** page will resemble the RSVP page but with a bootstrap accordion comp
 ## Credits <a name="credits"></a>
 
 #### Documentation
-- The code-institute [template] (https://github.com/Code-Institute-Org/ci-full-template) was used in order to have necessary tools preinstalled
+- The code-institute [template](https://github.com/Code-Institute-Org/ci-full-template) was used in order to have necessary tools preinstalled
 	
 
