@@ -16,10 +16,10 @@ Adamiani is an informative wedding-vow renewal website with the aim of providing
 
 ## Table of Contents
 
-1. [Planning & Development](# User Experience (UX))
+1. [User Experience (UX)](#user-experience-ux)
 2. [Five Planes of UX](# Five Planes of UX)
 
-## User Experience (UX)
+## User Experience (UX) <a name="user-experience-ux"></a>
 ### User Stories
 * #### First Time Visitor Goals
 	1. As a First Time Visitor, I want to immediately know the purpose of the site, who is involved, and the time and location of the event.
@@ -61,9 +61,9 @@ Through previous use of wedding websites, brainstorming, and discussions with fr
 - **Contact**: The contact details of the couple including social media
 - **Background information**: Background information on the couple and location
 Through research on other wedding websites and blogs; the following criteria were found to be suggested by [The Knot](https://www.theknot.com/content/what-to-put-on-your-wedding-website) and [Wedsites](https://blog.wedsites.com/include-wedding-website/):
-- Rules about social media
-- Local recommendations
-- Link to a registry
+    - Rules about social media
+    - Local recommendations
+    - Link to a registry
 
 #### Visability and Feasibility
 Followed is an analysis of the above value and user and business needs:
