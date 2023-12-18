@@ -112,38 +112,38 @@ The following proposed web-pages and sections will cover the remaining content a
 
 ### Structure
 Each page will consist of:
-	* **Navigation bar**: Meeting the navigation requirement
-	* **Main section**: Meeting the requirements of the page
-	* **Footer**: Meeting the contact details and social media requirements
-Required pages and their main sections
-	* **Home**: Meets the time and place information requirement
-		a. Header describing the title of the site and time and location of event
-		b. Hero image of the couple
-		c. Key information for the user about the ceremony
-		d. Key information for the user about the reception
-	* **About Us**: Meets the the background information requirements
-		a. Text of the back-story
-		b. Images displaying the journey that the couple has been on together
-		c. A video highlighting the original wedding
-	* **Travel/Accommodation**: Meets the travel and accommodation requirements
-		a. Details of how to get there
-		b. Map of the location of the event
-		c. Details of accommodation recommendations
-		d. Images of accommodation recommendations
-	* **RSVP**: Meets the RSVP requirment
-		a. A central form consisting of:
-			*Name 
-			*Whose plus-one (if applicable)
-			*Contact email
-			*Dietry restrictions
-			*Meal choices
-			*A message for the happy couple
-			*A song recommendation for the evening disco
-			*A submit button
-	* **FAQ**: Meets the FAQ requirment
-		a. Central Q/A paragraphs posing and answering FAQs
-		b. Links to other parts of websites if the answers can be found there
-		c. Contact information for any other queries
+- **Navigation bar**: Meeting the navigation requirement
+- **Main section**: Meeting the requirements of the page
+- **Footer**: Meeting the contact details and social media requirements
+Required pages and their main sections:
+- **Home**: Meets the time and place information requirement
+    1. Header describing the title of the site and time and location of event
+    2. Hero image of the couple
+	3. Key information for the user about the ceremony
+	4. Key information for the user about the reception
+- **About Us**: Meets the the background information requirements
+	1. Text of the back-story
+	2. Images displaying the journey that the couple has been on together
+	3. A video highlighting the original wedding
+- **Travel/Accommodation**: Meets the travel and accommodation requirements
+	1. Details of how to get there
+	2. Map of the location of the event
+	3. Details of accommodation recommendations
+	4. Images of accommodation recommendations
+- **RSVP**: Meets the RSVP requirment
+	1. A central form consisting of:
+		- Name 
+		- Whose plus-one (if applicable)
+		- Contact email
+		- Dietry restrictions
+		- Meal choices
+		- A message for the happy couple
+		- A song recommendation for the evening disco
+		- A submit button
+- **FAQ**: Meets the FAQ requirment
+	1. Central Q/A paragraphs posing and answering FAQs
+	2. Links to other parts of websites if the answers can be found there
+	3. Contact information for any other queries
 
 #### Information Architecture
 
@@ -155,7 +155,7 @@ There will be no sub-category navigation links within each webpage.
 Clickable links will have obvious changes when hovered over to offer clear feedback to the user
 Any video content will have controls available to the user and will not autoplay or automatically replay
 Any external links such as social media will open in a new tab
-Any new content flowing down the page will utilise content hinting where appropriate
+Any new content flowing down the page will utilise content hinting where appropriate.
 
 ### Skeleton
 
