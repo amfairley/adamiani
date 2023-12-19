@@ -20,12 +20,31 @@ Adamiani is an informative wedding-vow renewal website with the aim of providing
 	1. [User Goals](#user-goals)
 	2. [Site Owner Goals](#site-owner-goals)
 	3. [Developer Goals](#developer-goals)
-2. [User Stories)](#user-stories)
+2. [User Stories](#user-stories)
 3. [Five Planes of UX](#five-planes-of-ux)
 	1. [Strategy](#strategy)
-	2. 
+	2. [Scope](#scope)
+	3. [Structure](#structure)
+	4. [Skeleton](#skeleton)
+	5. [Surface] (#surface)
 4. [Wireframes](#wireframes)
-5. [Credits](#credits)
+5. [Technologies Used](#technologies-used)
+	1. [Languages](#languages)
+	2. [Frameworks and Tools](#frameworks-and-tools)
+6. [Features](#features)
+7. [Testing](#testing)
+	1. [HTML Validation](#html-validation)
+	2. [CSS Validation](#css-validation)
+	3. [Accessibility](#accessibility)
+	4. [Performance](#performance)
+	5. [Device Testing](#device-testing)
+	6. [Browser Compatability](#browser-compatability)
+	7. [Testing User Stories](#testing-user-stories)
+8. [Bugs](#bugs)
+9. [Deployment](#deployment)
+10. [Credits](#credits)
+	1. [Documentation](#credits-documentation)
+11. [Acknowledgements](#acknowledgements)
 
 ## Project Goals <a name="project-goals"></a>
 
@@ -123,7 +142,7 @@ Followed is an analysis of the above value and user and business needs:
 | Link to wedding register | 1 | 1 |
 | Responsive on all devices | 5 | 4 |
 
-### Scope
+### Scope <a name="scope"></a>
 
 #### Content Requirements
 A link to the wedding register is deemed unnecessary; as the celebration will include substantial travel for many guests and that their attendance would be gift enough. Likewise; the ability to receive updates to the event will not be considered here as it is outside the purview of this project.
@@ -153,7 +172,7 @@ The following proposed web-pages and sections will cover the remaining content a
 - There will be no images as to not detract from the information
 
 
-### Structure
+### Structure <a name="structure"></a>
 Each page will consist of:
 - **Navigation bar**: Meeting the navigation requirement
 - **Main section**: Meeting the requirements of the page
@@ -201,7 +220,7 @@ Any video content will have controls available to the user and will not autoplay
 Any external links such as social media will open in a new tab
 Any new content flowing down the page will utilise content hinting where appropriate.
 
-### Skeleton
+### Skeleton <a name="skeleton"></a>
 
 [Balsamiq Wireframes](https://balsamiq.com/) was used during this section to create wireframes.
 
@@ -250,6 +269,7 @@ The **RSVP** page will consist of a title, a central RSVP form and a border imag
 
 The **FAQ** page will resemble the RSVP page but with a bootstrap accordion component housing the questions instead of a form
 
+### Surface <a name="surface"></a>
 
 ## Wireframes <a name="wireframes"></a>
 
@@ -278,9 +298,41 @@ The **FAQ** page will resemble the RSVP page but with a bootstrap accordion comp
 - [Tablet](assets/documentation/faq_tablet.png)
 - [Mobile](assets/documentation/faq_mobile.png)
 
+## Technologies Used <a name="technologies-used"></a>
+
+### Languages <a name="languages"></a>
+
+### Frameworks and Tools <a name="frameworks-and-tools"></a>
+
+## Features <a name="features"></a>
+
+## Testing <a name="testing"></a>
+
+### HTML Validation <a name="html-validation"></a>
+
+### CSS Validation <a name="css-validation"></a>
+
+### Accessibility <a name="accessibility"></a>
+
+### Device Testing <a name="device-testing"></a>
+
+### Browser Compatability <a name="browser-compatability"></a>
+
+### Testing User Stories <a name="testing-user-stories"></a>
+
+1. Number 1 user story example
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ----------- | ---------- | ------------------- | ----------------- |
+| Example Feature | Action Taken | What should happen | What did happen | 
+
+## Bugs <a name="#bugs"></a>
+
+## Deployment <a name="deployment"></a>
+
 ## Credits <a name="credits"></a>
 
-#### Documentation
+### Documentation <a name="credits-documentaion"></a>
 - The code-institute [template](https://github.com/Code-Institute-Org/ci-full-template) was used in order to have necessary tools preinstalled
 	
-
+## Acknowledgements <a name="acknowledgements"></a>
