@@ -10,62 +10,103 @@ Adamiani is an informative wedding-vow renewal website with the aim of providing
 
 ![A mock-up image of the wedding website](/documents/websitename-mockup.png)
 
--[Click here to access the site] (https://amfairley.github.io/website_name/)
+[Click here to access the site](https://amfairley.github.io/website_name/)
 
 ---
 
 ## Table of Contents
 
-1. [User Experience (UX)](#user-experience-ux)
-2. [Five Planes of UX](#five-planes-of-ux)
-3. [Wireframes](#wireframes)
-4. [Credits](#credits)
+1. [Project Goals](#project-goals)
+	1. [User Goals](#user-goals)
+	2. [Site Owner Goals](#site-owner-goals)
+	3. [Developer Goals](#developer-goals)
+2. [User Stories)](#user-stories)
+3. [Five Planes of UX](#five-planes-of-ux)
+	1. [Strategy](#strategy)
+	2. 
+4. [Wireframes](#wireframes)
+5. [Credits](#credits)
 
-## User Experience (UX) <a name="user-experience-ux"></a>
-### User Stories
-* #### First Time Visitor Goals
-	1. As a First Time Visitor, I want to immediately know the purpose of the site, who is involved, and the time and location of the event.
-	2. As a First Time Visitor, I want the site navigation to be intuitive allowing easy access to desired information.
-	3. As a First Time Visitor, I want to be able to RSVP to the event.
+## Project Goals <a name="project-goals"></a>
 
-* #### Returning Visitor Goals
-	1. As a Returning Visitor, I want to see accommadation options near the event.
-	2. As a Returning Visitor, I want to see travel options to get to the event.
-	3. As a Returning Visitor, I want to be able to contact the married couple.
-	4. As a Returning Visitor, I want to see if my children are welcome at the event.
-	5. As a Returning Visitor, I want to be able to check some Frequently Asked Questions to answer my question or inform me of things I have not yet considered.
-* #### Frequent Visitor Goals
-	1. As a Frequent Visitor, I want to see the itinerary for the day of the event.
-	2. As a Frequent Visitor, I want to see social links for any updates or image sharing.
-	3. As a Frequent Visitor, I want to see background information on the couple.
-	4. As a Frequent Visitor, I want to be able to contact the married couple if I have any personal queries that are not answered in the FAQs.
+### User Goals <a name="user-goals"></a>
+- A website that displays well on different devices and is easy to navigate.
+- Immediately know vital information about who is renewing their vows and where and when the event is being held.
+- Easy to find contact information of the couple.
+- Able to locate information regarding travel and accommodation options for the event.
+- Positive and immediate feedback from the site such as hover effects to ensure a good user experience.
+- Sufficient information about the event that attempts to answer all guest questions.
+
+### Site Owner Goals <a name="site-owner-goals"></a>
+- Provide key event information to all the guests.
+- Allow for digital RSVPs to reduced issues common to physical post (lost letters, postal delays etc.)
+- Provide answers to frequently asked questions to reduce repetition if they were to respond to individual guests.
+- Provide contact information to the guests for further queries.
+- Promote the event in a way that encourages invitees to attend and RSVP.
+- The website works well on desktops for guests that are exploring the site and works well on mobiles for guests that need to access key information whilst on the go.
+
+### Developer Goals <a name="developer-goals"></a>
+- A well-designed website that stands out and catches the attention of the users.
+- A website that is responsive where the function and design are not hampered by changing screen or device size.
+- An easy to navigate website that stores information on separate pages that can be intuitively navigated to by the user.
+- A website designed with accessibility in mind.
+- A finished project that the developer would be proud to include in their portfolio.
+
+## User Stories (UX) <a name="user-stories"></a>
+### First Time Visitor Goals
+1. As a First Time Visitor, I want to immediately know the purpose of the site, who is involved, and the time and location of the event.
+2. As a First Time Visitor, I want the site navigation to be intuitive allowing easy access to desired information.
+3. As a First Time Visitor, I want to be able to RSVP to the event.
+
+### Returning Visitor Goals
+4. As a Returning Visitor, I want to know the deadline by which I need to RSVP by.
+5. As a Returning Visitor, I want to see accommodation options near the event.
+6. As a Returning Visitor, I want to see travel options to get to the event.
+7. As a Returning Visitor, I want to be able to contact the married couple.
+8. As a Returning Visitor, I want to see if my children are welcome at the event.
+9. As a Returning Visitor, I want to be able to check the dress code for the event.
+10. As a Returning Visitor, I want to be able to check what sort of gift I should bring.
+
+### Frequent Visitor Goals
+11. As a Frequent Visitor, I want to be able to tell which page of the site I am currently on.
+12. As a Frequent Visitor, I want to see the itinerary for the day of the event.
+13. As a Frequent Visitor, I want to see social links for any updates or image sharing.
+14. As a Frequent Visitor, I want to be able to check if there are any rules surrounding using social media at/for the event.
+15. As a Frequent Visitor, I want to see background information on the couple.
+16. As a Frequent Visitor, I want to be able to contact the married couple if I have any personal queries that are not answered in the FAQs.
+17. As a Frequent Visitor, I want to be to check some Frequently Asked Questions to answer my question or inform me of things I have not yet considered.
 
 ## Five Planes of UX <a name="five-planes-of-ux"></a>
-### Strategy
-- What value does the project provide?
-This wedding-renewal website allows guests to the event to see key information included, but not limited to:
+### Strategy <a name="strategy"></a>
+- **What value does the project provide?** This wedding-renewal website allows guests to the event to see key information included, but not limited to:
 	- Who the event is celebrating
 	- When and where the event is
 	- Travel and accommadation options for the event
-- What are the business needs?
-The business in this case would be the couple arranging the event. Their needs would be:
+- **What are the business needs?** The business in this case would be the couple arranging the event. Their needs would be:
 	- Easy way to get RSVP responses
 	- An FAQ page that answers basic questions, in order to reduce repeating answers to different invitees
-- Who is the target audience?
-The target audience is the invited guests to the vow-renewal service.
-- What are the user needs?
-Through previous use of wedding websites, brainstorming, and discussions with friends and colleagues; the following are requirements for an all-encompassing wedding or wedding vow renewal website:
-- **Who?**: A clear indication of who is having the ceremony
-- **When?**: The time and date of the ceremony
-- **Where?**: The location of the ceremony, travel details, and accommodation recommendations
-- **Guests**: What is the dress code and is the event child-friendly?
-- **RSVP**: What are the meal options, when do I need to submit the RSVP by, and can I access this data after sending?
-- **Contact**: The contact details of the couple including social media
-- **Background information**: Background information on the couple and location
-Through research on other wedding websites and blogs; the following criteria were found to be suggested by [The Knot](https://www.theknot.com/content/what-to-put-on-your-wedding-website) and [Wedsites](https://blog.wedsites.com/include-wedding-website/):
-    - Rules about social media
-    - Local recommendations
-    - Link to a registry
+- **Who is the target audience?** The target audience is the invited guests to the vow-renewal service.
+- **What are the user requirements and expectations?**
+	- An intuitive and simple navigation system.
+	- Able to quickly and easily locate relevant information.
+	- All functions and links work as expected.
+	- External links open in a new browser tab.
+	- Any embedded video or audio does not autoplay and has options to play, pause, adjust volume, fullscreen, and share.
+	- The functionality and design of the website works regardless of screen size.
+	- Contact information readily available.
+	- Accessibility.
+- **What information is required?** Through previous use of wedding websites, brainstorming, and discussions with friends and colleagues; the following are requirements for an all-encompassing wedding or wedding vow renewal website:
+	- **Who?**: A clear indication of who is having the ceremony
+	- **When?**: The time and date of the ceremony
+	- **Where?**: The location of the ceremony, travel details, and accommodation recommendations
+	- **Guests**: What is the dress code and is the event child-friendly?
+	- **RSVP**: What are the meal options, when do I need to submit the RSVP by, and can I access this data after sending?
+	- **Contact**: The contact details of the couple including social media
+	- **Background information**: Background information on the couple and location
+- Through research on other wedding websites and blogs; the following criteria were found to be suggested by [The Knot](https://www.theknot.com/content/what-to-put-on-your-wedding-website) and [Wedsites](https://blog.wedsites.com/include-wedding-website/):
+	- Rules about social media
+	- Local recommendations
+	- Link to a registry
 
 #### Viability and Feasibility
 Followed is an analysis of the above value and user and business needs:
