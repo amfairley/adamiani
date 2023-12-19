@@ -26,7 +26,7 @@ Adamiani is an informative wedding-vow renewal website with the aim of providing
 	2. [Scope](#scope)
 	3. [Structure](#structure)
 	4. [Skeleton](#skeleton)
-	5. [Surface] (#surface)
+	5. [Surface](#surface)
 4. [Wireframes](#wireframes)
 5. [Technologies Used](#technologies-used)
 	1. [Languages](#languages)
@@ -332,7 +332,7 @@ The **FAQ** page will resemble the RSVP page but with a bootstrap accordion comp
 
 ## Credits <a name="credits"></a>
 
-### Documentation <a name="credits-documentaion"></a>
+### Documentation <a name="credits-documentation"></a>
 - The code-institute [template](https://github.com/Code-Institute-Org/ci-full-template) was used in order to have necessary tools preinstalled
 	
 ## Acknowledgements <a name="acknowledgements"></a>
