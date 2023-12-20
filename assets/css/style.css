@@ -1,7 +1,47 @@
 /* @import url('https://fonts.googleapis.com/css?family=); */
 
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* --------------- Special Text  --------------- */
+
+
 /* --------------- Header and Navigation --------------- */
 
-.logo {
+
+
+#nav {
     
+}
+
+.navbaritem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.logo {
+    background-color: blue;
+}
+
+.ui-menu-color-home {
+    background-color:  yellow;
+}
+
+.ui-menu-color-about {
+    background-color: green;
+}
+
+.ui-menu-color-travel {
+    background-color: red;
+}
+
+.ui-menu-color-rsvp {
+    background-color: brown;
+}
+
+.ui-menu-color-faq {
+    background-color: gray;
 }
