@@ -302,7 +302,18 @@ The **FAQ** page will resemble the RSVP page but with a bootstrap accordion comp
 
 ### Languages <a name="languages"></a>
 
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+
 ### Frameworks and Tools <a name="frameworks-and-tools"></a>
+
+- [Balsamiq](https://balsamiq.com/wireframes/)
+- [Git](https://git-scm.com/)
+- [Github](https://github.com/)
+- [Bootstrap v5.3](https://getbootstrap.com/)
+- [Font Awesome](https://fontawesome.com/search)
+- [Hover.css](https://ianlunn.github.io/Hover/)
+- [Google Fonts](https://fonts.google.com/about)
 
 ## Features <a name="features"></a>
 
