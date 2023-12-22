@@ -99,6 +99,21 @@ header {
     background-color: gray;
 }
 
+/*-- Change starting colour --*/
+.hvr-shutter-in-vertical:before {
+    background: pink;
+}
+
+/*--Show background colours--*/
+.hvr-shutter-in-vertical:hover {
+    background-color: rgba(0,0,0,0);
+}
+
+
+/*-- Active page --*/
+.active-page {
+    text-decoration: underline;
+}
 
 /* -------- Tablet Media Queries ----------------------- */
 
