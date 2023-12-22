@@ -10,7 +10,9 @@
 /* --------------- Header and Navigation --------------- */
 
 
-
+header {
+    position: fixed;
+}
 
 
 
