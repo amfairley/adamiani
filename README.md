@@ -239,29 +239,29 @@ The **FAQ** page will resemble the RSVP page but with a bootstrap accordion comp
 ## Wireframes 
 
 ### Home page
-- [Desktop](assets/docs/wireframes/homepage_desktop.png)
-- [Tablet](assets/docs/wireframes/homepage_tablet.png)
-- [Mobile](assets/docs/wireframes/homepage_mobile.png)
+- [Desktop](docs/wireframes/homepage_desktop.png)
+- [Tablet](docs/wireframes/homepage_tablet.png)
+- [Mobile](docs/wireframes/homepage_mobile.png)
 
 ### About us
-- [Desktop](assets/docs/wireframes/aboutus_desktop.png)
-- [Tablet](assets/docs/wireframes/aboutus_tablet.png)
-- [Mobile](assets/docs/wireframes/aboutus_mobile.png)
+- [Desktop](docs/wireframes/aboutus_desktop.png)
+- [Tablet](docs/wireframes/aboutus_tablet.png)
+- [Mobile](docs/wireframes/aboutus_mobile.png)
 
 ### Travel
-- [Desktop](assets/docs/wireframes/travel_desktop.png)
-- [Tablet](assets/docs/wireframes/travel_tablet.png)
-- [Mobile](assets/docs/wireframes/travel_mobile.png)
+- [Desktop](docs/wireframes/travel_desktop.png)
+- [Tablet](docs/wireframes/travel_tablet.png)
+- [Mobile](docs/wireframes/travel_mobile.png)
 
 ### RSVP
-- [Desktop](assets/docs/wireframes/rsvp_desktop.png)
-- [Tablet](assets/docs/wireframes/rsvp_tablet.png)
-- [Mobile](assets/docs/wireframes/rsvp_mobile.png)
+- [Desktop](docs/wireframes/rsvp_desktop.png)
+- [Tablet](docs/wireframes/rsvp_tablet.png)
+- [Mobile](docs/wireframes/rsvp_mobile.png)
 
 ### FAQ
-- [Desktop](assets/docs/wireframes/faq_desktop.png)
-- [Tablet](assets/docs/wireframes/faq_tablet.png)
-- [Mobile](assets/docs/wireframes/faq_mobile.png)
+- [Desktop](docs/wireframes/faq_desktop.png)
+- [Tablet](docs/wireframes/faq_tablet.png)
+- [Mobile](docs/wireframes/faq_mobile.png)
 
 ## Technologies Used 
 
