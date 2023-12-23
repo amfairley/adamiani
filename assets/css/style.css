@@ -1,20 +1,23 @@
 /* @import url('https://fonts.googleapis.com/css?family=); */
 
-
-/* --------------- Special Text  --------------- */
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-/* --------------- Header and Navigation --------------- */
-
+/* ---------------  POSITIONG --------------------------*/
 
 header {
     position: fixed;
 }
 
+/* --------------- SPECIAL TEXT  --------------- */
 
+.uppercase {
+    text-transform: uppercase;
+}
+
+/*-- Active page --*/
+.active-page {
+    text-decoration: underline;
+}
+
+/* --------------- HEADER AND NAVIGATION --------------- */
 
 .menuouter {
     font-size: 0pt;
@@ -25,23 +28,18 @@ header {
     padding: 0;
 }
 
-.logo {
-    background-color: blue;
-}
-
-
-.logo, .navbaritem {
+.logo-header, .navbaritem {
     height: 120px;
     text-align: center;
     padding: 0;
 }
 
-.logo span {
+.logo-header span {
     font-size: 32pt;
     padding-top: 5px;
 }
 
-.logo a, .navbaritem a {
+.logo-header a, .navbaritem a {
     display: block;
     width: 100%;
     text-decoration: none;
@@ -49,7 +47,7 @@ header {
     height: 120px;
 }
 
-.logo i {
+.logo-header i {
     padding-top: 18px;
     display: block;
     font-size: 32pt;
@@ -73,6 +71,10 @@ header {
     font-size: 15px;
     font-weight: 300;
     letter-spacing: 2px;    
+}
+
+.logo-header {
+    background-color: blue;
 }
 
 .ui-menu-color-home {
@@ -99,20 +101,74 @@ header {
     background-color: gray;
 }
 
-/*-- Change starting colour --*/
+/*-- hover.css: change starting colour --*/
 .hvr-shutter-in-vertical:before {
     background: pink;
 }
 
-/*--Show background colours--*/
+/*-- hover.css: show background colours--*/
 .hvr-shutter-in-vertical:hover {
     background-color: rgba(0,0,0,0);
 }
 
 
-/*-- Active page --*/
-.active-page {
-    text-decoration: underline;
+/* --------------- FOOTER AND SOCIAL LINKS-------------- */
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 120px;
+}
+
+/*-- Contact Details --*/
+
+.contact-details {
+    text-align: left;
+}
+
+#phone-number {
+    display: block;
+}
+
+#email-address {
+    display: block;
+}
+
+#postal-address {
+    display: block;
+    font-family: ;
+}
+
+/*-- Footer Logo --*/
+
+.logo-footer {
+    text-align: center;
+    padding-top: 15px;
+}
+
+/*-- Social Media Links --*/
+
+.social-media-links {
+    text-align: center;
+}
+
+
+.social-media-links .fa-brands {
+    display: block;
+    padding-top: 15px;
+}
+
+.contact-details {
+    background-color: pink;
+}
+
+.logo-footer-container {
+    background-color: green;
+}
+
+.social-media-links-container {
+    background-color: blue;
 }
 
 /* -------- Tablet Media Queries ----------------------- */
@@ -133,23 +189,24 @@ header {
     }
 }
 
+
 /* --------- Phone Media Queries ----------------------- */
 @media screen and (max-width: 768px){
 
     /*---Reduces logo bar height by half and moves font awesome icon inline and centers content---*/
-    .logo, .logo a {
+    .logo-header, .logo-header a {
         height: 60px;
     }
 
-    .logo span {
+    .logo-header span {
         padding-top: 0;
     }
 
-    .logo i {
+    .logo-header i {
         display: inline;
         padding-top: 0;
     }
-    .logo h1 {
+    .logo-header h1 {
         padding-top: 4px;
     }
 }
