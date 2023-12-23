@@ -118,21 +118,40 @@ header {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 120px;
+    height: 80px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
 }
 
 /*-- Contact Details --*/
 
 .contact-details {
     text-align: left;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #fff;
 }
 
 #phone-number {
     display: block;
+    padding-top: 9px;
 }
 
 #email-address {
     display: block;
+}
+
+#email-link {
+    color: inherit;
+}
+
+#email-link:hover {
+    text-decoration: none;
+}
+
+#email-address i {
+    padding-right: 2px;
 }
 
 #postal-address {
@@ -142,22 +161,59 @@ header {
 
 /*-- Footer Logo --*/
 
+.logo-footer-container {
+    padding: 0;
+}
+
+.logo-footer-container a {
+    display: block;
+    height: 80px;
+    width: 100%;
+}
+
+.logo-footer-container a:hover {
+    text-decoration: none;
+}
+
 .logo-footer {
     text-align: center;
-    padding-top: 15px;
+    padding-top: 8px;
+    font-size: 50px;
+    color: #fff;
 }
 
 /*-- Social Media Links --*/
 
 .social-media-links {
     text-align: center;
+    padding: 0;
 }
-
 
 .social-media-links .fa-brands {
     display: block;
     padding-top: 15px;
+    font-size: 30px;
+    color: red;
 }
+
+.social-media-links .gender, .social-media-links a p {
+    color: #fff;
+    font-size: 15px;
+}
+
+
+.social-media-links a {
+    display: block;
+    width: 100%;
+    height: 80px;
+}
+
+.social-media-links a:hover {
+    text-decoration: none;
+}
+
+
+/*-- Footer Colours --*/
 
 .contact-details {
     background-color: pink;
@@ -167,8 +223,17 @@ header {
     background-color: green;
 }
 
-.social-media-links-container {
-    background-color: blue;
+
+.facebook-link {
+    background-color: purple;
+}
+
+.twitter-link {
+    background-color: teal;
+}
+
+.instagram-link {
+    background-color: green;
 }
 
 /* -------- Tablet Media Queries ----------------------- */
@@ -187,11 +252,36 @@ header {
         padding-top: 2px;
         font-size: 12pt;
     }
+
+    /*Removes postal address from footer*/
+    #postal-address {
+        display: none;
+    }
+
+    #phone-number {
+        padding-top: 15px;
+    }
+
+    #email-address {
+        padding-top: 8px;
+    }
+
+    /*Reduces size of footer logo*/
+
+    .logo-footer {
+        font-size: 40px;
+        padding-top: 13px;
+    }
+
+    /*Reduces social media hashtag size */
+    
+    .social-media-links a p {
+        font-size: 10px;
+    }
 }
 
-
 /* --------- Phone Media Queries ----------------------- */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
 
     /*---Reduces logo bar height by half and moves font awesome icon inline and centers content---*/
     .logo-header, .logo-header a {
@@ -209,4 +299,29 @@ header {
     .logo-header h1 {
         padding-top: 4px;
     }
+
+    /*Reduces text size in footer*/
+    .social-media-links a p {
+        font-size: 7px;
+        padding-top: 6px;
+    }
+
+}
+
+/* --------- Small Phone Media Queries ----------------------- */
+@media screen and (max-width: 576px){
+
+    /*---Reduces footer text size and centres content--*/
+    .contact-details {
+        font-size: 8px;
+    }
+
+    #phone-number {
+        padding-top: 25px;
+    }
+
+    #email-address {
+        padding-top: 10px;
+    }
+
 }
