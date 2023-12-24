@@ -184,10 +184,6 @@ header {
     width: 100%;
 }
 
-.logo-footer-container a:hover {
-    text-decoration: none;
-}
-
 .logo-footer {
     text-align: center;
     padding-top: 8px;
@@ -217,7 +213,7 @@ header {
     height: 80px;
 }
 
-/*-- Footer Font Families */
+/* Footer Font Families */
 
 .logo-footer {
     font-family: 'sail', 'Times New Roman', Times, serif;
@@ -253,7 +249,7 @@ header {
     color: #4A3C47;
 }
 
-/*-- Footer Background Colours --*/
+/* Footer Background Colours */
 
 .contact-details {
     background-color: #e8bcde;
@@ -273,6 +269,10 @@ header {
 #email-link:hover {
     text-decoration: none;
     font-weight: bolder;
+}
+
+.logo-footer-container a:hover {
+    text-decoration: none;
 }
 
 .facebook-link a, .twitter-link a, .instagram-link a {
@@ -303,17 +303,15 @@ header {
     }
 }
 
-
 .social-media-links a:hover {
     text-decoration: none;
 }
-
 
 /* -------- Tablet Media Queries ------------------------ */
 
 @media screen and (max-width: 992px){
 
-    /*---Reduces navigation bar height by half, centers the content and reduces text size---*/
+    /* Reduces navigation bar height by half, centers the content and reduces text size */
     .navbaritem, .navbaritem a {
         height: 60px;
     }
@@ -326,7 +324,7 @@ header {
         font-size: 12pt;
     }
 
-    /*Removes postal address from footer*/
+    /* Removes postal address from footer */
     #postal-address {
         display: none;
     }
@@ -339,14 +337,14 @@ header {
         padding-top: 8px;
     }
 
-    /*Reduces size of footer logo*/
+    /* Reduces size of footer logo */
 
     .logo-footer {
         font-size: 40px;
         padding-top: 13px;
     }
 
-    /*Reduces social media hashtag size */
+    /* Reduces social media hashtag size */
     
     .social-media-links a p {
         font-size: 10px;
@@ -357,7 +355,7 @@ header {
 /* --------- Phone Media Queries ------------------------ */
 @media screen and (max-width: 767px){
 
-    /*---Reduces logo bar height by half, centres and reduces content size ---*/
+    /* Reduces logo bar height by half, centres and reduces content size */
     .logo-header, .logo-header a {
         height: 60px;
         text-align: center;
@@ -382,7 +380,7 @@ header {
 /* --------- Small Phone Media Queries ------------------ */
 @media screen and (max-width: 576px){
 
-    /*---Reduces footer text size and centres content vertically--*/
+    /* Reduces footer text size and centres content vertically */
     .contact-details {
         font-size: 8px;
     }
