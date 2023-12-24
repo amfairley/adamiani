@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Tangerine');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Meie+Script&family=Roboto&family=Sail&display=swap');
 
 
 /* ---------------  POSITIONING --------------------------*/
@@ -7,20 +7,21 @@ header {
     position: fixed;
 }
 
-/* --------------- SPECIAL TEXT  --------------- */
+/* --------------- SPECIAL TEXT  ------------------------ */
 
 .uppercase {
     text-transform: uppercase;
 }
 
-/*-- Active page --*/
+/* Active page */
 .active-page {
     text-decoration: underline;
 }
 
 
-/* --------------- HEADER AND NAVIGATION --------------- */
+/* --------------- HEADER AND NAVIGATION ---------------- */
 
+/* Header size and allignment */
 
 .header-section {
     padding: 0;
@@ -46,37 +47,32 @@ header {
     text-align: left;
 }
 
-.logo-header span {
-    font-size: 32pt;
-    padding-top: 5px;
+.logo-header h1 {
+    padding-top: 10px;
 }
-
 .logo-header a, .navbaritem a {
     display: block;
     width: 100%;
     text-decoration: none;
-    color: #fff;
     height: 120px;
 }
 
 .logo-header i {
     display: inline-block;
-    font-size: 48pt;
+    font-size: 32pt;
 }
 
 .logo-header a {
-    font-family: 'Tangerine', 'Times New Roman', Times, serif;
     padding-top: 10px;
     padding-left: 10px;
 }
 
-.logo-header a span {
-    font-size: 100px;
+.logo-header span {
+    font-size: 50pt;
 }
 .navbaritem i {
     padding-top: 22px;
     display: block;
-    color: #fafafa;
     font-size: 22pt ;
 }
 
@@ -94,46 +90,51 @@ header {
     letter-spacing: 2px;    
 }
 
+/* Header Font Families */
+
+.logo-header a {
+    font-family: 'Sail', 'Times New Roman', Times, serif;
+}
+
+.header-section {
+    font-family: 'Courgette', 'Times New Roman', Times, serif;
+}
+
+/* Header Font Colours */
+
+.logo-header a, .navbaritem a {
+    color: #4A3C47;
+}
+
+/* Header Background Colours */
+
 .logo-header {
-    background-color: blue;
+    background-color: #e8bcde;
 }
 
-.ui-menu-color-home {
-    background-color:  yellow;
+.ui-menu-colour {
+    background-color:  #a87d9f;
 }
 
-.ui-menu-color-about {
-    background-color: green;
-}
-
-.ui-menu-color-travel {
-    background-color: red;
-}
-
-.ui-menu-color-hotels {
-    background-color: orange;
-}
-
-.ui-menu-color-rsvp {
-    background-color: brown;
-}
-
-.ui-menu-color-faq {
-    background-color: gray;
-}
-
-/*-- hover.css: change starting colour --*/
+/* Hover.css: change starting colour */
 .hvr-shutter-in-vertical:before {
-    background: pink;
+    background: #e8bcde;
 }
 
-/*-- hover.css: show background colours--*/
+/* Hover.css: animation colours */
 .hvr-shutter-in-vertical:hover {
     background-color: rgba(0,0,0,0);
+    color: #d0bce8;
 }
 
+/* Hover.css: un-shuttering colour */
+.hvr-shutter-in-vertical {
+    background-color: transparent;
+}
 
-/* --------------- FOOTER AND SOCIAL LINKS-------------- */
+/* --------------- FOOTER AND SOCIAL LINKS--------------- */
+
+/* Footer positioning */
 
 #footer {
     position: absolute;
@@ -145,13 +146,12 @@ header {
     overflow: hidden;
 }
 
-/*-- Contact Details --*/
+/* Contact Details */
 
 .contact-details {
     text-align: left;
     font-size: 14px;
     letter-spacing: 1px;
-    color: #fff;
 }
 
 #phone-number {
@@ -163,14 +163,6 @@ header {
     display: block;
 }
 
-#email-link {
-    color: inherit;
-}
-
-#email-link:hover {
-    text-decoration: none;
-}
-
 #email-address i {
     padding-right: 2px;
 }
@@ -180,7 +172,7 @@ header {
     font-family: ;
 }
 
-/*-- Footer Logo --*/
+/* Footer Logo */
 
 .logo-footer-container {
     padding: 0;
@@ -200,11 +192,9 @@ header {
     text-align: center;
     padding-top: 8px;
     font-size: 50px;
-    font-family: 'Tangerine', 'Times New Roman', Times, serif;
-    color: #fff;
 }
 
-/*-- Social Media Links --*/
+/* Social Media Links */
 
 .social-media-links {
     text-align: center;
@@ -215,73 +205,111 @@ header {
     display: block;
     padding-top: 15px;
     font-size: 30px;
-    color: red;
 }
-
 
 .social-media-links .gender, .social-media-links a p {
-    color: #fff;
     font-size: 15px;
 }
-
 
 .social-media-links a {
     display: block;
     width: 100%;
     height: 80px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
-.social-media-links a:hover {
-    text-decoration: none;
-    background-color: #fafafa;
+/*-- Footer Font Families */
+
+.logo-footer {
+    font-family: 'sail', 'Times New Roman', Times, serif;
 }
-
-/* .social-media-button {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
-
-} */
-
-.social-links li a i:hover {
-    background-color: red;
-}
-
-
-
-/*-- Footer Colours --*/
 
 .contact-details {
-    background-color: pink;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+}
+
+#instagram-hash, #twitter-hash {
+    font-family:'roboto', Arial, Helvetica, sans-serif;
+}
+
+/* Footer Font Colours */
+
+#email-link {
+    color: inherit;
+}
+
+.contact-details {
+    color: #4A3C47;
+}
+
+.logo-footer {
+    color: #4A3C47;
+}
+
+.social-media-links .fa-brands {
+    color: #4A3C47;
+}
+
+.social-media-links .gender, .social-media-links a p {
+    color: #4A3C47;
+}
+
+/*-- Footer Background Colours --*/
+
+.contact-details {
+    background-color: #e8bcde;
 }
 
 .logo-footer-container {
-    background-color: green;
+    background-color: #e8bcde;
 }
 
 
-.facebook-link {
-    background-color: purple;
+.facebook-link, .twitter-link, .instagram-link {
+    background-color: #e8bcde;
 }
 
-.twitter-link {
-    background-color: teal;
+/* Footer effects */
+
+#email-link:hover {
+    text-decoration: none;
+    font-weight: bolder;
 }
 
-.instagram-link {
-    background-color: green;
+.facebook-link a, .twitter-link a, .instagram-link a {
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
 }
 
-/* -------- Tablet Media Queries ----------------------- */
+.facebook-link a:hover {
+    background-color: #fff;
+    .fa-facebook, .gender {
+        color: #1877F2;
+    }
+}
+
+.twitter-link a:hover {
+    background-color: #000;
+    .fa-x-twitter, #twitter-hash {
+        color:#fff;
+    }
+}
+
+.instagram-link a:hover {
+    background-color: #fff;
+    .fa-instagram, #instagram-hash {
+        color: #000;
+    }
+}
+
+
+.social-media-links a:hover {
+    text-decoration: none;
+}
+
+
+/* -------- Tablet Media Queries ------------------------ */
 
 @media screen and (max-width: 992px){
 
@@ -326,7 +354,7 @@ header {
     }
 }
 
-/* --------- Phone Media Queries ----------------------- */
+/* --------- Phone Media Queries ------------------------ */
 @media screen and (max-width: 767px){
 
     /*---Reduces logo bar height by half, centres and reduces content size ---*/
@@ -335,8 +363,10 @@ header {
         text-align: center;
         padding-top: 2px;
     }
-
-    .logo-header a span, .logo-header a i {
+    .logo-header a i {
+        font-size: 20pt;
+    }
+    .logo-header a span  {
         font-size: 32pt;
     }
 
@@ -349,7 +379,7 @@ header {
     }
 }
 
-/* --------- Small Phone Media Queries ----------------------- */
+/* --------- Small Phone Media Queries ------------------ */
 @media screen and (max-width: 576px){
 
     /*---Reduces footer text size and centres content vertically--*/
