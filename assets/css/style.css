@@ -221,7 +221,6 @@ header {
 
 #postal-address {
     display: block;
-    font-family: ;
 }
 
 /* Footer Logo */
@@ -427,6 +426,12 @@ header {
     .logo-header h1 {
         padding-top: 4px;
     }
+    
+    /* Homepage Hero Image moved below nav bar */
+    #hero-image {
+        padding-top: 180px;
+    }
+    
 }
 
 /* --------- Small Phone Media Queries ------------------ */
