@@ -1,40 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Meie+Script&family=Roboto&family=Sail&display=swap');
 
-
-/* ---------------  POSITIONING --------------------------*/
-
-header {
-    position: fixed;
-}
-
 /* --------------- SPECIAL TEXT  ------------------------ */
 
 .uppercase {
     text-transform: uppercase;
 }
 
-/* Active page */
+/* Highlight current page in the navigation bar */
 .active-page {
     text-decoration: underline;
 }
 
-
 /* --------------- HEADER AND NAVIGATION ---------------- */
 
-/* Header size and allignment */
+/* Total Header Bar */
 
 .header-section {
+    font-family: 'Courgette', 'Times New Roman', Times, serif;
+    position: fixed;
     padding: 0;
     margin: 0;
 }
 
-.menuouter {
-    font-size: 0pt;
-}
-
-#nav li {
-    font-size: 14pt;
-    padding: 0;
+.header-section a {
+    color: #4A3C47;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 120px;
 }
 
 .logo-header, .navbaritem {
@@ -43,18 +36,15 @@ header {
     padding: 0;
 }
 
+/* Site Logo */
+
 .logo-header {
     text-align: left;
+    background-color: #e8bcde;
 }
 
 .logo-header h1 {
     padding-top: 10px;
-}
-.logo-header a, .navbaritem a {
-    display: block;
-    width: 100%;
-    text-decoration: none;
-    height: 120px;
 }
 
 .logo-header i {
@@ -63,6 +53,7 @@ header {
 }
 
 .logo-header a {
+    font-family: 'Sail', 'Times New Roman', Times, serif;
     padding-top: 10px;
     padding-left: 10px;
 }
@@ -70,14 +61,18 @@ header {
 .logo-header span {
     font-size: 50pt;
 }
-.navbaritem i {
-    padding-top: 22px;
-    display: block;
-    font-size: 22pt ;
+
+/* Navigation Bar */
+
+#nav li {
+    font-size: 14pt;
+    padding: 0;
 }
 
 .navbaritem i {
+    display: block;
     padding-top: 33px;
+    font-size: 22pt;
 }
 
 .navbaritem p {
@@ -88,28 +83,6 @@ header {
     font-size: 15px;
     font-weight: 300;
     letter-spacing: 2px;    
-}
-
-/* Header Font Families */
-
-.logo-header a {
-    font-family: 'Sail', 'Times New Roman', Times, serif;
-}
-
-.header-section {
-    font-family: 'Courgette', 'Times New Roman', Times, serif;
-}
-
-/* Header Font Colours */
-
-.logo-header a, .navbaritem a {
-    color: #4A3C47;
-}
-
-/* Header Background Colours */
-
-.logo-header {
-    background-color: #e8bcde;
 }
 
 .ui-menu-colour {
@@ -134,10 +107,9 @@ header {
 
 /* --------------- HOMEPAGE SECTION --------------------- */
 
+/*Homepage size and allignment*/
 #hero-image {
-    background-color: black;
     height: 600px;
-    color: white;
     padding-top: 120px;
 }
 
@@ -148,7 +120,6 @@ header {
 
 .homepage-image {
     height: 360px;
-    background-color: blue;
 }
 
 .homepage-details {
@@ -173,6 +144,46 @@ header {
     height:360px;
 }
 
+
+
+/* Homepage Font Families */
+
+#hero-image .lead {
+    font-family: 'Meie Script', 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 48pt;
+    color: #fafafa;
+    padding-top: 100px;
+}
+
+#invite {
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    color: #817e7e94;
+    text-align: center;
+}
+
+/* Homepage Font Colours */
+
+#hero-image {
+    color: 
+}
+
+/* Homepage Backgrounds */
+
+#hero-image {
+    background-color: black;
+}
+
+.homepage-image {
+    background-color: blue;
+}
+
+
+.homepage-details {
+    background-color: red;
+}
+
+
 #homepage-bottom-image-1 {
     background-color: pink;
 }
@@ -184,6 +195,7 @@ header {
 #homepage-bottom-image-3 {
     background-color: orange;
 }
+
 /* --------------- FOOTER AND SOCIAL LINKS -------------- */
 
 /* Footer positioning */
