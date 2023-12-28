@@ -83,38 +83,53 @@
             </nav>
         </div>
     </header>
-
+    <!-- Hero Image Section -->
     <section class="container-fluid" id="hero-image">
+        <!-- Couples Names -->
         <p class="lead">Ani Morchiladze & Adam Fairley</p>
+        <!-- Event Details -->
         <p>cordially invite you to a vow renewal ceremony on the 1st of September 2025 in Tbilisi, Georgia</p>
+        <!-- RSVP button -->
         <a href="rsvp.html"><button class="btn">RSVP now</button></a>
     </section>
+    <!-- Ceremony Image and Details -->
     <section class="container-fluid row g-0 homepage-content">
-        <div class="col-4 homepage-image">
+        <div class="col-12 col-md-6 col-lg-4 homepage-image">
 
         </div>
-        <div class ="col-8 homepage-details">
+        <div class ="col-12 col-md-6 col-lg-8 homepage-details">
             <h3 class="homepage-title">Ceremony Details</h3>
             <p class="homepage-text">The ceremony will be held at 2:00pm at Svetiskoveli cathedral in Mtskheta</p>
         </div>
     </section>
+    <!-- Reception Image and Details -->
     <section class="container-fluid row g-0 homepage-content">
-        <div class="col-8 homepage-details">
+        <!-- Reception Details for Tablet and Larger -->
+        <div class="d-none d-md-block col-12 col-md-6 col-lg-8 homepage-details">
             <h3 class="homepage-title">Reception Details</h3>
             <p class="homepage-text">The reception will be held at 4:00pm at Krtsanisi Residence</p>
         </div>
-        <div class ="col-4 homepage-image">
+        <div class ="col-12 col-md-6 col-lg-4 homepage-image">
 
         </div>
+        <!-- Reception Details for Mobile -->
+        <div class="d-block d-md-none col-12 col-md-6 col-lg-8 homepage-details">
+            <h3 class="homepage-title">Reception Details</h3>
+            <p class="homepage-text">The reception will be held at 4:00pm at Krtsanisi Residence</p>
+        </div>
     </section>
+    <!-- Homepage Images -->
     <section class="container-fluid row g-0 homepage-image-section">
-        <picture class="col-4 homepage-bottom-image" id="homepage-bottom-image-1">
+        <!-- Image 1: Shown on all devices -->
+        <picture class="col-12 col-md-6 col-lg-4 homepage-bottom-image" id="homepage-bottom-image-1">
 
         </picture>
-        <picture class="col-4 homepage-bottom-image" id="homepage-bottom-image-2">
+        <!-- Image 2: Missing on mobile -->
+        <picture class="d-none d-md-block col-md-6 col-lg-4 homepage-bottom-image" id="homepage-bottom-image-2">
 
         </picture>
-        <picture class="col-4 homepage-bottom-image" id="homepage-bottom-image-3">
+        <!-- Image 3: Missing on tablet -->
+        <picture class="d-none d-lg-block col-lg-4 homepage-bottom-image" id="homepage-bottom-image-3">
 
         </picture>
     </section>
