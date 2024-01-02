@@ -111,6 +111,24 @@
 #hero-image {
     height: 600px;
     padding-top: 120px;
+    background-image: url('../images/hero_image.png');
+    background-size: cover;
+    background-position-y: 60px;
+    background-position-x: center;
+}
+
+#hero-image .lead {
+    font-family: 'Meie Script', 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 48pt;
+    color: red;
+    padding-top: 100px;
+}
+
+#invite {
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    color: #817e7e94;
+    text-align: center;
 }
 
 .homepage-content {
@@ -120,6 +138,7 @@
 
 .homepage-image {
     height: 360px;
+    background-color: blue;
 }
 
 .homepage-details {
@@ -143,46 +162,6 @@
 .homepage-bottom-image {
     height:360px;
 }
-
-
-
-/* Homepage Font Families */
-
-#hero-image .lead {
-    font-family: 'Meie Script', 'Times New Roman', Times, serif;
-    text-align: center;
-    font-size: 48pt;
-    color: #fafafa;
-    padding-top: 100px;
-}
-
-#invite {
-    font-family: 'roboto', Arial, Helvetica, sans-serif;
-    color: #817e7e94;
-    text-align: center;
-}
-
-/* Homepage Font Colours */
-
-#hero-image {
-    color: 
-}
-
-/* Homepage Backgrounds */
-
-#hero-image {
-    background-color: black;
-}
-
-.homepage-image {
-    background-color: blue;
-}
-
-
-.homepage-details {
-    background-color: red;
-}
-
 
 #homepage-bottom-image-1 {
     background-color: pink;
