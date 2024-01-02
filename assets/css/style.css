@@ -195,6 +195,9 @@
     text-align: left;
     font-size: 14px;
     letter-spacing: 1px;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    color: #4A3C47;
+    background-color: #e8bcde;
 }
 
 #phone-number {
@@ -210,6 +213,10 @@
     padding-right: 2px;
 }
 
+#email-link {
+    color: inherit;
+}
+
 #postal-address {
     display: block;
 }
@@ -218,6 +225,7 @@
 
 .logo-footer-container {
     padding: 0;
+    background-color: #e8bcde;
 }
 
 .logo-footer-container a {
@@ -230,6 +238,8 @@
     text-align: center;
     padding-top: 8px;
     font-size: 50px;
+    font-family: 'sail', 'Times New Roman', Times, serif;
+    color: #4A3C47;
 }
 
 /* Social Media Links */
@@ -243,10 +253,12 @@
     display: block;
     padding-top: 15px;
     font-size: 30px;
+    color: #4A3C47;
 }
 
 .social-media-links .gender, .social-media-links a p {
     font-size: 15px;
+    color: #4A3C47;
 }
 
 .social-media-links a {
@@ -255,55 +267,12 @@
     height: 80px;
 }
 
-/* Footer Font Families */
-
-.logo-footer {
-    font-family: 'sail', 'Times New Roman', Times, serif;
-}
-
-.contact-details {
-    font-family: 'roboto', Arial, Helvetica, sans-serif;
+.facebook-link, .twitter-link, .instagram-link {
+    background-color: #e8bcde;
 }
 
 #instagram-hash, #twitter-hash {
     font-family:'roboto', Arial, Helvetica, sans-serif;
-}
-
-/* Footer Font Colours */
-
-#email-link {
-    color: inherit;
-}
-
-.contact-details {
-    color: #4A3C47;
-}
-
-.logo-footer {
-    color: #4A3C47;
-}
-
-.social-media-links .fa-brands {
-    color: #4A3C47;
-}
-
-.social-media-links .gender, .social-media-links a p {
-    color: #4A3C47;
-}
-
-/* Footer Background Colours */
-
-.contact-details {
-    background-color: #e8bcde;
-}
-
-.logo-footer-container {
-    background-color: #e8bcde;
-}
-
-
-.facebook-link, .twitter-link, .instagram-link {
-    background-color: #e8bcde;
 }
 
 /* Footer effects */
