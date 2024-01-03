@@ -111,7 +111,7 @@
 #hero-image {
     height: 600px;
     padding-top: 120px;
-    background-image: url('../images/hero_image.png');
+    background-image: url('../images/index_hero_image.png');
     background-size: cover;
     background-position-y: 60px;
     background-position-x: center;
@@ -136,9 +136,16 @@
     padding: 0;
 }
 
-.homepage-image {
+.homepage-ceremony-image {
     height: 360px;
-    background-color: blue;
+    background-image: url('../images/index_cathedral.png');
+    background-size: cover;
+}
+
+.homepage-reception-image {
+    height: 360px;
+    background-image: url('../images/index_reception.jpg');
+    background-size: cover;
 }
 
 .homepage-details {
