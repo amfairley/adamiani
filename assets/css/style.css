@@ -186,7 +186,7 @@
 
 .homepage-details {
     height: 360px;
-    background-color: rgba(255,255,255,0.5);
+    background-color: #e8c1bc;
     color: #4A3C47;
 }
 
@@ -202,12 +202,10 @@
     word-spacing: 2px;
 }
 
-
-
 .homepage-images {
     text-align: center;
     padding: 0;
-    border-color: rgba(255,255,255,0.5);
+    border-color: #e8c1bc;
     border-style: solid;
     border-width: 10px;
 }
@@ -229,9 +227,21 @@
     width: 100%;
 }
 
+.homepage-image-section {
+    width: 95%;
+    margin: auto;
+    padding: 0;
+}
+
 .homepage-bottom-image {
     height:360px;
+    text-align: center;
+    padding: 0;
+    border-color: #e8c1bc;
+    border-style: solid;
+    border-width: 10px;
 }
+
 
 #homepage-bottom-image-1 {
     background-image: url('../images/index_couple_1.png');
@@ -241,6 +251,8 @@
 #homepage-bottom-image-2 {
     background-image: url('../images/index_couple_2.png');
     background-size: cover;
+    border-left-width: 0;
+    border-right-width: 0;
 }
 
 #homepage-bottom-image-3 {
