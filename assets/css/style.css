@@ -156,6 +156,18 @@
     margin-bottom: 0px;
 }
 
+#hero-rsvp {
+    color: #4A3C47;
+    background-color: #e8bcde;
+    border-color: #a87d9f;
+}
+
+#hero-rsvp:hover {
+    color: #d0bce8;
+    background-color: #a87d9f;
+    border-color: #e8bcde;
+}
+
 .homepage-content {
     margin: 0;
     padding: 0;
