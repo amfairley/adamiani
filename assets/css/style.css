@@ -111,7 +111,7 @@
 /*Homepage size and allignment*/
 
 #hero-outer {
-    height: 480px;
+    height: 600px;
     width: 100%;
     padding: 0;
     overflow: hidden;
@@ -121,15 +121,20 @@
 }
 
 #hero-image {
-    height: 600px;
+    height: 480px;
     width: 100%;
     background-image: url('../images/index_hero_image.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: center;
+    background-position-y: -110px;
     background-position-x: center;
     overflow: hidden;
     z-index: 0;
+}
+
+#hero-info {
+    text-align: center;
+    background-color: rgba(74, 60, 71, 0.3);
 }
 
 #hero-title {
@@ -139,18 +144,16 @@
     text-align: center;
     display: block;
     position: center;
-    background: rgba(74, 60, 71, 0.3);
+    line-height: 85px;
+    margin-top: 340px;
+    margin-bottom: 0;
 }
 
 #hero-invite {
     font-family: 'roboto', Arial, Helvetica, sans-serif;
-    color: #817e7e94;
+    color: #e8bcde;
     text-align: center;
-}
-
-#hero-rsvp {
-    background: red;
-    position: justify;
+    margin-bottom: 0px;
 }
 
 .homepage-content {
