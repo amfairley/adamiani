@@ -20,6 +20,7 @@
     position: fixed;
     padding: 0;
     margin: 0;
+    z-index: 1;
 }
 
 .header-section a {
@@ -108,24 +109,38 @@
 /* --------------- HOMEPAGE SECTION --------------------- */
 
 /*Homepage size and allignment*/
+
+#hero-outer {
+    height: 480px;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    top: 120px;
+}
+
 #hero-image {
     height: 600px;
-    padding-top: 120px;
+    width: 100%;
     background-image: url('../images/index_hero_image.png');
     background-size: cover;
-    background-position-y: 60px;
+    background-repeat: no-repeat;
+    background-position-y: center;
     background-position-x: center;
+    overflow: hidden;
+    z-index: 0;
 }
 
-#hero-image .lead {
+#hero-title {
     font-family: 'Meie Script', 'Times New Roman', Times, serif;
     text-align: center;
-    font-size: 48pt;
-    color: red;
-    padding-top: 100px;
+    display: block;
+    position: center;
+    padding-top: 160px;
 }
 
-#invite {
+#hero-invite {
     font-family: 'roboto', Arial, Helvetica, sans-serif;
     color: #817e7e94;
     text-align: center;
