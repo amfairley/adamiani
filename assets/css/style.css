@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Meie+Script&family=Roboto&family=Sail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Meie+Script&family=Parisienne&family=Roboto&family=Sail&display=swap');
 
 /* --------------- SPECIAL TEXT  ------------------------ */
 
@@ -9,6 +9,12 @@
 /* Highlight current page in the navigation bar */
 .active-page {
     text-decoration: underline;
+}
+
+/* --------------- PAGE BACKGROUNDS --------------------- */
+
+#index-body {
+    background-color: #e8bcde;
 }
 
 /* --------------- HEADER AND NAVIGATION ---------------- */
@@ -116,14 +122,16 @@
     padding: 0;
     overflow: hidden;
     position: relative;
-    margin: 0;
+    margin: 0, auto, 0, auto;
     top: 120px;
+    width: 95%;
 }
 
 #hero-image {
     height: 480px;
     width: 100%;
     background-image: url('../images/index_hero_image.png');
+    background-color: #e8bcde;
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: -110px;
@@ -140,7 +148,7 @@
 
 #hero-title {
     font-family: 'Meie Script', 'Times New Roman', Times, serif;
-    font-size:48pt;
+    font-size:46pt;
     color: #e8bcde;
     text-align: center;
     display: block;
@@ -172,36 +180,53 @@
 .homepage-content {
     margin: 0;
     padding: 0;
-}
-
-.homepage-ceremony-image {
-    height: 360px;
-    background-image: url('../images/index_cathedral.png');
-    background-size: cover;
-}
-
-.homepage-reception-image {
-    height: 360px;
-    background-image: url('../images/index_reception.jpg');
-    background-size: cover;
+    width: 95%;
+    margin: auto;
 }
 
 .homepage-details {
     height: 360px;
-    background-color: red;
+    background-color: rgba(255,255,255,0.5);
+    color: #4A3C47;
 }
 
 .homepage-title {
-
+    font-family: 'parisienne', Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30pt;
+    padding-top: 50px;
 }
 
 .homepage-text {
-
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    word-spacing: 2px;
 }
 
-.homepage-image-section {
-    margin: 0;
+
+
+.homepage-images {
+    text-align: center;
     padding: 0;
+    border-color: rgba(255,255,255,0.5);
+    border-style: solid;
+    border-width: 10px;
+}
+
+.homepage-ceremony-image {
+    height: 340px;
+    background-image: url('../images/index_cathedral.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100%;
+}
+.homepage-reception-image {
+    height: 340px;
+    background-image: url('../images/index_reception.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100%;
 }
 
 .homepage-bottom-image {
@@ -209,15 +234,18 @@
 }
 
 #homepage-bottom-image-1 {
-    background-color: pink;
+    background-image: url('../images/index_couple_1.png');
+    background-size: cover;
 }
 
 #homepage-bottom-image-2 {
-    background-color: teal;
+    background-image: url('../images/index_couple_2.png');
+    background-size: cover;
 }
 
 #homepage-bottom-image-3 {
-    background-color: orange;
+    background-image: url('../images/index_couple_3.png');
+    background-size: cover;
 }
 
 /* --------------- FOOTER AND SOCIAL LINKS -------------- */
