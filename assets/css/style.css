@@ -134,7 +134,8 @@
 
 #hero-info {
     text-align: center;
-    background-color: rgba(74, 60, 71, 0.3);
+    background-color: rgba(74, 60, 71, 0.5);
+    padding-bottom: 20px;
 }
 
 #hero-title {
@@ -145,15 +146,15 @@
     display: block;
     position: center;
     line-height: 85px;
-    margin-top: 340px;
-    margin-bottom: 0;
+    margin-top: 300px;
+    margin-bottom: 0px;
 }
 
 #hero-invite {
     font-family: 'roboto', Arial, Helvetica, sans-serif;
     color: #e8bcde;
     text-align: center;
-    margin-bottom: 0px;
+    margin-bottom: 16px;
 }
 
 #hero-rsvp {
