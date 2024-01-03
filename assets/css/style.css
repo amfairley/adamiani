@@ -134,16 +134,23 @@
 
 #hero-title {
     font-family: 'Meie Script', 'Times New Roman', Times, serif;
+    font-size:48pt;
+    color: #e8bcde;
     text-align: center;
     display: block;
     position: center;
-    padding-top: 160px;
+    background: rgba(74, 60, 71, 0.3);
 }
 
 #hero-invite {
     font-family: 'roboto', Arial, Helvetica, sans-serif;
     color: #817e7e94;
     text-align: center;
+}
+
+#hero-rsvp {
+    background: red;
+    position: justify;
 }
 
 .homepage-content {
