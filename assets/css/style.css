@@ -148,7 +148,7 @@
 
 #hero-title {
     font-family: 'Meie Script', 'Times New Roman', Times, serif;
-    font-size:46pt;
+    font-size: 46pt;
     color: #e8bcde;
     text-align: center;
     display: block;
@@ -437,17 +437,30 @@
     }
 
     /* Reduces size of footer logo */
-
     .logo-footer {
         font-size: 40px;
         padding-top: 13px;
     }
 
     /* Reduces social media hashtag size */
-    
     .social-media-links a p {
         font-size: 10px;
         padding-top: 6px;
+    }
+
+    /* Homepage: reduce hero text size */
+    #hero-title {
+        font-size: 32pt;
+    }
+
+    /* Homepage: make hero image fill the div */
+    #hero-image {
+        height: 928px;
+    }
+
+    /* Homepage: add margin to index_couple_2 to centre images */
+    #homepage-bottom-image-2 {
+        border-right-width: 10px;
     }
 }
 
@@ -475,11 +488,40 @@
         padding-top: 4px;
     }
     
-    /* Homepage Hero Image moved below nav bar */
-    #hero-image {
-        padding-top: 180px;
+    /* Homepage: Hero Image moved below nav bar */
+    #hero-outer {
+        height: 480px;
     }
-    
+
+    /*Homepage: Style new div for hero text */
+    #phone-hero-text {
+        padding: 0;
+        margin: auto;
+        width: 95%;
+    }
+    #hero-info {
+        padding: 0;
+        background-color: #e8c1bc;
+    }
+    #hero-title {
+        margin-top: 120px;
+        font-size: 28pt;
+        line-height: 40px;
+        color: #4A3C47;
+        padding-top: 10px;
+    }
+    #hero-invite {
+        color: #4A3C47;
+    }
+
+    /* Homepage: adjust text box heights to fit all text */
+    .homepage-title {
+        padding-top: 20px;
+    }
+
+    .homepage-details {
+        height: inherit;
+    }
 }
 
 /* --------- Small Phone Media Queries ------------------ */
