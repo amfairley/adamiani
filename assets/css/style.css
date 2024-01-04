@@ -114,7 +114,7 @@
 
 /* --------------- HOMEPAGE SECTION --------------------- */
 
-/*Homepage size and allignment*/
+/* Hero Image */
 
 #hero-outer {
     height: 600px;
@@ -177,6 +177,8 @@
     border-color: #e8bcde;
 }
 
+/* Homepage Information Section */
+
 .homepage-content {
     margin: 0;
     padding: 0;
@@ -227,6 +229,8 @@
     width: 100%;
 }
 
+/* Homepage Image Section */
+
 .homepage-image-section {
     width: 95%;
     margin: auto;
@@ -241,7 +245,6 @@
     border-style: solid;
     border-width: 10px;
 }
-
 
 #homepage-bottom-image-1 {
     background-image: url('../images/index_couple_1.png');
