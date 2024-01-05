@@ -312,23 +312,40 @@
     text-align: center;
 }
 
-.about-us-left-image {
-    border: black solid 1px;
-    height: 120px;
-    width: 120px;
+.about-us-image {
+    height: 240px;
+    width: 240px;
     display: inline-block;
     position: relative;
     overflow: hidden;
     border-radius: 50%;
     vertical-align: top;
+    margin-bottom: 20px;
 }
 
-.about-us-text-right {
+
+.about-us-text {
     position: relative;
-    height: 120px;
-    width: 120px;
-    background-color: red;
+    height: auto;
+    width: 65%;
     display: inline-block;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.about-us-text .fa-heart {
+    padding-right: 10px;
+}
+
+.about-us-lead-text {
+    font-family: 'parisienne', Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.about-us-story-text {
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
 }
 /* --------------- FOOTER AND SOCIAL LINKS -------------- */
 
