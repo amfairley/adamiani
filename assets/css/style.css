@@ -19,6 +19,13 @@
     line-height: 30px; 
 }
 
+.w95 {
+    width: 95%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
 /* Highlight current page in the navigation bar */
 .active-page {
     text-decoration: underline;
@@ -288,7 +295,6 @@
 
 }
 
-
 #about-us-title {
     font-size: 48pt;
     font-family: 'Meie Script', 'Times New Roman', Times, serif;
@@ -299,8 +305,28 @@
     color: red;
 }
 
-.spacer {
-    height: auto;
+/* About Us Content */
+
+#about-us-content {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.about-us-left-image {
+    border: black solid 1px;
+    height: 120px;
+    width: 120px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    vertical-align: top;
+}
+
+.about-us-text-right {
+    position: relative;
+    height: 120px;
+    width: 120px;
     background-color: red;
     display: inline-block;
 }
