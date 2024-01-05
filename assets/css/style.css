@@ -6,6 +6,19 @@
     text-transform: uppercase;
 }
 
+.page-heading {
+    height: 240px;
+    padding-top: 140px;
+    margin: 0;
+    width: 100%;
+    background-color: #4A3C47;
+    opacity: 0.5;
+    display: inline-block;
+    text-align: center;
+    font-size: 32px; 
+    line-height: 30px; 
+}
+
 /* Highlight current page in the navigation bar */
 .active-page {
     text-decoration: underline;
@@ -263,6 +276,34 @@
     background-size: cover;
 }
 
+/* --------------- ABOUT US SECTION --------------------- */
+
+/* About Us Title */
+
+.page-title-container {
+    margin: 0 auto;
+    padding: 0;
+    width: 95%;
+    position: relative;
+
+}
+
+
+#about-us-title {
+    font-size: 48pt;
+    font-family: 'Meie Script', 'Times New Roman', Times, serif;
+    color: #e8bcde;
+}
+
+.fa-heart {
+    color: red;
+}
+
+.spacer {
+    height: auto;
+    background-color: red;
+    display: inline-block;
+}
 /* --------------- FOOTER AND SOCIAL LINKS -------------- */
 
 /* Footer positioning */
