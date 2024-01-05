@@ -11,7 +11,7 @@
     padding-top: 140px;
     margin: 0;
     width: 100%;
-    background-color: #4A3C47;
+    background-color: #000;
     opacity: 0.5;
     display: inline-block;
     text-align: center;
@@ -292,7 +292,7 @@
     padding: 0;
     width: 95%;
     position: relative;
-
+    background-color: #e8c1bc;
 }
 
 #about-us-title {
@@ -300,6 +300,7 @@
     font-family: 'Meie Script', 'Times New Roman', Times, serif;
     color: #e8bcde;
 }
+
 
 .fa-heart {
     color: red;
@@ -310,6 +311,7 @@
 #about-us-content {
     padding-top: 20px;
     text-align: center;
+    background-color: #e8c1bc;
 }
 
 .about-us-image {
@@ -606,6 +608,17 @@
     .homepage-details {
         height: inherit;
     }
+
+    /* Page title moved below navbar */
+    .page-heading {
+        height: 300px;
+        padding-top: 200px;
+    }
+
+    /* About-us text to take up more of the screen */
+    .about-us-text {
+        width: 90%;
+    }
 }
 
 /* --------- Small Phone Media Queries ------------------ */
@@ -627,5 +640,13 @@
         font-size: 7px;
         padding-top: 6px;
     }
-}
 
+    /* About us titles to fit on one line */
+    #about-us-title {
+        font-size: 28pt;
+    }
+
+    .about-us-lead-text {
+        font-size: 22pt;
+    }
+}
