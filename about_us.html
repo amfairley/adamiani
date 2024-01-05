@@ -6,16 +6,31 @@
     <meta name="keywords" content="adamian, adam, ani, wedding, vow, renewal, georgia, ceremony">
     <meta name="description" content="Come join Adam and Ani in Georgia as they renew their vows!">
     <meta name="author" content="Adam Michael Fairley"/>
+
+    <!--Bootstrap link-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+
+    <!--Fontawesome link-->
     <script src="https://kit.fontawesome.com/e1041abfbd.js" crossorigin="anonymous"></script>
+
+    <!--Hover.css link-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+
+    <!--Personal css stylesheet link-->
     <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!--Favicon links copied from favicon.io-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+
     <title>Adamiani</title>
 </head>
 
-<body>
+<body id="index-body">
  
-<!-- Navigation bar -->
+    <!-- Navigation bar -->
     <header class="container-fluid row g-0 header-section">
         <!-- Logo -->
         <div class="col-12 col-md-6 logo-header">
@@ -29,12 +44,12 @@
         <!-- Navbar -->
         <div class="col-12 col-md-6">
             <nav id="nav">
-                <ul class="row g-0 navigation list-inline">
+                <ul class="row g-0 list-inline">
                     <!-- Navbar list items -->
                     <li class="col-4 col-lg-2 navbaritem ui-menu-colour navlink">
                         <a href="index.html" class="hvr-shutter-in-vertical" role="link" aria-label="Go back to the website homepage">
                             <i class="fa fa-home" aria-hidden="true"></i>
-                            <p class="uppercase">
+                            <p class="uppercase active-page">
                                 Home
                             </p>
                         </a>
@@ -42,12 +57,12 @@
                     <li class="col-4 col-lg-2 navbaritem ui-menu-colour">
                         <a href="about_us.html" class="hvr-shutter-in-vertical" role="link" aria-label="Go to about us to learn more about Adam and Ani">
                             <i class="fa fa-user-group" aria-hidden="true"></i>
-                            <p class="uppercase active-page">
+                            <p class="uppercase">
                                 About Us
                             </p>
                         </a>
                     </li>
-                    <li class="col-4 col-lg-2 navbaritem ui-menu-colour navlink">
+                    <li class="col-4 col-lg-2 navbaritem ui-menu-colour">
                         <a href="travel.html" class="hvr-shutter-in-vertical" role="link" aria-label="Go to the Travel section to see travel options">
                             <i class="fa-solid fa-plane-departure"></i>
                             <p class="uppercase">
@@ -55,7 +70,7 @@
                             </p>
                         </a>
                     </li>
-                    <li class="col-4 col-lg-2 navbaritem ui-menu-colour navlink">
+                    <li class="col-4 col-lg-2 navbaritem ui-menu-colour">
                         <a href="hotels.html" class="hvr-shutter-in-vertical" role="link" aria-label="Go to hotels to see recommended hotel options">
                             <i class="fa-solid fa-hotel"></i>
                             <p class="uppercase">
@@ -63,7 +78,7 @@
                             </p>
                         </a>
                     </li>
-                    <li class="col-4 col-lg-2 navbaritem ui-menu-colour navlink">
+                    <li class="col-4 col-lg-2 navbaritem ui-menu-colour">
                         <a href="rsvp.html" class="hvr-shutter-in-vertical" role="link" aria-label="Go to RSVP to let us know your attendance">
                             <i class="fa-regular fa-calendar-check"></i>
                             <p class="uppercase">
@@ -71,7 +86,7 @@
                             </p>
                         </a>
                     </li>
-                    <li class="col-4 col-lg-2 navbaritem ui-menu-colour navlink">
+                    <li class="col-4 col-lg-2 navbaritem ui-menu-colour">
                         <a href="faq.html" class="hvr-shutter-in-vertical" role="link" aria-label="Go to FAQ to answer your questions">
                             <i class="fa-solid fa-clipboard-question"></i>
                             <p class="uppercase">
@@ -83,11 +98,12 @@
             </nav>
         </div>
     </header>
-
-    <section>
+   
+    <section class="container-fluid" id="hero-outer">
     </section>
+    
     <!--Footer-->
-    <footer id="footer" class="row container-fluid">
+    <footer id="footer" class="row container-fluid g-0">
         <!-- Contact Details -->
         <div class="col-6 col-md-4 contact-details">
             <span id="phone-number">
@@ -100,10 +116,10 @@
                     adamiani2020@gmail.com
                 </a>
             </span>
-            <span id="postal-address">
+            <address id="postal-address">
                 <i class="fa-solid fa-pen-fancy"></i>
                 49 Vowroad, Vowstone, UK, VW11VW
-            </span>
+            </address>
         </div>
         <!-- Site Logo-Footer-->
         <div class="d-none d-md-block col-4 logo-footer-container">
@@ -115,7 +131,7 @@
             </a>
         </div>
         <!-- Social Media Links -->
-        <div class="col-6 col-md-4 social-media-links-container">
+        <div class="col-6 col-md-4">
             <ul class="row list-inline">
                 <!-- Facebook-groom -->
                 <li class="col-3 social-media-links facebook-link">
