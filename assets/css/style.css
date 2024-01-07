@@ -11,6 +11,13 @@
     text-decoration: underline;
 }
 
+.page-title {
+    font-size: 48pt;
+    font-family: 'Meie Script', 'Times New Roman', Times, serif;
+    color: #e8bcde;
+    padding-right: 30px;
+}
+
 /* --------------- SPECIAL POSITIONING ------------------ */
 
 .page-heading {
@@ -35,6 +42,10 @@
 
 .page-title-container {
     position: relative;
+    background-color: #e8c1bc;
+}
+
+.orange-background {
     background-color: #e8c1bc;
 }
 
@@ -202,13 +213,8 @@
 
 /* Homepage Information Section */
 
-.homepage-content {
-    margin: auto;
-}
-
 .homepage-details {
     height: 360px;
-    background-color: #e8c1bc;
     color: #4A3C47;
 }
 
@@ -279,14 +285,6 @@
 
 /* --------------- ABOUT US SECTION --------------------- */
 
-/* About Us Title */
-
-#about-us-title {
-    font-size: 48pt;
-    font-family: 'Meie Script', 'Times New Roman', Times, serif;
-    color: #e8bcde;
-}
-
 .fa-heart {
     color: red;
 }
@@ -296,7 +294,6 @@
 #about-us-content {
     padding-top: 20px;
     text-align: center;
-    background-color: #e8c1bc;
 }
 
 .about-us-image {
@@ -332,6 +329,41 @@
 
 .about-us-story-text {
     font-family: 'roboto', Arial, Helvetica, sans-serif;
+}
+
+/* --------------- TRAVEL SECTION ----------------------- */
+
+.fa-plane {
+    color: lightblue;
+}
+
+.travel-section {
+    min-height: 322px;
+    padding: 9.6px;
+}
+
+.travel-title {
+    font-family: 'parisienne', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30pt;
+    padding-top: 10px;
+}
+
+.travel-section p {
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    padding-top: 16px;
+    text-align: left;
+}
+
+.travel-section img {
+    min-width: 100%;
+    max-height: 322px;
+    overflow: hidden;
+}
+
+.travel-text {
+    width: 90%;
+    margin: auto;
 }
 
 /* --------------- FOOTER AND SOCIAL LINKS -------------- */
@@ -601,8 +633,20 @@
     }
 
     /* About-us text to take up more of the screen */
-    .about-us-text {
+    .about-us-text, {
         width: 90%;
+    }
+
+    /* Travel width set to 90% */
+    .travel-text {
+        width: 90%;
+    }
+    .travel-section {
+        min-height: auto;
+    }
+
+    .travel-map {
+        height: 320px;
     }
 }
 
@@ -626,11 +670,12 @@
         padding-top: 6px;
     }
 
-    /* About us titles to fit on one line */
-    #about-us-title {
+    /* Page-title resize to fit on one line */
+    .page-title {
         font-size: 28pt;
     }
 
+    /* About us titles to fit on one line */
     .about-us-lead-text {
         font-size: 22pt;
     }
