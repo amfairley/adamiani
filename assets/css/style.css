@@ -366,6 +366,28 @@
     margin: auto;
 }
 
+/* --------------- HOTELS SECTION ----------------------- */
+
+#hotels-content {
+    padding-top: 10px;
+}
+
+.hotel-image {
+    width: auto;
+    max-height: 360px;
+}
+
+.hotel-link {
+    color: black;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.hotel-link:hover {
+    text-decoration: none;
+    color: white;
+}
+
 /* --------------- FOOTER AND SOCIAL LINKS -------------- */
 
 /* Footer positioning */
