@@ -25,7 +25,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <link rel="manifest" href="assets/favicon/site.webmanifest">
 
-    <title>Adamiani | About Us</title>
+    <title>Adamiani | Travel</title>
 </head>
 
 <body id="index-body">
@@ -57,7 +57,7 @@
                     <li class="col-4 col-lg-2 navbaritem ui-menu-colour">
                         <a href="about_us.html" class="hvr-shutter-in-vertical" role="link" aria-label="Go to about us to learn more about Adam and Ani">
                             <i class="fa fa-user-group" aria-hidden="true"></i>
-                            <p class="uppercase active-page">
+                            <p class="uppercase">
                                 About Us
                             </p>
                         </a>
@@ -65,7 +65,7 @@
                     <li class="col-4 col-lg-2 navbaritem ui-menu-colour">
                         <a href="travel.html" class="hvr-shutter-in-vertical" role="link" aria-label="Go to the Travel section to see travel options">
                             <i class="fa-solid fa-plane-departure"></i>
-                            <p class="uppercase">
+                            <p class="uppercase active-page">
                                 Travel
                             </p>
                         </a>
@@ -100,7 +100,7 @@
     </header>
    
     <!-- Page title -->
-    <section class="container-fluid row page-title-container w95">
+    <section class="container-fluid row page-title-container orange-background w95">
         <h1 class="col-12 page-heading">
             <i class="fa-solid fa-plane"></i>
             <br>
@@ -110,54 +110,124 @@
         </h1>
     </section>
     <!-- Flight travel information -->
-    <section class="row w95">
-        <div class="col-12">
-            <h2>Travel</h2>
+    <section class="row w95 orange-background">
+        <div class="col-12 travel-title">
+            <h2>Flights</h2>
         </div>
     </section>
-    <section class ="row w95">
-        <div class="col-4">
-            Image
+    <section class ="row w95 orange-background">
+        <!-- Flight image -->
+        <div class="d-none d-lg-block col-4 travel-section">
+            <img src="assets/images/index_cathedral.png">
         </div>
-        <div class="col-4">
-            Text
+        <!-- Flight text tablet and above -->
+        <div class="d-none d-md-block col-12 col-md-6 col-lg-4 travel-section">
+            <p class="travel-text">
+                For those flying, you have the choice of flying into Tbilisi or
+                 Kutaisi international airports. Though Kutaisi will require a 
+                 3-4 hour drive to Tbilisi so be prepared for a road trip. 
+                 Flying with a layover at Istanbul cannot be avoided, 
+                 especially when travelling from the UK, so with that in mind 
+                 Turkish Airways and Pegasus are our airlines of choice. 
+            </p>
         </div>
-        <div class="col-4">
-            Map
+        <!-- Flight map -->
+        <div class="col-12 col-md-6 col-lg-4 travel-section travel-map">
+            <iframe 
+            title="Tbilisi Internation Airport map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23842.78988662399!2d44.9437546316756!3d41.66981127843032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440fd4ec5da8c7%3A0xccb68c40c8eecbc1!2sTbilisi%20International%20Airport!5e0!3m2!1sen!2suk!4v1704640326770!5m2!1sen!2suk" 
+            width= 100% height= 100% 
+            style="border:0;" allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+        <!-- Flight text mobile -->
+        <div class="d-block d-md-none col-12 col-md-6 col-lg-4 travel-section">
+            <p class="travel-text">
+                For those flying, you have the choice of flying into Tbilisi or
+                 Kutaisi international airports. Though Kutaisi will require a 
+                 3-4 hour drive to Tbilisi so be prepared for a road trip. 
+                 Flying with a layover at Istanbul cannot be avoided, 
+                 especially when travelling from the UK, so with that in mind 
+                 Turkish Airways and Pegasus are our airlines of choice. 
+            </p>
         </div>
     </section>
     <!-- Ceremony travel information -->
-    <section class="row w95">
-        <div class="col-12">
+    <section class="row w95 travel-title orange-background">
+        <div class="col-12 travel-title">
             <h2>Ceremony</h2>
         </div>
     </section>
-    <section class ="row w95">
-        <div class="col-4">
-            Map
+    <section class ="row w95 orange-background">
+        <!-- Ceremony map -->
+        <div class="col-12 col-md-6 col-lg-4 travel-section travel-map">
+            <iframe 
+            title="Svetitskhoveli Cathedral map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11889.41173109102!2d44.710656313898255!3d41.84222966766011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40446f702cd34f6f%3A0xec4cd609df7d28da!2sSvetitskhoveli%20Cathedral!5e0!3m2!1sen!2suk!4v1704643316002!5m2!1sen!2suk" 
+            width= 100% height= 100% 
+            style="border:0;" allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
         </div>
-        <div class="col-4">
-            Text
+        <!-- Ceremony text -->
+        <div class="col-12 col-md-6 col-lg-4 travel-section">
+            <p class="travel-text">
+                The ceremony will be held one city over from Tbilisi, in the 
+                old capital; Mtskheta. We recommend taxiing, using either the 
+                Yandex taxi app or Bolt.
+            </p>
         </div>
-        <div class="col-4">
-            Image
+        <!-- Ceremony image -->
+        <div class="d-none d-lg-block col-4 travel-section">
+            <img src="assets/images/index_cathedral.png">
         </div>
     </section>
     <!-- Reception travel information -->
-    <section class="row w95">
-        <div class="col-12">
+    <section class="row w95 travel-title orange-background">
+        <div class="col-12 travel-title">
             <h2>Reception</h2>
         </div>
     </section>
-    <section class ="row w95">
-        <div class="col-4">
-            Image
+    <section class ="row w95 orange-background">
+        <!-- Reception image -->
+        <div class="d-none d-lg-block col-4 travel-section">
+            <img src="assets/images/index_cathedral.png">
         </div>
-        <div class="col-4">
-            Text
+        <!-- Reception text tablet and above-->
+        <div class="d-none d-md-block col-12 col-md-6 col-lg-4 travel-section">
+            <p class="travel-text">
+                Krtsanisi residence is located within Tbilisi and again, we 
+                would recommend taxiing if you are not attending the religious 
+                ceremony. There will be buses available for those joining us at
+                 the religious ceremony to ferry you to the reception and its 
+                 location allows easy availability of taxis at the end of the 
+                 night.
+            </p>
         </div>
-        <div class="col-4">
-            Map
+        <!-- Reception map -->
+        <div class="col-12 col-md-6 col-lg-4 travel-section travel-map">
+            <iframe 
+            title="Krtsanisi residence map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23842.14732116764!2d44.79191523167583!3d41.67154617832213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440c6ef35872cb%3A0x4b9420b28e281f82!2sKrtsanisi%20Residence%20Complex!5e0!3m2!1sen!2suk!4v1704643449280!5m2!1sen!2suk" 
+            width= 100% height= 100% 
+            style="border:0;" allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+        <!-- Reception text mobile -->
+        <div class="d-block d-md-none col-12 col-md-6 col-lg-4 travel-section">
+            <p class="travel-text">
+                Krtsanisi residence is located within Tbilisi and again, we 
+                would recommend taxiing if you are not attending the religious 
+                ceremony. There will be buses available for those joining us at
+                 the religious ceremony to ferry you to the reception and its 
+                 location allows easy availability of taxis at the end of the 
+                 night.
+            </p>
         </div>
     </section>
 
