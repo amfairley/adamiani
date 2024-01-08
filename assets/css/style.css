@@ -453,6 +453,10 @@ form {
     overflow: hidden;
 }
 
+#footer a {
+    text-decoration: none;
+}
+
 /* Contact Details */
 
 .contact-details {
