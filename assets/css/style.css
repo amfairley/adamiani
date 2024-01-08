@@ -370,22 +370,35 @@
 
 #hotels-content {
     padding-top: 10px;
+    text-align: center;
+    font-family: 'Roboto';
 }
 
-.hotel-image {
+.hotel-section img, .hotel-section a, .hotel-section p{
+    width: 60%;
+    margin: auto;
+    color: #4A3C47;
+}
+
+.hotel-section p {
+    padding-bottom: 10px;
+}
+
+.hotel-section a {
     width: auto;
-    max-height: 360px;
 }
 
 .hotel-link {
     color: black;
     display: inline-block;
     padding-top: 10px;
+    font-size: 32px;
 }
 
 .hotel-link:hover {
     text-decoration: none;
-    color: white;
+    color: #fff;
+    font-weight: bold;
 }
 
 /* --------------- FOOTER AND SOCIAL LINKS -------------- */
@@ -587,6 +600,11 @@
     #homepage-bottom-image-2 {
         border-right-width: 10px;
     }
+
+    /* Hotels: increase page width of content */
+    .hotel-section img, .hotel-section a, .hotel-section p{
+        width: 70%;
+    }
 }
 
 /* --------- Phone Media Queries ------------------------ */
@@ -669,6 +687,11 @@
 
     .travel-map {
         height: 320px;
+    }
+
+    /* Hotels: increase page width of content */
+    .hotel-section img, .hotel-section a, .hotel-section p{
+        width: 80%;
     }
 }
 
