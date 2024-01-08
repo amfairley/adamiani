@@ -411,8 +411,13 @@
 
 /* --------------- RSVP PAGE ---------------------------- */
 
+form {
+    padding-bottom: 10px;
+}
+
 .form-line {
     padding-top: 10px;
+    margin: auto;
 }
 
 .meal-option {
@@ -423,6 +428,15 @@
     width: 33%;
     margin: auto;
     padding-left:10%;
+}
+
+.form-line textarea{
+    text-align: left;
+}
+
+#submit-button {
+    text-align: center;
+    padding-top: 10px;
 }
 
 /* --------------- FOOTER AND SOCIAL LINKS -------------- */
