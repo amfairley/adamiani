@@ -22,7 +22,7 @@
 
 .page-heading {
     height: 240px;
-    padding-top: 140px;
+    padding-top: 160px;
     margin: 0;
     width: 100%;
     background-color: #000;
@@ -295,6 +295,7 @@
 
 .fa-heart {
     color: red;
+    padding-top: 2px;
 }
 
 /* About Us Content */
@@ -342,7 +343,8 @@
 /* --------------- TRAVEL SECTION ----------------------- */
 
 .fa-plane {
-    color: lightblue;
+    padding-top: 2px;
+    color: #fafafa;
 }
 
 .travel-section {
@@ -376,6 +378,10 @@
 
 /* --------------- HOTELS PAGE -------------------------- */
 
+.page-heading .fa-hotel {
+    padding-top: 2px;
+    color: #fafafa;
+}
 #hotels-content {
     padding-top: 10px;
     text-align: center;
@@ -411,6 +417,10 @@
 
 /* --------------- RSVP PAGE ---------------------------- */
 
+.page-heading .fa-calendar-check {
+    padding-top: 2px;
+    color: #fafafa;
+}
 form {
     padding-bottom: 10px;
 }
@@ -440,6 +450,11 @@ form {
 }
 
 /* --------------- FAQ PAGE ----------------------------- */
+
+.page-heading .fa-circle-question {
+    padding-top: 2px;
+    color: #fafafa;
+}
 
 /* Accordion title - not pressed */
 .accordion-button {
@@ -749,7 +764,7 @@ form {
     /* Page title moved below navbar */
     .page-heading {
         height: 300px;
-        padding-top: 200px;
+        padding-top: 220px;
     }
 
     /* About-us text to take up more of the screen */
