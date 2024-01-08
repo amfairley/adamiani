@@ -379,7 +379,7 @@
 #hotels-content {
     padding-top: 10px;
     text-align: center;
-    font-family: 'Roboto';
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
 }
 
 .hotel-section img, .hotel-section a, .hotel-section p{
@@ -437,6 +437,44 @@ form {
 #submit-button {
     text-align: center;
     padding-top: 10px;
+}
+
+/* --------------- FAQ PAGE ----------------------------- */
+
+/* Accordion title - not pressed */
+.accordion-button {
+    font-family: 'parisienne', Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #4A3C47;
+    background-color: #e8bcde;
+}
+
+/* Accordion title - pressed */
+.accordion-button:not(.collapsed) {
+    color: #d0bce8;
+    background-color: #a87d9f;
+    border-color: red;
+}
+
+/* Remove blue border when clicked */
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+/* Accordion content */
+.accordion-body {
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    color: #4A3C47;
+    text-align: left;
+}
+
+.accordion-icon {
+    background-color: red;
+}
+
+#faq {
+    padding-bottom: 10px;
 }
 
 /* --------------- FOOTER AND SOCIAL LINKS -------------- */
