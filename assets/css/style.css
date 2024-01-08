@@ -9,6 +9,7 @@
 /* Highlight current page in the navigation bar */
 .active-page {
     text-decoration: underline;
+    color: #fafafa;
 }
 
 .page-title {
@@ -303,6 +304,7 @@
 #about-us-content {
     padding-top: 20px;
     text-align: center;
+    color: #4A3C47;
 }
 
 .about-us-image {
@@ -350,6 +352,7 @@
 .travel-section {
     min-height: 322px;
     padding: 9.6px;
+    color: #4A3C47;
 }
 
 .travel-title {
@@ -357,6 +360,7 @@
     font-weight: bold;
     font-size: 30pt;
     padding-top: 10px;
+    color: #4A3C47;
 }
 
 .travel-section p {
@@ -423,6 +427,8 @@
 }
 form {
     padding-bottom: 10px;
+    color: #4A3C47;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
 }
 
 .form-line {
