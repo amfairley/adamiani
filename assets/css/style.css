@@ -19,6 +19,10 @@
     padding-right: 30px;
 }
 
+.rsvp-faq-title {
+    font-family: 'Sail', 'Times New Roman', Times, serif;
+    padding: 0;
+}
 /* --------------- SPECIAL POSITIONING ------------------ */
 
 .page-heading {
@@ -32,6 +36,8 @@
     text-align: center;
     font-size: 32px; 
     line-height: 30px; 
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .w95 {
@@ -50,8 +56,22 @@
     padding: 0;
 }
 
+.rsvp-faq-body {
+    overflow: hidden;
+}
 .side-image {
     padding: 0;
+    background-image: url('../images/index_hero_image.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.bottom-border-image {
+    padding: 0;
+    height: 120px;
+    background-image: url('../images/index_hero_image.png');
+    background-size: cover;
+    background-position-y: center;
 }
 
 .orange-background {
@@ -706,6 +726,18 @@ form {
     .hotel-section img, .hotel-section a, .hotel-section p{
         width: 70%;
     }
+
+    /* FAQ: Move image to title background */
+    .question-page-heading {
+        background-image: url('../images/index_hero_image.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+    }
+    /* FAQ: reduce question font size */
+    .accordion-button {
+        font-size: 20pt;
+    }
 }
 
 /* --------- Phone Media Queries ------------------------ */
@@ -794,6 +826,11 @@ form {
     .hotel-section img, .hotel-section a, .hotel-section p{
         width: 80%;
     }
+
+    /*FAQ: reduce question font size */
+    .accordion-button {
+        font-size: 16pt;
+    }    
 }
 
 /* --------- Small Phone Media Queries ------------------ */
@@ -824,5 +861,10 @@ form {
     /* About us titles to fit on one line */
     .about-us-lead-text {
         font-size: 22pt;
+    }
+
+    /*FAQ: reduce question font size */
+    .accordion-button {
+        font-size: 14pt;
     }
 }
