@@ -315,9 +315,16 @@
 
 /* --------------- ABOUT US SECTION --------------------- */
 
+/* All hearts on page */
 .fa-heart {
     color: red;
     padding-top: 2px;
+}
+
+/* Heading Font-Awesome */
+.page-heading .fa-heart {
+    padding-top: 10px;
+    font-size: 20pt;
 }
 
 /* About Us Content */
@@ -365,8 +372,10 @@
 
 /* --------------- TRAVEL SECTION ----------------------- */
 
-.fa-plane {
-    padding-top: 2px;
+/* Heading Font-Awesome */
+.page-heading .fa-plane {
+    padding-top: 10px;
+    font-size: 20pt;
     color: #fafafa;
 }
 
@@ -403,10 +412,13 @@
 
 /* --------------- HOTELS PAGE -------------------------- */
 
+/* Heading Font-Awesome */
 .page-heading .fa-hotel {
-    padding-top: 2px;
+    padding-top: 10px;
+    font-size: 20pt;
     color: #fafafa;
 }
+
 #hotels-content {
     padding-top: 10px;
     text-align: center;
@@ -442,10 +454,13 @@
 
 /* --------------- RSVP PAGE ---------------------------- */
 
+/* Heading Font-Awesome */
 .page-heading .fa-calendar-check {
-    padding-top: 2px;
+    padding-top: 10px;
+    font-size: 20pt;
     color: #fafafa;
 }
+
 form {
     padding-bottom: 10px;
     color: #4A3C47;
@@ -480,8 +495,10 @@ form {
 
 /* --------------- FAQ PAGE ----------------------------- */
 
+/* Heading Font-Awesome */
 .page-heading .fa-circle-question {
-    padding-top: 2px;
+    padding-top: 10px;
+    font-size: 20pt;
     color: #fafafa;
 }
 
@@ -770,7 +787,7 @@ footer ul {
     .logo-header h1 {
         padding-top: 4px;
     }
-    
+
     /* Homepage: Hero Image moved below nav bar */
     #hero-outer {
         height: 480px;
