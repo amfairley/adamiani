@@ -331,6 +331,20 @@
     font-size: 20pt;
 }
 
+/* Hero Image */
+
+.about-hero-image {
+    background-image: url('../images/index_cathedral.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom; 
+    height: 360px;
+    width: 100%;
+    padding: 0;
+    margin: auto;
+}
+
+
 /* About Us Content */
 
 #about-us-content {
@@ -750,6 +764,12 @@ footer ul {
         border-right-width: 10px;
     }
 
+    /* About us hero image resize */
+    .about-hero-image {
+        width: 95%;
+        margin: auto;
+    }
+
     /* Hotels: increase page width of content */
     .hotel-section img, .hotel-section a, .hotel-section p{
         width: 70%;
@@ -833,6 +853,11 @@ footer ul {
         padding-top: 220px;
     }
 
+    /* About-us hero image resize */
+    .about-hero-image {
+        width: 65%;
+    }
+    
     /* About-us text to take up more of the screen */
     .about-us-text, {
         width: 90%;
