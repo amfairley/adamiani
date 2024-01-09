@@ -530,12 +530,12 @@ form {
     text-align: left;
 }
 
-.accordion-icon {
-    background-color: red;
-}
-
 #faq {
     padding-bottom: 10px;
+}
+
+.faq-image {
+    margin-bottom: 10px;
 }
 
 /* --------------- FOOTER AND SOCIAL LINKS -------------- */
