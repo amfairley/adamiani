@@ -459,6 +459,8 @@ form {
 
 .meal-option {
     text-align: center;
+    font-family: 'sail', 'Times New Roman', Times, serif;
+    padding-top: 10px;
 }
 
 .food-option {
