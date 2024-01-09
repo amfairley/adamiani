@@ -269,7 +269,7 @@
 
 .homepage-ceremony-image {
     height: 340px;
-    background-image: url('../images/index_cathedral.png');
+    background-image: url('../images/index_cathedral.webp');
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -278,9 +278,10 @@
 }
 .homepage-reception-image {
     height: 340px;
-    background-image: url('../images/index_reception.jpg');
+    background-image: url('../images/index_reception.webp');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: bottom;
     overflow: hidden;
     width: 100%;
 }
@@ -297,20 +298,23 @@
 }
 
 #homepage-bottom-image-1 {
-    background-image: url('../images/index_couple_1.png');
+    background-image: url('../images/index_couple_1.webp');
     background-size: cover;
+    background-position: center;
 }
 
 #homepage-bottom-image-2 {
-    background-image: url('../images/index_couple_2.png');
+    background-image: url('../images/index_couple_2.webp');
     background-size: cover;
+    background-position: center;
     border-left-width: 0;
     border-right-width: 0;
 }
 
 #homepage-bottom-image-3 {
-    background-image: url('../images/index_couple_3.png');
+    background-image: url('../images/index_couple_3.webp');
     background-size: cover;
+    background-position: right;
 }
 
 /* --------------- ABOUT US SECTION --------------------- */
