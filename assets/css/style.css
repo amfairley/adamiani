@@ -273,6 +273,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
+    background-position: bottom;
     width: 100%;
 }
 .homepage-reception-image {
@@ -545,6 +546,7 @@ form {
     font-family: 'roboto', Arial, Helvetica, sans-serif;
     color: #4A3C47;
     background-color: #e8bcde;
+    padding-left: 10px;
 }
 
 #phone-number {
@@ -591,6 +593,9 @@ form {
 
 /* Social Media Links */
 
+footer ul {
+    width:95%;
+}
 .social-media-links {
     text-align: center;
     padding: 0;
@@ -697,7 +702,7 @@ form {
 
     /* Reduces size of footer logo */
     .logo-footer {
-        font-size: 40px;
+        font-size: 38px;
         padding-top: 13px;
     }
 
@@ -714,7 +719,7 @@ form {
 
     /* Homepage: make hero image fill the div */
     #hero-image {
-        height: 928px;
+        background-position: bottom;
     }
 
     /* Homepage: add margin to index_couple_2 to centre images */
