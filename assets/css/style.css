@@ -171,7 +171,7 @@ main, footer {
 /* Hover.css: animation colours */
 .hvr-shutter-in-vertical:hover {
     background-color: rgba(0,0,0,0);
-    color: #d0bce8;
+    color: black;
 }
 
 /* Hover.css: un-shuttering colour */
