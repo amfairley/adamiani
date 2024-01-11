@@ -13,20 +13,20 @@
     font-weight: 600 !important;
 }
 
-.page-title {
+/* .page-title {
     font-size: 48pt;
     font-family: 'Meie Script', 'Times New Roman', Times, serif;
     color: #e8bcde;
     padding-right: 30px;
-}
+} */
 
-.rsvp-faq-title {
+/* .rsvp-faq-title {
     font-family: 'Sail', 'Times New Roman', Times, serif;
     padding: 0;
-}
+} */
 /* --------------- SPECIAL POSITIONING ------------------ */
 
-.page-heading {
+/* .page-heading {
     height: 240px;
     padding-top: 160px;
     margin: 0;
@@ -39,45 +39,45 @@
     line-height: 30px; 
     padding-left: 16px;
     padding-right: 16px;
-}
+} */
 
-.w95 {
+/* .w95 {
     width: 95%;
     margin: 0 auto;
     padding: 0;
     text-align: center;
-}
+} */
 
-.page-title-container {
+/* .page-title-container {
     position: relative;
     background-color: #e8c1bc;
-}
+} */
 
-.question-page-heading {
+/* .question-page-heading {
     padding: 0;
-}
+} */
 
-.rsvp-faq-body {
+/* .rsvp-faq-body {
     overflow: hidden;
-}
-.side-image {
+} */
+/* .side-image {
     padding: 0;
     background-image: url('../images/index_hero_image.webp');
     background-size: cover;
     background-position: center;
-}
+} */
 
-.bottom-border-image {
+/* .bottom-border-image {
     padding: 0;
     height: 120px;
     background-image: url('../images/index_hero_image.webp');
     background-size: cover;
     background-position-y: center;
-}
+} */
 
-.orange-background {
+/* .orange-background {
     background-color: #e8c1bc;
-}
+} */
 
 
 /* Code taken from https://materializecss.com/footer.html for sticky footer */
@@ -99,68 +99,57 @@ main, footer {
 /* --------------- HEADER AND NAVIGATION ---------------- */
 
 /* Total Header Bar */
-
-.header-section {
+#header-section {
     font-family: 'Courgette', 'Times New Roman', Times, serif;
     position: fixed;
     padding: 0;
     margin: 0;
     z-index: 1;
 }
-
-.header-section a {
+#header-section a {
     color: #4A3C47;
     text-decoration: none;
     display: block;
     width: 100%;
     height: 120px;
 }
-
-.logo-header, .navbaritem {
+#logo-header, .navbaritem {
     height: 120px;
     text-align: center;
     padding: 0;
 }
 
 /* Site Logo */
-
-.logo-header {
+#logo-header {
     text-align: left;
     background-color: #e8bcde;
 }
-
-.logo-header h1 {
+#logo-header h1 {
     padding-top: 10px;
 }
-
-.logo-header i {
+#logo-header i {
     display: inline-block;
     font-size: 32pt;
 }
-
-.logo-header a {
+#logo-header a {
     font-family: 'Sail', 'Times New Roman', Times, serif;
     padding-top: 10px;
     padding-left: 10px;
 }
-
-.logo-header span {
+#logo-header span {
     font-size: 50pt;
 }
 
 /* Navigation Bar */
-
 #nav li {
     font-size: 14pt;
     padding: 0;
 }
-
 .navbaritem i {
     display: block;
     padding-top: 33px;
     font-size: 22pt;
 }
-
 .navbaritem p {
     display: block;
     width: 100%;
@@ -170,19 +159,18 @@ main, footer {
     font-weight: 300;
     letter-spacing: 2px;    
 }
-
 .ui-menu-colour {
     background-color:  #a87d9f;
 }
 
 /* Hover.css: change starting colour */
 .hvr-shutter-in-vertical:before {
-    background: #e8bcde;
+    background-color: #e8bcde;
 }
 
 /* Hover.css: animation colours */
 .hvr-shutter-in-vertical:hover {
-    background-color: rgba(0,0,0,0);
+    background-color: transparent;
     color: #000;
 }
 
@@ -334,7 +322,7 @@ main, footer {
 
 /* All hearts on page */
 .fa-heart {
-    color: red;
+    color: #ff0000;
     padding-top: 2px;
 }
 
@@ -471,7 +459,7 @@ main, footer {
 }
 
 .hotel-link {
-    color: black;
+    color: #000;
     display: inline-block;
     padding-top: 10px;
     font-size: 32px;
@@ -546,7 +534,6 @@ form {
 .accordion-button:not(.collapsed) {
     color: #d0bce8;
     background-color: #a87d9f;
-    border-color: red;
 }
 
 /* Remove blue border when clicked */
@@ -572,69 +559,55 @@ form {
 /* --------------- FOOTER AND SOCIAL LINKS -------------- */
 
 /* Footer positioning */
-
 #footer {
     width: 100%;
     height: 120px;
-    min-height: 80px;
     padding: 0;
     margin: 0;
     overflow: hidden;
-    padding-bottom: 20px;
-    padding-top: 20px;
 }
 
+/* Link formatting */
 #footer a {
     text-decoration: none;
 }
 
 /* Contact Details */
-
 .contact-details {
     text-align: left;
     font-size: 14px;
     letter-spacing: 1px;
     font-family: 'roboto', Arial, Helvetica, sans-serif;
     color: #4A3C47;
-    background-color: #e8bcde;
     padding-left: 10px;
 }
-
 #phone-number {
     display: block;
-    padding-top: 9px;
+    padding-top: 30px;
 }
-
 #email-address {
     display: block;
 }
-
 #email-address i {
     padding-right: 2px;
 }
-
 #email-link {
     color: inherit;
 }
-
 #postal-address {
     display: block;
 }
 
 /* Footer Logo */
-
-.logo-footer-container {
-    padding: 0;
-    background-color: #e8bcde;
+#logo-footer-container {
+    padding-top: 20px;
 }
-
-.logo-footer-container a {
+#logo-footer-container a {
     display: block;
     height: 80px;
     width: 100%;
 }
-
-.logo-footer {
+#logo-footer {
     text-align: center;
     padding-top: 8px;
     font-size: 50px;
@@ -645,39 +618,33 @@ form {
 /* Social Media Links */
 
 footer ul {
-    width:95%;
+    width:100%;
 }
 .social-media-links {
     text-align: center;
     padding: 0;
 }
-
 .social-media-links .fa-brands {
     display: block;
-    padding-top: 15px;
+    padding-top: 30px;
     font-size: 30px;
     color: #4A3C47;
 }
-
 .social-media-links .gender, .social-media-links a p {
     font-size: 15px;
     color: #4A3C47;
-}
+    font-family:'roboto', Arial, Helvetica, sans-serif;
 
+}
 .social-media-links a {
     display: block;
     width: 100%;
-    height: 80px;
-}
-
-.facebook-link, .twitter-link, .instagram-link {
-    background-color: #e8bcde;
+    height: 120px;
 }
 
 #instagram-hash, #twitter-hash {
     font-family:'roboto', Arial, Helvetica, sans-serif;
 }
-
 /* Footer effects */
 
 #email-link:hover {
@@ -685,7 +652,7 @@ footer ul {
     font-weight: bolder;
 }
 
-.logo-footer-container a:hover {
+#logo-footer-container a:hover {
     text-decoration: none;
 }
 
@@ -729,6 +696,9 @@ footer ul {
     .navbaritem, .navbaritem a {
         height: 60px;
     }
+    #header-section a {
+        height: 60px;
+    }
     .navbaritem i {
         padding-top: 10px;
         font-size: 16pt;
@@ -737,29 +707,27 @@ footer ul {
         padding-top: 2px;
         font-size: 12pt;
     }
-
+    
     /* Removes postal address from footer */
     #postal-address {
         display: none;
     }
-
     #phone-number {
-        padding-top: 15px;
+        padding-top: 30px;
     }
-
     #email-address {
         padding-top: 8px;
     }
 
     /* Reduces size of footer logo */
-    .logo-footer {
+    #logo-footer {
         font-size: 38px;
         padding-top: 13px;
     }
 
     /* Reduces social media hashtag size */
-    .social-media-links a p {
-        font-size: 10px;
+    .social-media-links a p, .gender {
+        font-size: 10px !important;
         padding-top: 6px;
     }
 
@@ -806,23 +774,21 @@ footer ul {
 @media screen and (max-width: 767px){
 
     /* Reduces logo bar height by half, centres and reduces content size */
-    .logo-header, .logo-header a {
+    #logo-header, #logo-header a {
         height: 60px;
         text-align: center;
         padding-top: 2px;
     }
-    .logo-header a i {
+    #logo-header a i {
         font-size: 20pt;
     }
-    .logo-header a span  {
+    #logo-header a span  {
         font-size: 32pt;
     }
-
-    .logo-header i {
+    #logo-header i {
         padding-top: 0;
     }
-
-    .logo-header h1 {
+    #logo-header h1 {
         padding-top: 4px;
     }
 
@@ -904,21 +870,24 @@ footer ul {
 @media screen and (max-width: 576px){
 
     /* Reduces footer text size and centres content vertically */
-    .contact-details {
-        font-size: 8px;
+    #footer {
+        height: 80px;
     }
-
+    .contact-details {
+        font-size: 12px;
+    }
     #phone-number {
         padding-top: 25px;
     }
-
     #email-address {
         padding-top: 10px;
     }
     .social-media-links a p {
-        font-size: 7px;
+        font-size: 12px;
         padding-top: 6px;
     }
+    .social-media-links .fa-brands {
+        padding-top: 6px;
 
     /* Page-title resize to fit on one line */
     .page-title {
