@@ -79,6 +79,17 @@
     background-color: #e8c1bc;
 }
 
+
+/* Code taken from https://materializecss.com/footer.html for sticky footer */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+main {
+    flex: 1 0 auto;
+}
+
 /* --------------- PAGE BACKGROUNDS --------------------- */
 
 main, footer {
@@ -563,13 +574,14 @@ form {
 /* Footer positioning */
 
 #footer {
-    position: absolute;
     width: 100%;
-    height: 80px;
+    height: 120px;
     min-height: 80px;
     padding: 0;
     margin: 0;
     overflow: hidden;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 #footer a {
