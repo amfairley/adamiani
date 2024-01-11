@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="adamian, adam, ani, wedding, vow, renewal, georgia, ceremony">
     <meta name="description" content="Come join Adam and Ani in Georgia as they renew their vows!">
-    <meta name="author" content="Adam Michael Fairley"/>
+    <meta name="author" content="Adam Michael Fairley">
 
     <!--Bootstrap link-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
     <!--Fontawesome link-->
     <script src="https://kit.fontawesome.com/e1041abfbd.js" crossorigin="anonymous"></script>
 
     <!--Hover.css link-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css">
 
     <!--Personal css stylesheet link-->
     <link rel="preload" fetchpriority="high" as="image" href="assets/images/index_hero_image.webp" type="image/webp">
@@ -31,10 +32,10 @@
 <body>
  
 <!-- Navigation bar -->
-    <header class="container-fluid row g-0 header-section">
+    <header class="container-fluid row g-0" id="header-section">
         <!-- Logo -->
-        <div class="col-12 col-md-6 logo-header">
-            <a href="index.html " role="link" aria-label="Adamiani site logo and link to homepage">
+        <div class="col-12 col-md-6" id="logo-header">
+            <a href="index.html " aria-label="Adamiani site logo and link to homepage">
                 <h1>   
                     <i class="fa-solid fa-champagne-glasses"></i>
                     <span>Adamiani</span>
@@ -46,8 +47,8 @@
             <nav id="nav">
                 <ul class="row g-0 list-inline">
                     <!-- Navbar list items -->
-                    <li class="col-4 col-lg-2 navbaritem ui-menu-colour navlink">
-                        <a href="index.html" class="hvr-shutter-in-vertical" role="link" aria-label="Go back to the website homepage">
+                    <li class="col-4 col-lg-2 navbaritem ui-menu-colour">
+                        <a href="index.html" class="hvr-shutter-in-vertical" aria-label="Go back to the website homepage">
                             <i class="fa fa-home" aria-hidden="true"></i>
                             <p class="uppercase active-page">
                                 Home
@@ -55,7 +56,7 @@
                         </a>
                     </li>
                     <li class="col-4 col-lg-2 navbaritem ui-menu-colour">
-                        <a href="about_us.html" class="hvr-shutter-in-vertical" role="link" aria-label="Go to about us to learn more about Adam and Ani">
+                        <a href="about_us.html" class="hvr-shutter-in-vertical" aria-label="Go to about us to learn more about Adam and Ani">
                             <i class="fa fa-user-group" aria-hidden="true"></i>
                             <p class="uppercase">
                                 About Us
@@ -63,7 +64,7 @@
                         </a>
                     </li>
                     <li class="col-4 col-lg-2 navbaritem ui-menu-colour">
-                        <a href="travel.html" class="hvr-shutter-in-vertical" role="link" aria-label="Go to the Travel section to see travel options">
+                        <a href="travel.html" class="hvr-shutter-in-vertical" aria-label="Go to the Travel section to see travel options">
                             <i class="fa-solid fa-plane-departure"></i>
                             <p class="uppercase">
                                 Travel
@@ -71,7 +72,7 @@
                         </a>
                     </li>
                     <li class="col-4 col-lg-2 navbaritem ui-menu-colour">
-                        <a href="hotels.html" class="hvr-shutter-in-vertical" role="link" aria-label="Go to hotels to see recommended hotel options">
+                        <a href="hotels.html" class="hvr-shutter-in-vertical" aria-label="Go to hotels to see recommended hotel options">
                             <i class="fa-solid fa-hotel"></i>
                             <p class="uppercase">
                                 Hotels
@@ -79,7 +80,7 @@
                         </a>
                     </li>
                     <li class="col-4 col-lg-2 navbaritem ui-menu-colour">
-                        <a href="rsvp.html" class="hvr-shutter-in-vertical" role="link" aria-label="Go to RSVP to let us know your attendance">
+                        <a href="rsvp.html" class="hvr-shutter-in-vertical" aria-label="Go to RSVP to let us know your attendance">
                             <i class="fa-regular fa-calendar-check"></i>
                             <p class="uppercase">
                                 RSVP
@@ -87,7 +88,7 @@
                         </a>
                     </li>
                     <li class="col-4 col-lg-2 navbaritem ui-menu-colour">
-                        <a href="faq.html" class="hvr-shutter-in-vertical" role="link" aria-label="Go to FAQ to answer your questions">
+                        <a href="faq.html" class="hvr-shutter-in-vertical" aria-label="Go to FAQ to answer your questions">
                             <i class="fa-solid fa-clipboard-question"></i>
                             <p class="uppercase">
                                 FAQ
@@ -101,30 +102,30 @@
     <main>
         <!-- Hero Image Tablet and Desktop -->
         <section class="container-fluid w95" id="hero-outer">
-            <div id="hero-image" aria-label="A hero image of Adam and Ani walking on their wedding day.">
-                <div class="d-none d-md-block" id="hero-info">
-                    <h1 id="hero-title">Ani Morchiladze & Adam Fairley</h1>
-                    <p id="hero-invite">cordially invite you to a vow renewal ceremony on the 1st of September 2025 in Tbilisi, Georgia</p>
-                    <a href="rsvp.html"><button class="btn btn-info hero-rsvp">RSVP</button></a>
+            <div id="hero-image" role="img" aria-label="A hero image of Adam and Ani walking on their wedding day.">
+                <div class="d-none d-md-block hero-info">
+                    <h2 class="hero-title">Ani Morchiladze & Adam Fairley</h2>
+                    <p class="hero-invite">cordially invite you to a vow renewal ceremony on the 1st of September 2025 in Tbilisi, Georgia</p>
+                    <a href="rsvp.html" class="btn btn-info hero-rsvp" aria-label="Click here to RSVP by 01/01/25">RSVP by 01/01/25</a>
                 </div>
             </div>
         </section>
         <!-- Hero Image Phone -->
         <section class="container-fluid d-block d-md-none row" id="phone-hero-text">
-            <div class="d-block d-md-none col-12" id="hero-info">
-                <p id="hero-title">Ani Morchiladze & Adam Fairley</p>
-                <p id="hero-invite">cordially invite you to a vow renewal ceremony on the 1st of September 2025 in Tbilisi, Georgia</p>
-                <a href="rsvp.html"><button class="btn btn-info hero-rsvp">RSVP</button></a>
+            <div class="d-block d-md-none col-12 hero-info">
+                <h2 class="hero-title">Ani Morchiladze & Adam Fairley</h2>
+                <p class="hero-invite">cordially invite you to a vow renewal ceremony on the 1st of September 2025 in Tbilisi, Georgia</p>
+                <a href="rsvp.html" class="btn btn-info hero-rsvp" aria-label="Click here to RSVP by 01/01/25">RSVP by 01/01/25</a>
             </div>
         </section>
         <!-- Ceremony Image and Details -->
         <section class="container-fluid row g-0 w95">
             <div class="col-12 col-md-6 col-lg-4 homepage-images">
-                <image class="homepage-ceremony-image" aria-label="An image of Svetikhoveli catherdral where the ceremony will take place."></image>
+                <div class="homepage-ceremony-image" role="img" aria-label="An image of Svetikhoveli catherdral where the ceremony will take place."></div>
             </div>
             <div class ="col-12 col-md-6 col-lg-8 homepage-details orange-background">
                 <h2 class="homepage-title">The Ceremony</h2>
-                <p class="homepage-text">The ceremony will be held at Svetikhoveli Cathedral in Mtskheta; the location of both our religious marriage ceremony and Ani’s parents wedding. We hope that attendees will feel the history of the building as we pledge our love to one another again. The ceremony will take place at 02:00pm sharp, so please arrive 15 minutes early to ensure a good view.</p>
+                <p class="homepage-text">The ceremony will be held at Svetikhoveli Cathedral in Mtskheta; the location of both our religious marriage ceremony and Ani's parents wedding. We hope that attendees will feel the history of the building as we pledge our love to one another again. The ceremony will take place at 02:00pm sharp, so please arrive 15 minutes early to ensure a good view.</p>
             </div>
         </section>
         <!-- Reception Image and Details -->
@@ -135,30 +136,25 @@
                 <p class="homepage-text">Please join us at Krtsanisi residence at 04:00pm to celebrate into the evening. The venue boasts amazing views over the surrounding countryside, a luxurious swimming pool, and decadent dining area. In its past has functioned as a meeting place for world leaders and state dignitaries. There will be buses available to those attending the ceremony and ample car parking for others. </p>
             </div>
             <div class="col-12 col-md-6 col-lg-4 homepage-images">
-                <image class="homepage-reception-image" aria-label="A picture of the placesetting at the reception."></image>
+                <div class="homepage-reception-image" role="img" aria-label="A picture of the placesetting at the reception."></div>
             </div>
             <!-- Reception Details for Mobile -->
-            <div class="d-block d-md-none col-12 col-md-6 col-lg-8 homepage-details ">
-                <h3 class="homepage-title">Reception</h3>
+            <div class="d-block d-md-none col-12 col-md-6 col-lg-8 homepage-details orange-background">
+                <h2 class="homepage-title">Reception</h2>
                 <p class="homepage-text">Please join us at Krtsanisi residence at 04:00pm to celebrate into the evening. The venue boasts amazing views over the surrounding countryside, a luxurious swimming pool, and decadent dining area. In its past has functioned as a meeting place for world leaders and state dignitaries. There will be buses available to those attending the ceremony and ample car parking for others. </p>
             </div>
         </section>
         <!-- Homepage Images -->
-        <section class="container-fluid row g-0 w95">
+        <div class="container-fluid row g-0 w95">
             <!-- Image 1: Shown on all devices -->
-            <image class="col-12 col-md-6 col-lg-4 homepage-bottom-image" id="homepage-bottom-image-1" aria-label="An image of Adam and Ani jumping for joy at their wedding.">
-
-            </image>
+            <div class="col-12 col-md-6 col-lg-4 homepage-bottom-image" id="homepage-bottom-image-1" rel="img" aria-label="An image of Adam and Ani jumping for joy at their wedding."></div>
             <!-- Image 2: Missing on mobile -->
-            <image class="d-none d-md-block col-md-6 col-lg-4 homepage-bottom-image" id="homepage-bottom-image-2" aria-label="An image of Adam and Ani after he proposed.">
-
-            </image>
+            <div class="d-none d-md-block col-md-6 col-lg-4 homepage-bottom-image" id="homepage-bottom-image-2" rel="img" aria-label="An image of Adam and Ani after he proposed."></div>
             <!-- Image 3: Missing on tablet -->
-            <image class="d-none d-lg-block col-lg-4 homepage-bottom-image" id="homepage-bottom-image-3" aria-label="A scenic picture of Adam and Ani in devon overlooking Durdle Door.">
-
-            </image>
-        </section>
+            <div class="d-none d-lg-block col-lg-4 homepage-bottom-image" id="homepage-bottom-image-3" rel="img" aria-label="A scenic picture of Adam and Ani in devon overlooking Durdle Door."></div>
+        </div>  
     </main>
+
     <!--Footer-->
     <footer id="footer" class="row container-fluid g-0">
         <!-- Contact Details -->
@@ -168,7 +164,7 @@
                 +44(0)7857178957
             </span>
             <span id="email-address">
-                <a id="email-link" href="mailto:adamiani@gmail.com?Vow Renewal 2024" target="_blank" role="link" aria-label="Click to write us an email at adamiani2020@gmail.com">    
+                <a id="email-link" href="mailto:adamiani@gmail.com?subject=Vow_Renewal_2024" target="_blank" aria-label="Click to write us an email at adamiani2020@gmail.com">    
                     <i class="fa-regular fa-envelope"></i>
                     adamiani2020@gmail.com
                 </a>
@@ -179,9 +175,9 @@
             </address>
         </div>
         <!-- Site Logo-Footer-->
-        <div class="d-none d-md-block col-4 logo-footer-container">
-            <a href="index.html"  role="link" aria-label="Adamiani site logo and link to homepage">
-                <h2 class="logo-footer">   
+        <div class="d-none d-md-block col-4" id="logo-footer-container">
+            <a href="index.html" aria-label="Adamiani site logo and link to homepage">
+                <h2 id="logo-footer">   
                     <i class="fa-solid fa-champagne-glasses"></i>
                     <span>Adamiani</span>
                 </h2>
@@ -189,24 +185,31 @@
         </div>
         <!-- Social Media Links -->
         <div class="col-6 col-md-4">
-            <ul class="row list-inline justify-content-end">
-                <!-- Facebook -->
+            <ul class="row list-inline">
+                <!-- Facebook-groom -->
                 <li class="col-3 social-media-links facebook-link">
-                    <a href="https://www.facebook.com/" target="_blank" aria-label="Go to Adam's Facebook page">
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener"  aria-label="Go to the facebook page of the Groom" title="Adam">
                         <i class="fa-brands fa-facebook social-media-button"></i>
-                        <span class="gender"><i class="fa-solid fa-person"></i></span><span class="sr-only">Adam's Facebook page</span>
+                        <span class="gender"><i class="fa-solid fa-person"></i> Groom</span><span class="sr-only">Adam's Facebook page</span>
+                    </a>
+                </li>
+                <!-- Facebook-bride -->
+                <li class="col-3 social-media-links facebook-link">
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Go to the facebook page of the Bride" title="Ani">
+                        <i class="fa-brands fa-facebook social-media-button"></i>
+                        <span class="gender"><i class="fa-solid fa-person-dress"></i> Bride</span><span class="sr-only">Ani's Facebook page</span>
                     </a>
                 </li>
                 <!-- Twitter/X -->
                 <li class="col-3 social-media-links twitter-link">
-                    <a href="https://twitter.com/" target="_blank" aria-label="Go to the event twitter page and use the hashtag adamiani">
+                    <a href="https://twitter.com/" target="_blank" rel="noopener" aria-label="Go to the event twitter page and use the hashtag adamiani">
                         <i class="fa-brands fa-x-twitter"></i>
                         <p id="twitter-hash">#adamiani</p>
                     </a>
                 </li>
                 <!-- Instagram -->
                 <li class="col-3 social-media-links instagram-link">
-                    <a href="https://www.instagram.com/" target="_blank" aria-label="Go to the event instagram page and use the hashtag adamiani">
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Go to the event instagram page and use the hashtag adamiani">
                         <i class="fa-brands fa-instagram"></i>
                         <p id="instagram-hash">#adamiani</p>
                     </a>
