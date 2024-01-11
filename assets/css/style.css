@@ -41,12 +41,12 @@
     padding-right: 16px;
 } */
 
-/* .w95 {
+.w95 {
     width: 95%;
     margin: 0 auto;
     padding: 0;
     text-align: center;
-} */
+}
 
 /* .page-title-container {
     position: relative;
@@ -75,9 +75,9 @@
     background-position-y: center;
 } */
 
-/* .orange-background {
+.orange-background {
     background-color: #e8c1bc;
-} */
+}
 
 
 /* Code taken from https://materializecss.com/footer.html for sticky footer */
@@ -182,14 +182,12 @@ main, footer {
 /* --------------- HOMEPAGE SECTION --------------------- */
 
 /* Hero Image */
-
 #hero-outer {
     height: 600px;
     overflow: hidden;
     position: relative;
     top: 120px;
 }
-
 #hero-image {
     height: 480px;
     width: 100%;
@@ -203,13 +201,13 @@ main, footer {
     z-index: 0;
 }
 
-#hero-info {
+/* Hero Text */
+.hero-info {
     text-align: center;
-    background-color: rgba(74, 60, 71, 0.5);
+    background-color: rgba(74, 60, 71, 0.8);
     padding-bottom: 20px;
 }
-
-#hero-title {
+.hero-title {
     font-family: 'Meie Script', 'Times New Roman', Times, serif;
     font-size: 46pt;
     color: #e8bcde;
@@ -219,8 +217,7 @@ main, footer {
     margin-top: 300px;
     margin-bottom: 0px;
 }
-
-#hero-invite {
+.hero-invite {
     font-family: 'roboto', Arial, Helvetica, sans-serif;
     font-size: 1rem;
     font-weight: 400;
@@ -228,13 +225,11 @@ main, footer {
     color: #e8bcde;
     margin-bottom: 16px;
 }
-
 .hero-rsvp {
     color: #4A3C47;
     background-color: #e8bcde;
     border-color: #a87d9f;
 }
-
 .hero-rsvp:hover {
     color: #d0bce8;
     background-color: #a87d9f;
@@ -242,7 +237,6 @@ main, footer {
 }
 
 /* Homepage Information Section */
-
 .homepage-details {
     height: 360px;
     color: #4A3C47;
@@ -732,7 +726,7 @@ footer ul {
     }
 
     /* Homepage: reduce hero text size */
-    #hero-title {
+    .hero-title {
         font-size: 32pt;
     }
 
@@ -796,25 +790,23 @@ footer ul {
     #hero-outer {
         height: 480px;
     }
-
     /*Homepage: Style new div for hero text */
     #phone-hero-text {
         padding: 0;
         margin: auto;
         width: 95%;
     }
-    #hero-info {
-        padding: 0;
+    .hero-info {
         background-color: #e8c1bc;
     }
-    #hero-title {
+    .hero-title {
         margin-top: 120px;
         font-size: 28pt;
         line-height: 40px;
         color: #4A3C47;
         padding-top: 10px;
     }
-    #hero-invite {
+    .hero-invite {
         color: #4A3C47;
     }
 
