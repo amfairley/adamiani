@@ -234,9 +234,7 @@ The **RSVP** page will consist of a title, a central RSVP form and a border imag
 
 The **FAQ** page will resemble the RSVP page but with a bootstrap accordion component housing the questions instead of a form
 
-### Surface 
-
-## Wireframes 
+#### Wireframes
 
 ### Home page
 - [Desktop](docs/wireframes/homepage_desktop.png)
@@ -262,6 +260,10 @@ The **FAQ** page will resemble the RSVP page but with a bootstrap accordion comp
 - [Desktop](docs/wireframes/faq_desktop.png)
 - [Tablet](docs/wireframes/faq_tablet.png)
 - [Mobile](docs/wireframes/faq_mobile.png)
+
+### Surface 
+
+
 
 ## Technologies Used 
 
