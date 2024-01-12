@@ -355,7 +355,6 @@ main, footer {
     position: relative;
     overflow: hidden;
     border-radius: 50%;
-    vertical-align: top;
     vertical-align: middle;
     margin-top: 100px;
 }
@@ -407,44 +406,59 @@ main, footer {
 }
 
 /* --------------- TRAVEL SECTION ----------------------- */
-
-/* Heading Font-Awesome */
+/* Travel heading Font-Awesome */ 
 .page-heading .fa-plane {
     padding-top: 10px;
     font-size: 20pt;
     color: #fafafa;
 }
 
+/* Travel Positioning */
+/* Travel Content */
 .travel-section {
     min-height: 322px;
     padding: 9.6px;
     color: #4A3C47;
+    margin: auto;
 }
-
 .travel-title {
     font-family: 'parisienne', Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 30pt;
+    font-size: 48pt;
     padding-top: 10px;
     color: #4A3C47;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
-
-.travel-section p {
-    font-family: 'roboto', Arial, Helvetica, sans-serif;
-    padding-top: 16px;
-    text-align: left;
-}
-
-.travel-section img {
-    min-width: 100%;
-    max-height: 322px;
+.travel-image {
+    height: 322px;
     overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 15pt solid transparent;
+}
+#airplane {
+    background-image: url('../images/travel_airplane.webp');
+}
+#svetitskhoveli {
+    background-image: url('../images/travel_cathedral.webp');
+}
+#travel-reception-image {
+    background-image: url('../images/travel_reception.webp');
+}
+.travel-text {
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin: auto;
+
+}
+.travel-map iframe{
+    width: 100%;
+    height: 100%;
+    border: 15pt solid transparent;
 }
 
-.travel-text {
-    width: 90%;
-    margin: auto;
-}
 
 /* --------------- HOTELS PAGE -------------------------- */
 
@@ -863,16 +877,13 @@ footer ul {
     }
 
 
-    /* Travel width set to 90% */
-    .travel-text {
-        width: 90%;
-    }
-    .travel-section {
-        min-height: auto;
-    }
-
+    /* Travel: Map height set */
     .travel-map {
         height: 320px;
+    }
+    /* Travel: text positioning */
+    .travel-text {
+        padding-top: 20px;
     }
 
     /* Hotels: increase page width of content */
