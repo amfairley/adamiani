@@ -13,12 +13,12 @@
     font-weight: 600 !important;
 }
 
-/* .page-title {
+.page-title {
     font-size: 48pt;
     font-family: 'Meie Script', 'Times New Roman', Times, serif;
     color: #e8bcde;
     padding-right: 30px;
-} */
+}
 
 /* .rsvp-faq-title {
     font-family: 'Sail', 'Times New Roman', Times, serif;
@@ -26,20 +26,20 @@
 } */
 /* --------------- SPECIAL POSITIONING ------------------ */
 
-/* .page-heading {
+.page-heading {
     height: 240px;
     padding-top: 160px;
     margin: 0;
     width: 100%;
     background-color: #000;
-    opacity: 0.5;
+    opacity: 0.8;
     display: inline-block;
     text-align: center;
     font-size: 32px; 
     line-height: 30px; 
     padding-left: 16px;
     padding-right: 16px;
-} */
+}
 
 .w95 {
     width: 95%;
@@ -327,26 +327,26 @@ main, footer {
 }
 
 /* Hero Image */
-
 .about-hero-image {
-    background-image: url('../images/index_cathedral.webp');
+    background-image: url('../images/about_us_hero.webp');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom; 
+    background-position: top;
+    background-position-y: -70px; 
     height: 360px;
-    width: 100%;
+    width: 95%;
     padding: 0;
     margin: auto;
 }
 
 
 /* About Us Content */
-
 #about-us-content {
     padding-top: 20px;
     text-align: center;
     color: #4A3C47;
 }
+
 
 .about-us-image {
     height: 240px;
@@ -356,9 +356,24 @@ main, footer {
     overflow: hidden;
     border-radius: 50%;
     vertical-align: top;
-    margin-bottom: 20px;
+    vertical-align: middle;
+    margin-top: 100px;
 }
 
+.about-us-lead-image {
+    margin-top: 30px;
+}
+.about-us-last-image {
+    margin-bottom: 50px;
+}
+
+
+
+
+.baby-image {
+    height:120px;
+    width: 120px;
+}
 .about-us-text {
     position: relative;
     height: auto;
@@ -366,6 +381,14 @@ main, footer {
     display: inline-block;
     text-align: left;
     padding-left: 20px;
+    vertical-align: middle;
+    padding-top: 100px;
+}
+.about-us-lead-paragraph {
+    padding-top: 30px;
+}
+.about-us-last-paragraph {
+    padding-bottom: 50px;
 }
 
 .about-us-text .fa-heart {
@@ -742,8 +765,7 @@ footer ul {
 
     /* About us hero image resize */
     .about-hero-image {
-        width: 95%;
-        margin: auto;
+        background-position-y: 0px;
     }
 
     /* Hotels: increase page width of content */
@@ -825,15 +847,21 @@ footer ul {
         padding-top: 220px;
     }
 
-    /* About-us hero image resize */
-    .about-hero-image {
-        width: 65%;
-    }
-    
     /* About-us text to take up more of the screen */
-    .about-us-text, {
-        width: 90%;
+    .about-us-text {
+        width: 80%;
     }
+    /* About-us page layout changes */
+    .about-us-text {
+        padding-top: 20px;
+    }
+    .about-us-last-paragraph {
+        padding-bottom: 0;
+    }
+    .about-us-image {
+        margin-top: 20px;
+    }
+
 
     /* Travel width set to 90% */
     .travel-text {
@@ -869,7 +897,7 @@ footer ul {
         font-size: 12px;
     }
     #phone-number {
-        padding-top: 25px;
+        padding-top: 10px;
     }
     #email-address {
         padding-top: 10px;
