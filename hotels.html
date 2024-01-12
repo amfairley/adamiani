@@ -5,18 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="adamian, adam, ani, wedding, vow, renewal, georgia, ceremony">
     <meta name="description" content="Come join Adam and Ani in Georgia as they renew their vows!">
-    <meta name="author" content="Adam Michael Fairley"/>
+    <meta name="author" content="Adam Michael Fairley">
 
     <!--Bootstrap link-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    
     <!--Fontawesome link-->
     <script src="https://kit.fontawesome.com/e1041abfbd.js" crossorigin="anonymous"></script>
 
     <!--Hover.css link-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css">
 
     <!--Personal css stylesheet link-->
+    <link rel="preload" fetchpriority="high" as="image" href="assets/images/index_hero_image.webp" type="image/webp">
     <link rel="stylesheet" href="assets/css/style.css">
     
     <!--Favicon links copied from favicon.io-->
@@ -28,13 +29,13 @@
     <title>Adamiani | Hotels</title>
 </head>
 
-<body id="index-body">
+<body>
  
-    <!-- Navigation bar -->
-    <header class="container-fluid row g-0 header-section">
+<!-- Navigation bar -->
+    <header class="container-fluid row g-0" id="header-section">
         <!-- Logo -->
-        <div class="col-12 col-md-6 logo-header">
-            <a href="index.html " role="link" aria-label="Adamiani site logo and link to homepage">
+        <div class="col-12 col-md-6" id="logo-header">
+            <a href="index.html " aria-label="Adamiani site logo and link to homepage">
                 <h1>   
                     <i class="fa-solid fa-champagne-glasses"></i>
                     <span>Adamiani</span>
@@ -46,8 +47,8 @@
             <nav id="nav">
                 <ul class="row g-0 list-inline">
                     <!-- Navbar list items -->
-                    <li class="col-4 col-lg-2 navbaritem ui-menu-colour navlink">
-                        <a href="index.html" class="hvr-shutter-in-vertical" role="link" aria-label="Go back to the website homepage">
+                    <li class="col-4 col-lg-2 navbaritem ui-menu-colour">
+                        <a href="index.html" class="hvr-shutter-in-vertical" aria-label="Go back to the website homepage">
                             <i class="fa fa-home" aria-hidden="true"></i>
                             <p class="uppercase">
                                 Home
@@ -55,7 +56,7 @@
                         </a>
                     </li>
                     <li class="col-4 col-lg-2 navbaritem ui-menu-colour">
-                        <a href="about_us.html" class="hvr-shutter-in-vertical" role="link" aria-label="Go to about us to learn more about Adam and Ani">
+                        <a href="about_us.html" class="hvr-shutter-in-vertical" aria-label="Go to about us to learn more about Adam and Ani">
                             <i class="fa fa-user-group" aria-hidden="true"></i>
                             <p class="uppercase">
                                 About Us
@@ -63,7 +64,7 @@
                         </a>
                     </li>
                     <li class="col-4 col-lg-2 navbaritem ui-menu-colour">
-                        <a href="travel.html" class="hvr-shutter-in-vertical" role="link" aria-label="Go to the Travel section to see travel options">
+                        <a href="travel.html" class="hvr-shutter-in-vertical" aria-label="Go to the Travel section to see travel options">
                             <i class="fa-solid fa-plane-departure"></i>
                             <p class="uppercase">
                                 Travel
@@ -71,7 +72,7 @@
                         </a>
                     </li>
                     <li class="col-4 col-lg-2 navbaritem ui-menu-colour">
-                        <a href="hotels.html" class="hvr-shutter-in-vertical" role="link" aria-label="Go to hotels to see recommended hotel options">
+                        <a href="hotels.html" class="hvr-shutter-in-vertical" aria-label="Go to hotels to see recommended hotel options">
                             <i class="fa-solid fa-hotel"></i>
                             <p class="uppercase active-page">
                                 Hotels
@@ -79,7 +80,7 @@
                         </a>
                     </li>
                     <li class="col-4 col-lg-2 navbaritem ui-menu-colour">
-                        <a href="rsvp.html" class="hvr-shutter-in-vertical" role="link" aria-label="Go to RSVP to let us know your attendance">
+                        <a href="rsvp.html" class="hvr-shutter-in-vertical" aria-label="Go to RSVP to let us know your attendance">
                             <i class="fa-regular fa-calendar-check"></i>
                             <p class="uppercase">
                                 RSVP
@@ -87,7 +88,7 @@
                         </a>
                     </li>
                     <li class="col-4 col-lg-2 navbaritem ui-menu-colour">
-                        <a href="faq.html" class="hvr-shutter-in-vertical" role="link" aria-label="Go to FAQ to answer your questions">
+                        <a href="faq.html" class="hvr-shutter-in-vertical" aria-label="Go to FAQ to answer your questions">
                             <i class="fa-solid fa-clipboard-question"></i>
                             <p class="uppercase">
                                 FAQ
@@ -98,76 +99,95 @@
             </nav>
         </div>
     </header>
-   
-    <!-- Page title -->
-    <section class="container-fluid row page-title-container w95">
-        <h1 class="col-12 page-heading">
-            <span class="page-title">
-                Hotels
-            </span>
-            <br>
-            <i class="fa-solid fa-hotel"></i>
-        </h1>
-    </section>
-    <!-- Hotel options -->
-    <section class="w95 orange-background row" id="hotels-content">
-        <!-- Hotel 1: Rooms Tbilisi -->
-        <div class="col-12 hotel-section">
-            <img src="assets/images/index_cathedral.png" class="hotel-image">
-            <br>
-            <a href="https://roomshotels.com/hotel/tbilisi/" 
-            target="_blank"
-            title="Rooms Tbilsi"
-            class="hotel-link"
-            aria-label="A link to Tblisi Rooms Hotel opening in a new tab">
-                $$$ Rooms Tbilisi $$$
-            </a> 
-            <p>
-                Enjoy your stay in Georgia in style and experience world-class
-                 hospitality at this industrial-chic establishment located in 
-                 the heart of Tbilisi, close to the shopping district. Boasting
-                  a fantastic restaurant and impeccable service, this may be 
-                  the best place to start and end your days whilst visiting.
-            </p>
-        </div>
-        <!-- Hotel 2: Tbilisi Inn-->
-        <div class="col-12 hotel-section">
-            <img src="assets/images/index_cathedral.png" class="hotel-image">
-            <br>
-            <a href="http://tbilisiinn.com/" 
-            target="_blank"
-            title="Tbilisi Inn"
-            class="hotel-link"
-            aria-label="A link to Tblisi Inn Hotel opening in a new tab">
-                $$ Tbilisi Inn $$
-            </a> 
-            <p>
-                For more reasonable budgets, Tblisi Inn is the place to stay. 
-                Located within the quaint and recently renovated Turkish area 
-                of Tbilisi, there is no place better for a traditional coffee 
-                and cake for your early morning energy boost.
-            </p>
-        </div>
-        <!-- Hotel 3: Cabinet Hotel -->
-        <div class="col-12 hotel-section">
-            <img src="assets/images/index_cathedral.png" class="hotel-image">
-            <br>
-            <a href="https://www.tripadvisor.co.uk/Hotel_Review-g294195-d1007062-Reviews-Cabinet_Boutique_Hotel-Tbilisi.html" 
-            target="_blank"
-            title="Cabinet Hotel"
-            class="hotel-link"
-            aria-label="A link to Cabinet Hotel opening in a new tab">
-                $ Cabinet Hotel $
-            </a> 
-            <p>
-                For those on a budget, you cannot go wrong with the cosy 
-                Cabinet Hotel located just a short distance from the hustle 
-                and bustle of the city centre. We hope the comfortable rooms 
-                and great service isn't enough to stop you getting out of 
-                bed in the morning to explore the wonderful city.
-            </p>
-        </div>
-    </section>
+
+    <main>
+        <!-- Page title -->
+        <section class="container-fluid row page-title-container w95 orange-background">
+            <h2 class="col-12 page-heading">
+                <span class="page-title">
+                    Hotels
+                </span>
+                <br>
+                <i class="fa-solid fa-hotel"></i>
+            </h2>
+        </section>
+        <!-- Hotel Options -->
+        <section class="w95 orange-background row">
+            <!-- Hotel 1: Rooms Tbilisi-->
+            <div class="col-12 hotel-section">
+                <h2 class="hotel-option">The Stylish Option:</h2>
+                <!-- Hotel link -->
+                <a href="https://roomshotels.com/hotel/tbilisi/" 
+                target="_blank"
+                title="Rooms Tbilsi"
+                class="hotel-link"
+                aria-label="A link to the Rooms Tbilisi Hotel opening in a new tab">
+                    Rooms Tbilisi
+                </a>
+                <br>
+                <!-- Hotel image -->
+                <img src="assets/images/hotel-fancy.webp" class="hotel-image" alt="An image of a fancy hotel">
+                <br>
+                <!-- Hotel text-->
+                <p class="hotel-text">
+                    Enjoy your stay in Georgia in style and experience world-class
+                     hospitality at this industrial-chic establishment located in 
+                     the heart of Tbilisi, close to the shopping district. Boasting
+                      a fantastic restaurant and impeccable service, this may be 
+                      the best place to start and end your days whilst visiting.
+                </p>
+            </div>
+            <!-- Hotel 2: Rooms Tbilisi-->
+            <div class="col-12 hotel-section">
+                <h2 class="hotel-option">The Chic Option:</h2>
+                <!-- Hotel link -->
+                <a href="http://tbilisiinn.com/" 
+                target="_blank"
+                title="Tbilisi Inn"
+                class="hotel-link"
+                aria-label="A link to Tbilisi Inn Hotel opening in a new tab">    
+                    Tbilisi Inn
+                </a>
+                <br>
+                <!-- Hotel image -->
+                <img src="assets/images/hotel-mid.webp" class="hotel-image" alt="An image of a hotel in the city centre">
+                <br>
+                <!-- Hotel text-->
+                <p class="hotel-text">
+                    For more reasonable budgets, Tblisi Inn is the place to stay. 
+                    Located within the quaint and recently renovated Turkish area 
+                    of Tbilisi, there is no place better for a traditional coffee 
+                    and cake for your early morning energy boost.
+                </p>
+            </div>
+            <!-- Hotel 3: Cabinet Hotel-->
+            <div class="col-12 hotel-section">
+                <h2 class="hotel-option">The Cosy Option:</h2>
+                <!-- Hotel link -->
+                <a href="https://www.tripadvisor.co.uk/Hotel_Review-g294195-d1007062-Reviews-Cabinet_Boutique_Hotel-Tbilisi.html" 
+                target="_blank"
+                title="Cabinet Hotel"
+                class="hotel-link"
+                aria-label="A link to Cabinet Hotel opening in a new tab">
+                    Cabinet Hotel
+                </a>
+                <br>
+                <!-- Hotel image -->
+                <img src="assets/images/hotel-cheap.webp" class="hotel-image" alt="An image of a rustic countryside Inn">
+                <br>
+                <!-- Hotel text-->
+                <p class="hotel-text">
+                    For those on a budget, you cannot go wrong with the cosy 
+                    Cabinet Hotel located in the serene countryside. We hope 
+                    the comfortable rooms and great service isn't enough to 
+                    stop you getting out of bed in the morning to explore the
+                     wonderful surroundings.
+                </p>
+            </div>
+
+        </section>
+    </main>
+
     <!--Footer-->
     <footer id="footer" class="row container-fluid g-0">
         <!-- Contact Details -->
@@ -177,7 +197,7 @@
                 +44(0)7857178957
             </span>
             <span id="email-address">
-                <a id="email-link" href="mailto:adamiani@gmail.com?Vow Renewal 2024" target="_blank" role="link" aria-label="Click to write us an email at adamiani2020@gmail.com">    
+                <a id="email-link" href="mailto:adamiani@gmail.com?subject=Vow_Renewal_2024" target="_blank" aria-label="Click to write us an email at adamiani2020@gmail.com">    
                     <i class="fa-regular fa-envelope"></i>
                     adamiani2020@gmail.com
                 </a>
@@ -188,9 +208,9 @@
             </address>
         </div>
         <!-- Site Logo-Footer-->
-        <div class="d-none d-md-block col-4 logo-footer-container">
-            <a href="index.html"  role="link" aria-label="Adamiani site logo and link to homepage">
-                <h2 class="logo-footer">   
+        <div class="d-none d-md-block col-4" id="logo-footer-container">
+            <a href="index.html" aria-label="Adamiani site logo and link to homepage">
+                <h2 id="logo-footer">   
                     <i class="fa-solid fa-champagne-glasses"></i>
                     <span>Adamiani</span>
                 </h2>
@@ -201,28 +221,28 @@
             <ul class="row list-inline">
                 <!-- Facebook-groom -->
                 <li class="col-3 social-media-links facebook-link">
-                    <a href="https://www.facebook.com/" target="_blank" aria-label="Go to Adam's Facebook page">
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener"  aria-label="Go to the facebook page of the Groom" title="Adam">
                         <i class="fa-brands fa-facebook social-media-button"></i>
-                        <span class="gender"><i class="fa-solid fa-person"></i></span><span class="sr-only">Adam's Facebook page</span>
+                        <span class="gender"><i class="fa-solid fa-person"></i> Groom</span><span class="sr-only">Adam's Facebook page</span>
                     </a>
                 </li>
                 <!-- Facebook-bride -->
-                <li class="col-3 social-media-links facebook-link" aria-label="Go to Ani's Facebook page">
-                    <a href="https://www.facebook.com/" target="_blank">
+                <li class="col-3 social-media-links facebook-link">
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Go to the facebook page of the Bride" title="Ani">
                         <i class="fa-brands fa-facebook social-media-button"></i>
-                        <span class="gender"><i class="fa-solid fa-person-dress"></i></span><span class="sr-only">Ani's Facebook page</span>
+                        <span class="gender"><i class="fa-solid fa-person-dress"></i> Bride</span><span class="sr-only">Ani's Facebook page</span>
                     </a>
                 </li>
                 <!-- Twitter/X -->
                 <li class="col-3 social-media-links twitter-link">
-                    <a href="https://twitter.com/" target="_blank" aria-label="Go to the event twitter page and use the hashtag adamiani">
+                    <a href="https://twitter.com/" target="_blank" rel="noopener" aria-label="Go to the event twitter page and use the hashtag adamiani">
                         <i class="fa-brands fa-x-twitter"></i>
                         <p id="twitter-hash">#adamiani</p>
                     </a>
                 </li>
                 <!-- Instagram -->
                 <li class="col-3 social-media-links instagram-link">
-                    <a href="https://www.instagram.com/" target="_blank" aria-label="Go to the event instagram page and use the hashtag adamiani">
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Go to the event instagram page and use the hashtag adamiani">
                         <i class="fa-brands fa-instagram"></i>
                         <p id="instagram-hash">#adamiani</p>
                     </a>
