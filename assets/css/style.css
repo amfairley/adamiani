@@ -413,7 +413,6 @@ main, footer {
     color: #fafafa;
 }
 
-/* Travel Positioning */
 /* Travel Content */
 .travel-section {
     min-height: 322px;
@@ -468,38 +467,50 @@ main, footer {
     font-size: 20pt;
     color: #fafafa;
 }
-
-#hotels-content {
-    padding-top: 10px;
-    text-align: center;
-    font-family: 'roboto', Arial, Helvetica, sans-serif;
-}
-
-.hotel-section img, .hotel-section a, .hotel-section p{
-    width: 60%;
-    margin: auto;
-    color: #4A3C47;
-}
-
-.hotel-section p {
-    padding-bottom: 10px;
-}
-
 .hotel-section a {
+    text-decoration: none;
     width: auto;
 }
-
-.hotel-link {
-    color: #000;
-    display: inline-block;
+.hotel-section {
+    padding-top: 30px;
+}
+.hotel-option {
+    font-family: 'parisienne', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 48pt;
     padding-top: 10px;
-    font-size: 32px;
+    color: #4A3C47;
+    padding-top: 20px;
+}
+.hotel-link {
+    font-family: 'Courgette', 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 24pt;
+    color: #4A3C47;
+    border-radius: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.hotel-link:hover {
+    color: #e8bcde;
+    background: rgba(0,0,0,0.5)
 }
 
-.hotel-link:hover {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
+.hotel-image {
+    width: 80%;
+    height: auto;
+    padding-top: 20px;
+}
+
+.hotel-text {
+    text-align: center;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    width: 75%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 /* --------------- RSVP PAGE ---------------------------- */
@@ -782,10 +793,6 @@ footer ul {
         background-position-y: 0px;
     }
 
-    /* Hotels: increase page width of content */
-    .hotel-section img, .hotel-section a, .hotel-section p{
-        width: 70%;
-    }
 
     /* FAQ: Move image to title background */
     .question-page-heading {
@@ -886,9 +893,9 @@ footer ul {
         padding-top: 20px;
     }
 
-    /* Hotels: increase page width of content */
-    .hotel-section img, .hotel-section a, .hotel-section p{
-        width: 80%;
+    /* Hotels: Reduce option text size */
+    .hotel-option {
+        font-size: 30pt;
     }
 
     /*FAQ: reduce question font size */
@@ -898,7 +905,7 @@ footer ul {
 }
 
 /* --------- Small Phone Media Queries ------------------ */
-@media screen and (max-width: 576px){
+@media screen and (max-width: 420px){
 
     /* Reduces footer text size and centres content vertically */
     #footer {
@@ -912,6 +919,7 @@ footer ul {
     }
     #email-address {
         padding-top: 10px;
+        font-size: 7pt;
     }
     .social-media-links a p {
         font-size: 12px;
@@ -919,19 +927,24 @@ footer ul {
     }
     .social-media-links .fa-brands {
         padding-top: 6px;
-
-    /* Page-title resize to fit on one line */
+    }
+    /* Hotels: Reduce option text size */
+    .hotel-option {
+        font-size: 24pt;
+    }
+    /* Page-title resize to fit on one line
     .page-title {
         font-size: 28pt;
-    }
+    } */
 
-    /* About us titles to fit on one line */
+    /* About us titles to fit on one line
     .about-us-lead-text {
         font-size: 22pt;
-    }
+    } */
 
-    /*FAQ: reduce question font size */
-    .accordion-button {
+    /* 
+    FAQ: reduce question font size */
+    /* .accordion-button {
         font-size: 14pt;
-    }
+    } */
 }
