@@ -5,18 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="adamian, adam, ani, wedding, vow, renewal, georgia, ceremony">
     <meta name="description" content="Come join Adam and Ani in Georgia as they renew their vows!">
-    <meta name="author" content="Adam Michael Fairley"/>
+    <meta name="author" content="Adam Michael Fairley">
 
     <!--Bootstrap link-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    
     <!--Fontawesome link-->
     <script src="https://kit.fontawesome.com/e1041abfbd.js" crossorigin="anonymous"></script>
 
     <!--Hover.css link-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css">
 
     <!--Personal css stylesheet link-->
+    <link rel="preload" fetchpriority="high" as="image" href="assets/images/index_hero_image.webp" type="image/webp">
     <link rel="stylesheet" href="assets/css/style.css">
     
     <!--Favicon links copied from favicon.io-->
@@ -28,13 +29,13 @@
     <title>Adamiani | Travel</title>
 </head>
 
-<body id="index-body">
+<body>
  
-    <!-- Navigation bar -->
-    <header class="container-fluid row g-0 header-section">
+<!-- Navigation bar -->
+    <header class="container-fluid row g-0" id="header-section">
         <!-- Logo -->
-        <div class="col-12 col-md-6 logo-header">
-            <a href="index.html " role="link" aria-label="Adamiani site logo and link to homepage">
+        <div class="col-12 col-md-6" id="logo-header">
+            <a href="index.html " aria-label="Adamiani site logo and link to homepage">
                 <h1>   
                     <i class="fa-solid fa-champagne-glasses"></i>
                     <span>Adamiani</span>
@@ -46,8 +47,8 @@
             <nav id="nav">
                 <ul class="row g-0 list-inline">
                     <!-- Navbar list items -->
-                    <li class="col-4 col-lg-2 navbaritem ui-menu-colour navlink">
-                        <a href="index.html" class="hvr-shutter-in-vertical" role="link" aria-label="Go back to the website homepage">
+                    <li class="col-4 col-lg-2 navbaritem ui-menu-colour">
+                        <a href="index.html" class="hvr-shutter-in-vertical" aria-label="Go back to the website homepage">
                             <i class="fa fa-home" aria-hidden="true"></i>
                             <p class="uppercase">
                                 Home
@@ -55,7 +56,7 @@
                         </a>
                     </li>
                     <li class="col-4 col-lg-2 navbaritem ui-menu-colour">
-                        <a href="about_us.html" class="hvr-shutter-in-vertical" role="link" aria-label="Go to about us to learn more about Adam and Ani">
+                        <a href="about_us.html" class="hvr-shutter-in-vertical" aria-label="Go to about us to learn more about Adam and Ani">
                             <i class="fa fa-user-group" aria-hidden="true"></i>
                             <p class="uppercase">
                                 About Us
@@ -63,7 +64,7 @@
                         </a>
                     </li>
                     <li class="col-4 col-lg-2 navbaritem ui-menu-colour">
-                        <a href="travel.html" class="hvr-shutter-in-vertical" role="link" aria-label="Go to the Travel section to see travel options">
+                        <a href="travel.html" class="hvr-shutter-in-vertical" aria-label="Go to the Travel section to see travel options">
                             <i class="fa-solid fa-plane-departure"></i>
                             <p class="uppercase active-page">
                                 Travel
@@ -71,7 +72,7 @@
                         </a>
                     </li>
                     <li class="col-4 col-lg-2 navbaritem ui-menu-colour">
-                        <a href="hotels.html" class="hvr-shutter-in-vertical" role="link" aria-label="Go to hotels to see recommended hotel options">
+                        <a href="hotels.html" class="hvr-shutter-in-vertical" aria-label="Go to hotels to see recommended hotel options">
                             <i class="fa-solid fa-hotel"></i>
                             <p class="uppercase">
                                 Hotels
@@ -79,7 +80,7 @@
                         </a>
                     </li>
                     <li class="col-4 col-lg-2 navbaritem ui-menu-colour">
-                        <a href="rsvp.html" class="hvr-shutter-in-vertical" role="link" aria-label="Go to RSVP to let us know your attendance">
+                        <a href="rsvp.html" class="hvr-shutter-in-vertical" aria-label="Go to RSVP to let us know your attendance">
                             <i class="fa-regular fa-calendar-check"></i>
                             <p class="uppercase">
                                 RSVP
@@ -87,7 +88,7 @@
                         </a>
                     </li>
                     <li class="col-4 col-lg-2 navbaritem ui-menu-colour">
-                        <a href="faq.html" class="hvr-shutter-in-vertical" role="link" aria-label="Go to FAQ to answer your questions">
+                        <a href="faq.html" class="hvr-shutter-in-vertical" aria-label="Go to FAQ to answer your questions">
                             <i class="fa-solid fa-clipboard-question"></i>
                             <p class="uppercase">
                                 FAQ
@@ -98,139 +99,135 @@
             </nav>
         </div>
     </header>
-   
-    <!-- Page title -->
-    <section class="container-fluid row page-title-container orange-background w95">
-        <h1 class="col-12 page-heading">
-            <span class="page-title">
-                Travel
-            </span>
-            <br>
-            <i class="fa-solid fa-plane"></i>
-        </h1>
-    </section>
-    <!-- Flight travel information -->
-    <section class="row w95 orange-background">
-        <div class="col-12 travel-title">
-            <h2>Flights</h2>
-        </div>
-    </section>
-    <section class ="row w95 orange-background">
-        <!-- Flight image -->
-        <div class="d-none d-lg-block col-4 travel-section">
-            <img src="assets/images/index_cathedral.png">
-        </div>
-        <!-- Flight text tablet and above -->
-        <div class="d-none d-md-block col-12 col-md-6 col-lg-4 travel-section">
-            <p class="travel-text">
-                For those flying, you have the choice of flying into Tbilisi or
-                 Kutaisi international airports. Though Kutaisi will require a 
-                 3-4 hour drive to Tbilisi so be prepared for a road trip. 
-                 Flying with a layover at Istanbul cannot be avoided, 
-                 especially when travelling from the UK, so with that in mind 
-                 Turkish Airways and Pegasus are our airlines of choice. 
-            </p>
-        </div>
-        <!-- Flight map -->
-        <div class="col-12 col-md-6 col-lg-4 travel-section travel-map">
-            <iframe 
-            title="Tbilisi Internation Airport map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23842.78988662399!2d44.9437546316756!3d41.66981127843032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440fd4ec5da8c7%3A0xccb68c40c8eecbc1!2sTbilisi%20International%20Airport!5e0!3m2!1sen!2suk!4v1704640326770!5m2!1sen!2suk" 
-            width= 100% height= 100% 
-            style="border:0;" allowfullscreen="" 
-            loading="lazy" 
-            referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-        </div>
-        <!-- Flight text mobile -->
-        <div class="d-block d-md-none col-12 col-md-6 col-lg-4 travel-section">
-            <p class="travel-text">
-                For those flying, you have the choice of flying into Tbilisi or
-                 Kutaisi international airports. Though Kutaisi will require a 
-                 3-4 hour drive to Tbilisi so be prepared for a road trip. 
-                 Flying with a layover at Istanbul cannot be avoided, 
-                 especially when travelling from the UK, so with that in mind 
-                 Turkish Airways and Pegasus are our airlines of choice. 
-            </p>
-        </div>
-    </section>
-    <!-- Ceremony travel information -->
-    <section class="row w95 travel-title orange-background">
-        <div class="col-12 travel-title">
-            <h2>Ceremony</h2>
-        </div>
-    </section>
-    <section class ="row w95 orange-background">
-        <!-- Ceremony map -->
-        <div class="col-12 col-md-6 col-lg-4 travel-section travel-map">
-            <iframe 
-            title="Svetitskhoveli Cathedral map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11889.41173109102!2d44.710656313898255!3d41.84222966766011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40446f702cd34f6f%3A0xec4cd609df7d28da!2sSvetitskhoveli%20Cathedral!5e0!3m2!1sen!2suk!4v1704643316002!5m2!1sen!2suk" 
-            width= 100% height= 100% 
-            style="border:0;" allowfullscreen="" 
-            loading="lazy" 
-            referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-        </div>
-        <!-- Ceremony text -->
-        <div class="col-12 col-md-6 col-lg-4 travel-section">
-            <p class="travel-text">
-                The ceremony will be held one city over from Tbilisi, in the 
-                old capital; Mtskheta. We recommend taxiing, using either the 
-                Yandex taxi app or Bolt.
-            </p>
-        </div>
-        <!-- Ceremony image -->
-        <div class="d-none d-lg-block col-4 travel-section">
-            <img src="assets/images/index_cathedral.png">
-        </div>
-    </section>
-    <!-- Reception travel information -->
-    <section class="row w95 travel-title orange-background">
-        <div class="col-12 travel-title">
-            <h2>Reception</h2>
-        </div>
-    </section>
-    <section class ="row w95 orange-background">
-        <!-- Reception image -->
-        <div class="d-none d-lg-block col-4 travel-section">
-            <img src="assets/images/index_cathedral.png">
-        </div>
-        <!-- Reception text tablet and above-->
-        <div class="d-none d-md-block col-12 col-md-6 col-lg-4 travel-section">
-            <p class="travel-text">
-                Krtsanisi residence is located within Tbilisi and again, we 
-                would recommend taxiing if you are not attending the religious 
-                ceremony. There will be buses available for those joining us at
-                 the religious ceremony to ferry you to the reception and its 
-                 location allows easy availability of taxis at the end of the 
-                 night.
-            </p>
-        </div>
-        <!-- Reception map -->
-        <div class="col-12 col-md-6 col-lg-4 travel-section travel-map">
-            <iframe 
-            title="Krtsanisi residence map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23842.14732116764!2d44.79191523167583!3d41.67154617832213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440c6ef35872cb%3A0x4b9420b28e281f82!2sKrtsanisi%20Residence%20Complex!5e0!3m2!1sen!2suk!4v1704643449280!5m2!1sen!2suk" 
-            width= 100% height= 100% 
-            style="border:0;" allowfullscreen="" 
-            loading="lazy" 
-            referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-        </div>
-        <!-- Reception text mobile -->
-        <div class="d-block d-md-none col-12 col-md-6 col-lg-4 travel-section">
-            <p class="travel-text">
-                Krtsanisi residence is located within Tbilisi and again, we 
-                would recommend taxiing if you are not attending the religious 
-                ceremony. There will be buses available for those joining us at
-                 the religious ceremony to ferry you to the reception and its 
-                 location allows easy availability of taxis at the end of the 
-                 night.
-            </p>
-        </div>
-    </section>
 
+    <main>
+        <!-- Page title -->
+        <section class="container-fluid row page-title-container w95 orange-background">
+            <h2 class="col-12 page-heading">
+                <span class="page-title">
+                    Travel
+                </span>
+                <br>
+                <i class="fa-solid fa-plane"></i>
+            </h2>
+        </section>
+        <!-- Travel information -->
+        <section class="w95 orange-background">
+            <!-- Flight section -->
+            <div class="row travel-section">
+                <!-- Flight title -->
+                <h2 class="col-12 travel-title">Flights</h2>
+                <!-- Flight image -->
+                <div class="d-none d-lg-block col-4 travel-image" id="airplane" role="img" aria-label="An airplane taking off">
+                </div>
+                <!-- Flight text tablet and above -->
+                <div class="d-none d-md-block col-12 col-md-6 col-lg-4 travel-text">
+                    <p>
+                        For those flying, you have the choice of flying into Tbilisi or
+                        Kutaisi international airports. Though Kutaisi will require a 
+                        3-4 hour drive to Tbilisi so be prepared for a road trip. 
+                        Flying with a layover at Istanbul cannot be avoided, 
+                        especially when travelling from the UK, so with that in mind 
+                        Turkish Airways and Pegasus are our airlines of choice. 
+                    </p>
+                </div>
+                <!-- Flight Map -->
+                <div class="col-12 col-md-6 col-lg-4  travel-map">
+                    <iframe 
+                    title="Tbilisi Internation Airport map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23842.78988662399!2d44.9437546316756!3d41.66981127843032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440fd4ec5da8c7%3A0xccb68c40c8eecbc1!2sTbilisi%20International%20Airport!5e0!3m2!1sen!2suk!4v1704640326770!5m2!1sen!2suk" 
+                    style="border:0;" allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <!-- Flight text mobile -->
+                <div class="d-block d-md-none col-12 col-md-6 col-lg-4 travel-text">
+                    <p>
+                        For those flying, you have the choice of flying into Tbilisi or
+                        Kutaisi international airports. Though Kutaisi will require a 
+                        3-4 hour drive to Tbilisi so be prepared for a road trip. 
+                        Flying with a layover at Istanbul cannot be avoided, 
+                        especially when travelling from the UK, so with that in mind 
+                        Turkish Airways and Pegasus are our airlines of choice. 
+                    </p>
+                </div>
+            </div>
+            <!-- Ceremony section -->
+            <div class="row travel-section">
+                <!-- Ceremony title -->
+                <h2 class="col-12 travel-title">Ceremony</h2>
+                <!-- Ceremony map -->
+                <div class="col-12 col-md-6 col-lg-4  travel-map">
+                    <iframe 
+                    title="Svetitskhoveli Cathedral map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11889.41173109102!2d44.710656313898255!3d41.84222966766011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40446f702cd34f6f%3A0xec4cd609df7d28da!2sSvetitskhoveli%20Cathedral!5e0!3m2!1sen!2suk!4v1704643316002!5m2!1sen!2suk" 
+                    style="border:0;" allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <!-- Ceremony text -->
+                <div class="col-12 col-md-6 col-lg-4 travel-text">
+                    <p>
+                        The ceremony will be held one city over from Tbilisi, in the 
+                        old capital; Mtskheta. We recommend taxiing, using either the 
+                        Yandex taxi app or Bolt.
+                    </p>
+                </div>
+                <!-- Ceremony image -->
+                <div class="d-none d-lg-block col-4 travel-image" id="svetitskhoveli" role="img" aria-label="Drone shot of Svetitskhoveli cathedral in Mtskheta">
+                </div>
+            </div>
+            <!-- Reception section -->
+            <div class="row travel-section">
+                <!-- Reception title -->
+                <h2 class="col-12 travel-title">Reception</h2>
+                <!-- Reception image -->
+                <div class="d-none d-lg-block col-4 travel-image" id="travel-reception-image" role="img" aria-label="An image of a reception table centre piece">
+                </div>
+                <!-- Reception text tablet and above -->
+                <div class="d-none d-md-block col-12 col-md-6 col-lg-4 travel-text">
+                    <p>
+                        Krtsanisi residence is located within Tbilisi and again, we 
+                        would recommend taxiing if you are not attending the religious 
+                        ceremony. There will be buses available for those joining us at
+                        the religious ceremony to ferry you to the reception and its 
+                        location allows easy availability of taxis at the end of the 
+                        night. 
+                    </p>
+                </div>
+                <!-- Reception Map -->
+                <div class="col-12 col-md-6 col-lg-4  travel-map">
+                    <iframe 
+                    title="Krtsanisi residence map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23842.14732116764!2d44.79191523167583!3d41.67154617832213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440c6ef35872cb%3A0x4b9420b28e281f82!2sKrtsanisi%20Residence%20Complex!5e0!3m2!1sen!2suk!4v1704643449280!5m2!1sen!2suk" 
+                    style="border:0;" allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <!-- Reception text mobile -->
+                <div class="d-block d-md-none col-12 col-md-6 col-lg-4 travel-text">
+                    <p>
+                        Krtsanisi residence is located within Tbilisi and again, we 
+                        would recommend taxiing if you are not attending the religious 
+                        ceremony. There will be buses available for those joining us at
+                        the religious ceremony to ferry you to the reception and its 
+                        location allows easy availability of taxis at the end of the 
+                        night.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+            <!-- Flight map -->
+
+
+
+    </main>
+    
+    <!--Footer-->
     <footer id="footer" class="row container-fluid g-0">
         <!-- Contact Details -->
         <div class="col-6 col-md-4 contact-details">
@@ -239,7 +236,7 @@
                 +44(0)7857178957
             </span>
             <span id="email-address">
-                <a id="email-link" href="mailto:adamiani@gmail.com?Vow Renewal 2024" target="_blank" role="link" aria-label="Click to write us an email at adamiani2020@gmail.com">    
+                <a id="email-link" href="mailto:adamiani@gmail.com?subject=Vow_Renewal_2024" target="_blank" aria-label="Click to write us an email at adamiani2020@gmail.com">    
                     <i class="fa-regular fa-envelope"></i>
                     adamiani2020@gmail.com
                 </a>
@@ -250,9 +247,9 @@
             </address>
         </div>
         <!-- Site Logo-Footer-->
-        <div class="d-none d-md-block col-4 logo-footer-container">
-            <a href="index.html"  role="link" aria-label="Adamiani site logo and link to homepage">
-                <h2 class="logo-footer">   
+        <div class="d-none d-md-block col-4" id="logo-footer-container">
+            <a href="index.html" aria-label="Adamiani site logo and link to homepage">
+                <h2 id="logo-footer">   
                     <i class="fa-solid fa-champagne-glasses"></i>
                     <span>Adamiani</span>
                 </h2>
@@ -263,28 +260,28 @@
             <ul class="row list-inline">
                 <!-- Facebook-groom -->
                 <li class="col-3 social-media-links facebook-link">
-                    <a href="https://www.facebook.com/" target="_blank" aria-label="Go to Adam's Facebook page">
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener"  aria-label="Go to the facebook page of the Groom" title="Adam">
                         <i class="fa-brands fa-facebook social-media-button"></i>
-                        <span class="gender"><i class="fa-solid fa-person"></i></span><span class="sr-only">Adam's Facebook page</span>
+                        <span class="gender"><i class="fa-solid fa-person"></i> Groom</span><span class="sr-only">Adam's Facebook page</span>
                     </a>
                 </li>
                 <!-- Facebook-bride -->
-                <li class="col-3 social-media-links facebook-link" aria-label="Go to Ani's Facebook page">
-                    <a href="https://www.facebook.com/" target="_blank">
+                <li class="col-3 social-media-links facebook-link">
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Go to the facebook page of the Bride" title="Ani">
                         <i class="fa-brands fa-facebook social-media-button"></i>
-                        <span class="gender"><i class="fa-solid fa-person-dress"></i></span><span class="sr-only">Ani's Facebook page</span>
+                        <span class="gender"><i class="fa-solid fa-person-dress"></i> Bride</span><span class="sr-only">Ani's Facebook page</span>
                     </a>
                 </li>
                 <!-- Twitter/X -->
                 <li class="col-3 social-media-links twitter-link">
-                    <a href="https://twitter.com/" target="_blank" aria-label="Go to the event twitter page and use the hashtag adamiani">
+                    <a href="https://twitter.com/" target="_blank" rel="noopener" aria-label="Go to the event twitter page and use the hashtag adamiani">
                         <i class="fa-brands fa-x-twitter"></i>
                         <p id="twitter-hash">#adamiani</p>
                     </a>
                 </li>
                 <!-- Instagram -->
                 <li class="col-3 social-media-links instagram-link">
-                    <a href="https://www.instagram.com/" target="_blank" aria-label="Go to the event instagram page and use the hashtag adamiani">
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Go to the event instagram page and use the hashtag adamiani">
                         <i class="fa-brands fa-instagram"></i>
                         <p id="instagram-hash">#adamiani</p>
                     </a>
