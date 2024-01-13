@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="adamian, adam, ani, wedding, vow, renewal, georgia, ceremony">
     <meta name="description" content="Come join Adam and Ani in Georgia as they renew their vows!">
-    <meta name="author" content="Adam Michael Fairley" />
+    <meta name="author" content="Adam Michael Fairley">
 
     <!--Bootstrap link-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    
     <!--Fontawesome link-->
     <script src="https://kit.fontawesome.com/e1041abfbd.js" crossorigin="anonymous"></script>
 
     <!--Hover.css link-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
-        type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css">
 
     <!--Personal css stylesheet link-->
+    <link rel="preload" fetchpriority="high" as="image" href="assets/images/index_hero_image.webp" type="image/webp">
     <link rel="stylesheet" href="assets/css/style.css">
-
+    
     <!--Favicon links copied from favicon.io-->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
@@ -30,14 +29,14 @@
     <title>Adamiani | RSVP</title>
 </head>
 
-<body id="index-body">
-
-    <!-- Navigation bar -->
-    <header class="container-fluid row g-0 header-section">
+<body>
+ 
+<!-- Navigation bar -->
+    <header class="container-fluid row g-0" id="header-section">
         <!-- Logo -->
-        <div class="col-12 col-md-6 logo-header">
-            <a href="index.html " role="link" aria-label="Adamiani site logo and link to homepage">
-                <h1>
+        <div class="col-12 col-md-6" id="logo-header">
+            <a href="index.html " aria-label="Adamiani site logo and link to homepage">
+                <h1>   
                     <i class="fa-solid fa-champagne-glasses"></i>
                     <span>Adamiani</span>
                 </h1>
@@ -48,9 +47,8 @@
             <nav id="nav">
                 <ul class="row g-0 list-inline">
                     <!-- Navbar list items -->
-                    <li class="col-4 col-lg-2 navbaritem ui-menu-colour navlink">
-                        <a href="index.html" class="hvr-shutter-in-vertical" role="link"
-                            aria-label="Go back to the website homepage">
+                    <li class="col-4 col-lg-2 navbaritem ui-menu-colour">
+                        <a href="index.html" class="hvr-shutter-in-vertical" aria-label="Go back to the website homepage">
                             <i class="fa fa-home" aria-hidden="true"></i>
                             <p class="uppercase">
                                 Home
@@ -58,8 +56,7 @@
                         </a>
                     </li>
                     <li class="col-4 col-lg-2 navbaritem ui-menu-colour">
-                        <a href="about_us.html" class="hvr-shutter-in-vertical" role="link"
-                            aria-label="Go to about us to learn more about Adam and Ani">
+                        <a href="about_us.html" class="hvr-shutter-in-vertical" aria-label="Go to about us to learn more about Adam and Ani">
                             <i class="fa fa-user-group" aria-hidden="true"></i>
                             <p class="uppercase">
                                 About Us
@@ -67,8 +64,7 @@
                         </a>
                     </li>
                     <li class="col-4 col-lg-2 navbaritem ui-menu-colour">
-                        <a href="travel.html" class="hvr-shutter-in-vertical" role="link"
-                            aria-label="Go to the Travel section to see travel options">
+                        <a href="travel.html" class="hvr-shutter-in-vertical" aria-label="Go to the Travel section to see travel options">
                             <i class="fa-solid fa-plane-departure"></i>
                             <p class="uppercase">
                                 Travel
@@ -76,8 +72,7 @@
                         </a>
                     </li>
                     <li class="col-4 col-lg-2 navbaritem ui-menu-colour">
-                        <a href="hotels.html" class="hvr-shutter-in-vertical" role="link"
-                            aria-label="Go to hotels to see recommended hotel options">
+                        <a href="hotels.html" class="hvr-shutter-in-vertical" aria-label="Go to hotels to see recommended hotel options">
                             <i class="fa-solid fa-hotel"></i>
                             <p class="uppercase">
                                 Hotels
@@ -85,8 +80,7 @@
                         </a>
                     </li>
                     <li class="col-4 col-lg-2 navbaritem ui-menu-colour">
-                        <a href="rsvp.html" class="hvr-shutter-in-vertical" role="link"
-                            aria-label="Go to RSVP to let us know your attendance">
+                        <a href="rsvp.html" class="hvr-shutter-in-vertical" aria-label="Go to RSVP to let us know your attendance">
                             <i class="fa-regular fa-calendar-check"></i>
                             <p class="uppercase active-page">
                                 RSVP
@@ -94,8 +88,7 @@
                         </a>
                     </li>
                     <li class="col-4 col-lg-2 navbaritem ui-menu-colour">
-                        <a href="faq.html" class="hvr-shutter-in-vertical" role="link"
-                            aria-label="Go to FAQ to answer your questions">
+                        <a href="faq.html" class="hvr-shutter-in-vertical" aria-label="Go to FAQ to answer your questions">
                             <i class="fa-solid fa-clipboard-question"></i>
                             <p class="uppercase">
                                 FAQ
@@ -107,29 +100,44 @@
         </div>
     </header>
 
-    <section class="row g-0 w95">
-        <!-- Left border Image -->
-        <div class="d-none d-lg-inline-block col-2 side-image"></div>
-        <div class="col-12 col-lg-8 rsvp-faq-body">
-            <!-- Page Title-->
-            <section class="row">
-                <div class="col-12 question-page-heading orange-background">
-                    <h1 class="page-heading">
+    <main>
+        <!-- Mobile and tablet title -->
+        <div class="d-block d-lg-none rsvp-faq-tablet" role="img" aria-label="Adam and Ani in a car on their wedding day">
+            <h2 class="page-heading-rsvp-faq">
+                <span class="page-title rsvp-faq-title">
+                    RSVP
+                </span>
+                <br>
+                <i class="fa-regular fa-calendar-check"></i>
+            </h2>
+        </div>
+        <!-- Desktop layout -->
+        <div class="row g-0 w95">
+            <!-- Left image-->
+            <div class="d-none d-lg-inline-block col-3 side-image side-image-left" role="img" aria-label="Adam and Ani walking in a field at their wedding"></div>
+            <!-- Page title and form section -->
+            <div class="col-10 col-lg-6 container-fluid">
+                <section class="d-none d-lg-inline page-title-container orange-background">
+                    <h2 class="page-heading">
                         <span class="page-title rsvp-faq-title">
                             RSVP
                         </span>
                         <br>
                         <i class="fa-regular fa-calendar-check"></i>
-                    </h1>
-                </div>
+                    </h2>
+                </section>
+                <!-- RSVP deadline-->
+                <p class="orange-background" id="rsvp-reminder">
+                    Please RSVP by 01/01/2025
+                </p>
                 <!-- RSVP form -->
-                <form class="col-12 orange-background" action="" method="POST">
+                <form class="col-12 orange-background" action="response.html" method="GET">
                     <!-- Name -->
                     <div class="form-group row form-line">
                         <label for="name" class="col-12 col-md-4 col-form-label">My name is: </label>
                         <div class="cpl-12 col-md-8">
                             <input type="text" class="form-control" id="name" name="guest"
-                                placeholder="Namey Mcnamerson" required />
+                                placeholder="Namey Mcnamerson" required>
                         </div>
                     </div>
                     <!-- Email -->
@@ -137,75 +145,76 @@
                         <label for="email" class="col-12 col-md-4 col-form-label">My email address is: </label>
                         <div class="col-12 col-md-8">
                             <input type="email" class="form-control" id="email" name="guest-email"
-                                placeholder="n.mcnamerson@aol.co.uk" required />
+                                placeholder="n.mcnamerson@aol.co.uk" required>
                         </div>
                     </div>
                     <!-- Plus one -->
                     <div class="form-group row form-line">
-                        <label for="plus-one" class="col-12 col-md-4 col-form-label">Please provide the invitee's name if you are
+                        <label for="plus-one" class="col-12 col-lg-4 col-form-label">Please provide the invitee's name if you are
                             a plus one: </label>
-                        <div class="col-12 col-md-8">
-                            <textarea id="plus-one" name="plus-one" class="form-control"
-                                placeholder="If applicable enter the invitee's name here."></textarea>
+                        <div class="col-12 col-lg-8">
+                            <input id="plus-one" name="plus-one" class="form-control"
+                                placeholder="If applicable enter the invitee's name here.">
                         </div>
                     </div>
                     <!-- Attending -->
                     <div class="form-group row form-line">
                         <label for="attending" class="col-12 col-md-4 col-form-label">I will be attending: </label>
                         <div class="col-12 col-md-8">
-                            <select class="form-control" id="attending" required>
-                                <option>Both</option>
-                                <option>Religious Ceremony Only</option>
-                                <option>Reception Only</option>
+                            <select class="form-control" name="attending" id="attending" required>
+                                <option value="" disabled selected>Please choose:</option>
+                                <option value="ceremony">Religious Ceremony Only</option>
+                                <option value="reception">Reception Only</option>
+                                <option value="both">Both</option>
                             </select>
                         </div>
                     </div>
                     <!-- Reception meal options -->
-                    <h2 class="meal-option">Reception Meal Options</h2>
+                    <h2 id="meal-question">Reception Meal Options</h2>
                     <!-- Starter options -->
                     <h3 class="meal-option">Starter</h3>
-                    <div class="form-group row form-line">
-                        <div class="form-check form-check-inline food-option">
+                    <div class="form-group row justify-content-center form-line meal-choices">
+                        <div class="form-check form-check-inline food-option col-3">
                             <input class="form-check-input" type="radio" name="starter" id="starter1" value="soup">
                             <label class="form-check-label" for="starter1">Vegetable Soup</label>
                         </div>
-                        <div class="form-check form-check-inline food-option">
+                        <div class="form-check form-check-inline food-option col-3">
                             <input class="form-check-input" type="radio" name="starter" id="starter2" value="meat">
                             <label class="form-check-label" for="starter2">Meat Option</label>
                         </div>
-                        <div class="form-check form-check-inline food-option">
+                        <div class="form-check form-check-inline food-option col-3">
                             <input class="form-check-input" type="radio" name="starter" id="starter3" value="fish">
                             <label class="form-check-label" for="starter3">Fish Option</label>
                         </div>
                     </div>
                     <!-- Main options -->
                     <h3 class="meal-option">Main Course</h3>
-                    <div class="form-group row form-line">
-                        <div class="form-check form-check-inline food-option">
+                    <div class="form-group row justify-content-center form-line meal-choices">
+                        <div class="form-check form-check-inline food-option col-3">
                             <input class="form-check-input" type="radio" name="mains" id="mains1" value="vegetarian">
                             <label class="form-check-label" for="mains1">Vegetarian Option</label>
                         </div>
-                        <div class="form-check form-check-inline food-option">
+                        <div class="form-check form-check-inline food-option col-3">
                             <input class="form-check-input" type="radio" name="mains" id="mains2" value="meat">
                             <label class="form-check-label" for="mains2">Meat Option</label>
                         </div>
-                        <div class="form-check form-check-inline food-option">
+                        <div class="form-check form-check-inline food-option col-3">
                             <input class="form-check-input" type="radio" name="mains" id="mains3" value="fish">
                             <label class="form-check-label" for="mains3">Fish Option</label>
                         </div>
                     </div>
                     <!-- Dessert options -->
                     <h3 class="meal-option">Dessert</h3>
-                    <div class="form-group row form-line">
-                        <div class="form-check form-check-inline food-option">
+                    <div class="form-group row justify-content-center form-line meal-choices">
+                        <div class="form-check form-check-inline food-option col-3">
                             <input class="form-check-input" type="radio" name="dessert" id="dessert1" value="cheese">
                             <label class="form-check-label" for="dessert1">Local Cheese Board</label>
                         </div>
-                        <div class="form-check form-check-inline food-option">
+                        <div class="form-check form-check-inline food-option col-3">
                             <input class="form-check-input" type="radio" name="dessert" id="dessert2" value="brownie">
                             <label class="form-check-label" for="dessert2">Chocolate Brownie</label>
                         </div>
-                        <div class="form-check form-check-inline food-option">
+                        <div class="form-check form-check-inline food-option col-3">
                             <input class="form-check-input" type="radio" name="dessert" id="dessert3"
                                 value="pannacotta">
                             <label class="form-check-label" for="dessert3">Panna Cotta</label>
@@ -213,11 +222,11 @@
                     </div>
                     <!-- Song recommendation -->
                     <div class="form-group row form-line">
-                        <label for="song" class="col-12 col-md-4 col-form-label">I think you should play this at the disco:
+                        <label for="song" class="col-12 col-lg-4 col-form-label">I think you should play this at the disco:
                         </label>
-                        <div class="col-12 col-md-8">
+                        <div class="col-12 col-lg-8">
                             <input type="text" class="form-control" id="song" name="song"
-                                placeholder="L-O-V-E - Nat King Cole" />
+                                placeholder="L-O-V-E - Nat King Cole">
                         </div>
                     </div>
                     <!-- Any other info -->
@@ -231,12 +240,11 @@
                         <button type="submit" class="btn btn-info hero-rsvp">RSVP</button>
                     </div>
                 </form>
-            </section>
+            </div>
+            <!-- Right Image-->
+            <div class="d-none d-lg-inline-block col-3 side-image side-image-right" role="img" aria-label="Adam and Ani walking in a field at their wedding"></div>
         </div>
-        <!-- Right/bottom border image -->
-        <div class="d-none d-lg-inline-block col-2 side-image"></div>
-        <image class="d-lg-none col-12 bottom-border-image"></image>
-    </section>
+    </main>
 
     <!--Footer-->
     <footer id="footer" class="row container-fluid g-0">
@@ -247,8 +255,7 @@
                 +44(0)7857178957
             </span>
             <span id="email-address">
-                <a id="email-link" href="mailto:adamiani@gmail.com?Vow Renewal 2024" target="_blank" role="link"
-                    aria-label="Click to write us an email at adamiani2020@gmail.com">
+                <a id="email-link" href="mailto:adamiani@gmail.com?subject=Vow_Renewal_2024" target="_blank" aria-label="Click to write us an email at adamiani2020@gmail.com">    
                     <i class="fa-regular fa-envelope"></i>
                     adamiani2020@gmail.com
                 </a>
@@ -259,9 +266,9 @@
             </address>
         </div>
         <!-- Site Logo-Footer-->
-        <div class="d-none d-md-block col-4 logo-footer-container">
-            <a href="index.html" role="link" aria-label="Adamiani site logo and link to homepage">
-                <h2 class="logo-footer">
+        <div class="d-none d-md-block col-4" id="logo-footer-container">
+            <a href="index.html" aria-label="Adamiani site logo and link to homepage">
+                <h2 id="logo-footer">   
                     <i class="fa-solid fa-champagne-glasses"></i>
                     <span>Adamiani</span>
                 </h2>
@@ -272,32 +279,28 @@
             <ul class="row list-inline">
                 <!-- Facebook-groom -->
                 <li class="col-3 social-media-links facebook-link">
-                    <a href="https://www.facebook.com/" target="_blank" aria-label="Go to Adam's Facebook page">
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener"  aria-label="Go to the facebook page of the Groom" title="Adam">
                         <i class="fa-brands fa-facebook social-media-button"></i>
-                        <span class="gender"><i class="fa-solid fa-person"></i></span><span class="sr-only">Adam's
-                            Facebook page</span>
+                        <span class="gender"><i class="fa-solid fa-person"></i> Groom</span><span class="sr-only">Adam's Facebook page</span>
                     </a>
                 </li>
                 <!-- Facebook-bride -->
-                <li class="col-3 social-media-links facebook-link" aria-label="Go to Ani's Facebook page">
-                    <a href="https://www.facebook.com/" target="_blank">
+                <li class="col-3 social-media-links facebook-link">
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Go to the facebook page of the Bride" title="Ani">
                         <i class="fa-brands fa-facebook social-media-button"></i>
-                        <span class="gender"><i class="fa-solid fa-person-dress"></i></span><span class="sr-only">Ani's
-                            Facebook page</span>
+                        <span class="gender"><i class="fa-solid fa-person-dress"></i> Bride</span><span class="sr-only">Ani's Facebook page</span>
                     </a>
                 </li>
                 <!-- Twitter/X -->
                 <li class="col-3 social-media-links twitter-link">
-                    <a href="https://twitter.com/" target="_blank"
-                        aria-label="Go to the event twitter page and use the hashtag adamiani">
+                    <a href="https://twitter.com/" target="_blank" rel="noopener" aria-label="Go to the event twitter page and use the hashtag adamiani">
                         <i class="fa-brands fa-x-twitter"></i>
                         <p id="twitter-hash">#adamiani</p>
                     </a>
                 </li>
                 <!-- Instagram -->
                 <li class="col-3 social-media-links instagram-link">
-                    <a href="https://www.instagram.com/" target="_blank"
-                        aria-label="Go to the event instagram page and use the hashtag adamiani">
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Go to the event instagram page and use the hashtag adamiani">
                         <i class="fa-brands fa-instagram"></i>
                         <p id="instagram-hash">#adamiani</p>
                     </a>
@@ -308,6 +311,6 @@
 
     <!-- Bootstrap javascript link-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
 
+</body>
 </html>
