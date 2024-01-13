@@ -5,18 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="adamian, adam, ani, wedding, vow, renewal, georgia, ceremony">
     <meta name="description" content="Come join Adam and Ani in Georgia as they renew their vows!">
-    <meta name="author" content="Adam Michael Fairley"/>
+    <meta name="author" content="Adam Michael Fairley">
 
     <!--Bootstrap link-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    
     <!--Fontawesome link-->
     <script src="https://kit.fontawesome.com/e1041abfbd.js" crossorigin="anonymous"></script>
 
     <!--Hover.css link-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css">
 
     <!--Personal css stylesheet link-->
+    <link rel="preload" fetchpriority="high" as="image" href="assets/images/index_hero_image.webp" type="image/webp">
     <link rel="stylesheet" href="assets/css/style.css">
     
     <!--Favicon links copied from favicon.io-->
@@ -28,13 +29,13 @@
     <title>Adamiani | FAQ</title>
 </head>
 
-<body id="index-body">
+<body>
  
-    <!-- Navigation bar -->
-    <header class="container-fluid row g-0 header-section">
+<!-- Navigation bar -->
+    <header class="container-fluid row g-0" id="header-section">
         <!-- Logo -->
-        <div class="col-12 col-md-6 logo-header">
-            <a href="index.html " role="link" aria-label="Adamiani site logo and link to homepage">
+        <div class="col-12 col-md-6" id="logo-header">
+            <a href="index.html " aria-label="Adamiani site logo and link to homepage">
                 <h1>   
                     <i class="fa-solid fa-champagne-glasses"></i>
                     <span>Adamiani</span>
@@ -46,8 +47,8 @@
             <nav id="nav">
                 <ul class="row g-0 list-inline">
                     <!-- Navbar list items -->
-                    <li class="col-4 col-lg-2 navbaritem ui-menu-colour navlink">
-                        <a href="index.html" class="hvr-shutter-in-vertical" role="link" aria-label="Go back to the website homepage">
+                    <li class="col-4 col-lg-2 navbaritem ui-menu-colour">
+                        <a href="index.html" class="hvr-shutter-in-vertical" aria-label="Go back to the website homepage">
                             <i class="fa fa-home" aria-hidden="true"></i>
                             <p class="uppercase">
                                 Home
@@ -55,7 +56,7 @@
                         </a>
                     </li>
                     <li class="col-4 col-lg-2 navbaritem ui-menu-colour">
-                        <a href="about_us.html" class="hvr-shutter-in-vertical" role="link" aria-label="Go to about us to learn more about Adam and Ani">
+                        <a href="about_us.html" class="hvr-shutter-in-vertical" aria-label="Go to about us to learn more about Adam and Ani">
                             <i class="fa fa-user-group" aria-hidden="true"></i>
                             <p class="uppercase">
                                 About Us
@@ -63,7 +64,7 @@
                         </a>
                     </li>
                     <li class="col-4 col-lg-2 navbaritem ui-menu-colour">
-                        <a href="travel.html" class="hvr-shutter-in-vertical" role="link" aria-label="Go to the Travel section to see travel options">
+                        <a href="travel.html" class="hvr-shutter-in-vertical" aria-label="Go to the Travel section to see travel options">
                             <i class="fa-solid fa-plane-departure"></i>
                             <p class="uppercase">
                                 Travel
@@ -71,7 +72,7 @@
                         </a>
                     </li>
                     <li class="col-4 col-lg-2 navbaritem ui-menu-colour">
-                        <a href="hotels.html" class="hvr-shutter-in-vertical" role="link" aria-label="Go to hotels to see recommended hotel options">
+                        <a href="hotels.html" class="hvr-shutter-in-vertical" aria-label="Go to hotels to see recommended hotel options">
                             <i class="fa-solid fa-hotel"></i>
                             <p class="uppercase">
                                 Hotels
@@ -79,7 +80,7 @@
                         </a>
                     </li>
                     <li class="col-4 col-lg-2 navbaritem ui-menu-colour">
-                        <a href="rsvp.html" class="hvr-shutter-in-vertical" role="link" aria-label="Go to RSVP to let us know your attendance">
+                        <a href="rsvp.html" class="hvr-shutter-in-vertical" aria-label="Go to RSVP to let us know your attendance">
                             <i class="fa-regular fa-calendar-check"></i>
                             <p class="uppercase">
                                 RSVP
@@ -87,7 +88,7 @@
                         </a>
                     </li>
                     <li class="col-4 col-lg-2 navbaritem ui-menu-colour">
-                        <a href="faq.html" class="hvr-shutter-in-vertical" role="link" aria-label="Go to FAQ to answer your questions">
+                        <a href="faq.html" class="hvr-shutter-in-vertical" aria-label="Go to FAQ to answer your questions">
                             <i class="fa-solid fa-clipboard-question"></i>
                             <p class="uppercase active-page">
                                 FAQ
@@ -98,31 +99,42 @@
             </nav>
         </div>
     </header>
-   
-    <section class="row g-0 w95">
-        <!-- Left border Image -->
-        <div class="d-none d-lg-inline-block col-2 side-image faq-image"></div>
-        <div class="col-12 col-lg-8 rsvp-faq-body">
-            <!-- Page Title-->
-            <section class="row">
-                <div class="col-12 question-page-heading orange-background">
-                    <h1 class="page-heading">
+
+    <main>
+        <!-- Mobile and tablet title -->
+        <div class="d-block d-lg-none rsvp-faq-tablet" id="faq-title-image" role="img" aria-label="Adam and Ani on some stairs on their wedding day">
+            <h2 class="page-heading-rsvp-faq">
+                <span class="page-title rsvp-faq-title">
+                    FAQ
+                </span>
+                <br>
+                <i class="fa-regular fa-circle-question"></i>
+            </h2>
+        </div>
+        <!-- Desktop layout -->
+        <div class="row g-0 w95">
+            <!-- Left image-->
+            <div class="d-none d-lg-inline-block col-3 side-image side-image-left faq-side-image" role="img" aria-label="Adam and Aniin front of a clock tower at their wedding"></div>
+            <!-- Page title and form section -->
+            <div class="col-10 col-lg-6 container-fluid">
+                <section class="d-none d-lg-inline page-title-container orange-background">
+                    <h2 class="page-heading">
                         <span class="page-title rsvp-faq-title">
                             FAQ
                         </span>
                         <br>
                         <i class="fa-regular fa-circle-question"></i>
-                    </h1>
-                </div>
+                    </h2>
+                </section>
                 <!-- FAQ section -->
                 <div class="accordion" id="faq">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="question-1">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#answer-1" aria-expanded="true" aria-controls="answer-1">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#answer-1" aria-expanded="false" aria-controls="answer-1">
                                 What will the dress code be?
                             </button>
                         </h2>
-                        <div id="answer-1" class="accordion-collapse collapse show" aria-labelledby="question-1" data-bs-parent="#faq">
+                        <div id="answer-1" class="accordion-collapse collapse" aria-labelledby="question-1" data-bs-parent="#faq">
                             <div class="accordion-body orange-background">
                                 <p>You are free to dress up as much as you like, but the minimum that we would insist upon is cocktail attire.</p>
                             </div>
@@ -177,12 +189,11 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
+            <!-- Right Image-->
+            <div class="d-none d-lg-inline-block col-3 side-image side-image-right faq-side-image" role="img" aria-label="Adam and Ani in front of a clock tower at their wedding"></div>
         </div>
-        <!-- Right/bottom border image -->
-        <div class="d-none d-lg-inline-block col-2 side-image faq-image"></div>
-        <image class="d-lg-none col-12 bottom-border-image"></image>
-    </section>
+    </main>
 
     <!--Footer-->
     <footer id="footer" class="row container-fluid g-0">
@@ -193,7 +204,7 @@
                 +44(0)7857178957
             </span>
             <span id="email-address">
-                <a id="email-link" href="mailto:adamiani@gmail.com?Vow Renewal 2024" target="_blank" role="link" aria-label="Click to write us an email at adamiani2020@gmail.com">    
+                <a id="email-link" href="mailto:adamiani@gmail.com?subject=Vow_Renewal_2024" target="_blank" aria-label="Click to write us an email at adamiani2020@gmail.com">    
                     <i class="fa-regular fa-envelope"></i>
                     adamiani2020@gmail.com
                 </a>
@@ -204,9 +215,9 @@
             </address>
         </div>
         <!-- Site Logo-Footer-->
-        <div class="d-none d-md-block col-4 logo-footer-container">
-            <a href="index.html"  role="link" aria-label="Adamiani site logo and link to homepage">
-                <h2 class="logo-footer">   
+        <div class="d-none d-md-block col-4" id="logo-footer-container">
+            <a href="index.html" aria-label="Adamiani site logo and link to homepage">
+                <h2 id="logo-footer">   
                     <i class="fa-solid fa-champagne-glasses"></i>
                     <span>Adamiani</span>
                 </h2>
@@ -217,28 +228,28 @@
             <ul class="row list-inline">
                 <!-- Facebook-groom -->
                 <li class="col-3 social-media-links facebook-link">
-                    <a href="https://www.facebook.com/" target="_blank" aria-label="Go to Adam's Facebook page">
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener"  aria-label="Go to the facebook page of the Groom" title="Adam">
                         <i class="fa-brands fa-facebook social-media-button"></i>
-                        <span class="gender"><i class="fa-solid fa-person"></i></span><span class="sr-only">Adam's Facebook page</span>
+                        <span class="gender"><i class="fa-solid fa-person"></i> Groom</span><span class="sr-only">Adam's Facebook page</span>
                     </a>
                 </li>
                 <!-- Facebook-bride -->
-                <li class="col-3 social-media-links facebook-link" aria-label="Go to Ani's Facebook page">
-                    <a href="https://www.facebook.com/" target="_blank">
+                <li class="col-3 social-media-links facebook-link">
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Go to the facebook page of the Bride" title="Ani">
                         <i class="fa-brands fa-facebook social-media-button"></i>
-                        <span class="gender"><i class="fa-solid fa-person-dress"></i></span><span class="sr-only">Ani's Facebook page</span>
+                        <span class="gender"><i class="fa-solid fa-person-dress"></i> Bride</span><span class="sr-only">Ani's Facebook page</span>
                     </a>
                 </li>
                 <!-- Twitter/X -->
                 <li class="col-3 social-media-links twitter-link">
-                    <a href="https://twitter.com/" target="_blank" aria-label="Go to the event twitter page and use the hashtag adamiani">
+                    <a href="https://twitter.com/" target="_blank" rel="noopener" aria-label="Go to the event twitter page and use the hashtag adamiani">
                         <i class="fa-brands fa-x-twitter"></i>
                         <p id="twitter-hash">#adamiani</p>
                     </a>
                 </li>
                 <!-- Instagram -->
                 <li class="col-3 social-media-links instagram-link">
-                    <a href="https://www.instagram.com/" target="_blank" aria-label="Go to the event instagram page and use the hashtag adamiani">
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Go to the event instagram page and use the hashtag adamiani">
                         <i class="fa-brands fa-instagram"></i>
                         <p id="instagram-hash">#adamiani</p>
                     </a>
@@ -246,7 +257,7 @@
             </ul>
         </div>
     </footer>
-    
+
     <!-- Bootstrap javascript link-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
