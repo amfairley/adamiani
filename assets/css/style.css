@@ -64,7 +64,6 @@
     font-family: 'Sail', 'Times New Roman', Times, serif;
     width: 80%;
     margin: auto;
-    background-image: url('../images/rsvp_top_bottom.webp');
     background-size: cover;
     background-position: bottom;
     background-position-y: -25px;
@@ -87,7 +86,6 @@
 
 .side-image {
     margin-top: 110px;
-    background-image: url('../images/rsvp_side.webp');
     background-size: cover;
     background-position: center;
     border-color: #e8c1bc;
@@ -552,6 +550,14 @@ main, footer {
     color: #fafafa;
 }
 
+#rsvp-title-image {
+    background-image: url('../images/rsvp_top.webp');
+}
+
+.rsvp-side-image {
+    background-image: url('../images/rsvp_side.webp');
+}
+
 #rsvp-reminder {
     margin: 0;
     color: #4A3C47;
@@ -609,12 +615,19 @@ textarea {
 /* --------------- FAQ PAGE ----------------------------- */
 
 /* Heading Font-Awesome */
-.page-heading .fa-circle-question {
+.page-heading .fa-circle-question, .page-heading-rsvp-faq .fa-circle-question {
     padding-top: 10px;
     font-size: 20pt;
     color: #fafafa;
 }
 
+#faq-title-image {
+    background-image: url('../images/faq_top.webp');
+    background-position-y: 20px;    
+}
+.faq-side-image {
+    background-image: url('../images/faq_side.webp');
+}
 /* Accordion title - not pressed */
 .accordion-button {
     font-family: 'parisienne', Arial, Helvetica, sans-serif;
@@ -626,7 +639,7 @@ textarea {
 
 /* Accordion title - pressed */
 .accordion-button:not(.collapsed) {
-    color: #d0bce8;
+    color: #fafafa;
     background-color: #a87d9f;
 }
 
@@ -642,13 +655,9 @@ textarea {
     text-align: left;
 }
 
-#faq {
-    padding-bottom: 10px;
-}
 
-.faq-image {
-    margin-bottom: 10px;
-}
+
+
 
 /* --------------- FOOTER AND SOCIAL LINKS -------------- */
 
@@ -955,6 +964,10 @@ footer ul {
         background-position-y: 90px;
     }
 
+    /* FAQ: title image resize */
+    #faq-title-image {
+        background-position-y: 120px;
+    }
     /*FAQ: reduce question font size */
     .accordion-button {
         font-size: 16pt;
