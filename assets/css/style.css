@@ -20,10 +20,17 @@
     padding-right: 30px;
 }
 
-/* .rsvp-faq-title {
+.rsvp-faq-title {
+    font-size: 32pt;
     font-family: 'Sail', 'Times New Roman', Times, serif;
-    padding: 0;
-} */
+    padding-right: 0;
+    background: black;
+    opacity: 0.7;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 25px;
+}
+
 /* --------------- SPECIAL POSITIONING ------------------ */
 
 .page-heading {
@@ -37,9 +44,9 @@
     text-align: center;
     font-size: 32px; 
     line-height: 30px; 
-    padding-left: 16px;
-    padding-right: 16px;
 }
+
+
 
 .w95 {
     width: 95%;
@@ -48,32 +55,55 @@
     text-align: center;
 }
 
-/* .page-title-container {
-    position: relative;
-    background-color: #e8c1bc;
-} */
-
-/* .question-page-heading {
+.page-title-container {
     padding: 0;
-} */
+}
 
-/* .rsvp-faq-body {
-    overflow: hidden;
-} */
-/* .side-image {
-    padding: 0;
-    background-image: url('../images/index_hero_image.webp');
+.rsvp-faq-tablet {
+    font-size: 32pt;
+    font-family: 'Sail', 'Times New Roman', Times, serif;
+    width: 80%;
+    margin: auto;
+    background-image: url('../images/rsvp_top_bottom.webp');
+    background-size: cover;
+    background-position: bottom;
+    background-position-y: -25px;
+    border-color: #e8c1bc;
+    
+}
+
+
+.page-heading-rsvp-faq {
+    height: 240px;
+    padding-top: 160px;
+    margin: 0;
+    width: 100%;
+
+    display: inline-block;
+    text-align: center;
+    font-size: 32px; 
+    line-height: 30px; 
+}
+
+.side-image {
+    margin-top: 110px;
+    background-image: url('../images/rsvp_side.webp');
     background-size: cover;
     background-position: center;
-} */
+    border-color: #e8c1bc;
+    border-style: solid;
+    border-width: 10px;
+    border-bottom: none;
+    height: auto;
+}
 
-/* .bottom-border-image {
-    padding: 0;
-    height: 120px;
-    background-image: url('../images/index_hero_image.webp');
-    background-size: cover;
-    background-position-y: center;
-} */
+.side-image-left {
+    border-right: none;
+}
+
+.side-image-right {
+    border-left: none;
+}
 
 .orange-background {
     background-color: #e8c1bc;
@@ -516,12 +546,20 @@ main, footer {
 /* --------------- RSVP PAGE ---------------------------- */
 
 /* Heading Font-Awesome */
-.page-heading .fa-calendar-check {
+.page-heading .fa-calendar-check, .page-heading-rsvp-faq .fa-calendar-check {
     padding-top: 10px;
     font-size: 20pt;
     color: #fafafa;
 }
 
+#rsvp-reminder {
+    margin: 0;
+    color: #4A3C47;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    font-weight: bold;
+
+}
 form {
     padding-bottom: 10px;
     color: #4A3C47;
@@ -529,8 +567,12 @@ form {
 }
 
 .form-line {
-    padding-top: 10px;
+    padding-top: 20px;
     margin: auto;
+}
+
+.meal-choices {
+    padding-top: 5px;
 }
 
 .meal-option {
@@ -539,16 +581,26 @@ form {
     padding-top: 10px;
 }
 
+#meal-question {
+    text-align: center;
+    font-family: 'sail', 'Times New Roman', Times, serif;
+    font-size: 32pt;
+    padding-top: 30px;
+}
+
 .food-option {
-    width: 33%;
+    text-align: left;
+    padding-left: 30px;
     margin: auto;
-    padding-left:10%;
 }
 
 .form-line textarea{
     text-align: left;
 }
 
+textarea {
+    resize: none;
+}
 #submit-button {
     text-align: center;
     padding-top: 10px;
@@ -863,7 +915,7 @@ footer ul {
     }
 
     /* Page title moved below navbar */
-    .page-heading {
+    .page-heading, .page-heading-rsvp-faq{
         height: 300px;
         padding-top: 220px;
     }
@@ -896,6 +948,11 @@ footer ul {
     /* Hotels: Reduce option text size */
     .hotel-option {
         font-size: 30pt;
+    }
+
+    /* RSVP image resize */
+    .rsvp-faq-tablet {
+        background-position-y: 90px;
     }
 
     /*FAQ: reduce question font size */
