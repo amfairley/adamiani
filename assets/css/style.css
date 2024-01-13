@@ -259,7 +259,7 @@ main, footer {
     border-color: #a87d9f;
 }
 .hero-rsvp:hover {
-    color: #d0bce8;
+    font-weight: bold;
     background-color: #a87d9f;
     border-color: #e8bcde;
 }
@@ -656,6 +656,33 @@ textarea {
 }
 
 
+/* --------------- Error 404 page------------------------ */
+.page-spacer {
+    padding-bottom: 180px;
+}
+
+.section-404 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    color: #4A3C47;
+    vertical-align: center;
+}
+
+.section-404 h2 {
+    font-size: 32pt;
+}
+
+.section-404 a {
+    margin: auto;
+}
+
+.section-404 i {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20pt;
+}
 
 
 
@@ -971,7 +998,20 @@ footer ul {
     /*FAQ: reduce question font size */
     .accordion-button {
         font-size: 16pt;
-    }    
+    }
+
+    /*404 and Response: Content moved down and resized */
+    .page-spacer {
+        padding-bottom: 200px;
+    }
+    .section-404 h2 {
+        font-size: 16pt;
+    }
+    .return-button {
+        width: 80%;
+        margin: auto;
+    }
+    
 }
 
 /* --------- Small Phone Media Queries ------------------ */
