@@ -661,7 +661,7 @@ textarea {
     padding-bottom: 180px;
 }
 
-.section-404 {
+.section-404-response {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -670,15 +670,15 @@ textarea {
     vertical-align: center;
 }
 
-.section-404 h2 {
+.section-404-response h2 {
     font-size: 32pt;
 }
 
-.section-404 a {
+.section-404-response a {
     margin: auto;
 }
 
-.section-404 i {
+.section-404-response i {
     padding-left: 20px;
     padding-right: 20px;
     font-size: 20pt;
@@ -1004,7 +1004,7 @@ footer ul {
     .page-spacer {
         padding-bottom: 200px;
     }
-    .section-404 h2 {
+    .section-404-response h2 {
         font-size: 16pt;
     }
     .return-button {
