@@ -1,10 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Meie+Script&family=Parisienne&family=Roboto&family=Sail&display=swap');
 
-/* --------------- SPECIAL TEXT  ------------------------ */
-
+/* --------------- Website-wide Formatting Rules -------- */
+/* Uppercase text*/
 .uppercase {
     text-transform: uppercase;
 }
+
+/* 95% width format */
+.w95 {
+    width: 95%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+/* Background colours */
+.orange-background {
+    background-color: #e8c1bc;
+}
+main, footer {
+    background-color: #e8bcde;
+}
+
 
 /* Highlight current page in the navigation bar */
 .active-page {
@@ -13,13 +30,13 @@
     font-weight: 600 !important;
 }
 
+/* Page title and headers */
 .page-title {
     font-size: 48pt;
     font-family: 'Meie Script', 'Times New Roman', Times, serif;
     color: #e8bcde;
     padding-right: 30px;
 }
-
 .rsvp-faq-title {
     font-size: 32pt;
     font-family: 'Sail', 'Times New Roman', Times, serif;
@@ -30,9 +47,6 @@
     padding-left: 20px;
     border-radius: 25px;
 }
-
-/* --------------- SPECIAL POSITIONING ------------------ */
-
 .page-heading {
     height: 240px;
     padding-top: 160px;
@@ -45,68 +59,21 @@
     font-size: 32px; 
     line-height: 30px; 
 }
-
-
-
-.w95 {
-    width: 95%;
-    margin: 0 auto;
-    padding: 0;
-    text-align: center;
-}
-
 .page-title-container {
     padding: 0;
 }
 
-.rsvp-faq-tablet {
-    font-size: 32pt;
-    font-family: 'Sail', 'Times New Roman', Times, serif;
-    width: 80%;
-    margin: auto;
-    background-size: cover;
-    background-position: bottom;
-    background-position-y: -25px;
-    border-color: #e8c1bc;
-    
+/* Buttons */
+.adamiani-btn {
+    color: #4A3C47;
+    background-color: #e8bcde;
+    border-color: #a87d9f;
 }
-
-
-.page-heading-rsvp-faq {
-    height: 240px;
-    padding-top: 160px;
-    margin: 0;
-    width: 100%;
-
-    display: inline-block;
-    text-align: center;
-    font-size: 32px; 
-    line-height: 30px; 
+.adamiani-btn:hover {
+    font-weight: bold;
+    background-color: #a87d9f;
+    border-color: #e8bcde;
 }
-
-.side-image {
-    margin-top: 110px;
-    background-size: cover;
-    background-position: center;
-    border-color: #e8c1bc;
-    border-style: solid;
-    border-width: 10px;
-    border-bottom: none;
-    height: auto;
-}
-
-.side-image-left {
-    border-right: none;
-}
-
-.side-image-right {
-    border-left: none;
-}
-
-.orange-background {
-    background-color: #e8c1bc;
-}
-
 
 /* Code taken from https://materializecss.com/footer.html for sticky footer */
 body {
@@ -116,12 +83,6 @@ body {
   }
 main {
     flex: 1 0 auto;
-}
-
-/* --------------- PAGE BACKGROUNDS --------------------- */
-
-main, footer {
-    background-color: #e8bcde;
 }
 
 /* --------------- HEADER AND NAVIGATION ---------------- */
@@ -208,7 +169,6 @@ main, footer {
 }
 
 /* --------------- HOMEPAGE SECTION --------------------- */
-
 /* Hero Image */
 #hero-outer {
     height: 600px;
@@ -253,35 +213,23 @@ main, footer {
     color: #e8bcde;
     margin-bottom: 16px;
 }
-.hero-rsvp {
-    color: #4A3C47;
-    background-color: #e8bcde;
-    border-color: #a87d9f;
-}
-.hero-rsvp:hover {
-    font-weight: bold;
-    background-color: #a87d9f;
-    border-color: #e8bcde;
-}
+
 
 /* Homepage Information Section */
 .homepage-details {
     height: 360px;
     color: #4A3C47;
 }
-
 .homepage-title {
     font-family: 'parisienne', Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 30pt;
     padding-top: 50px;
 }
-
 .homepage-text {
     font-family: 'roboto', Arial, Helvetica, sans-serif;
     word-spacing: 2px;
 }
-
 .homepage-images {
     text-align: center;
     padding: 0;
@@ -289,7 +237,6 @@ main, footer {
     border-style: solid;
     border-width: 10px;
 }
-
 .homepage-ceremony-image {
     height: 340px;
     background-image: url('../images/index_cathedral.webp');
@@ -319,13 +266,11 @@ main, footer {
     border-style: solid;
     border-width: 10px;
 }
-
 #homepage-bottom-image-1 {
     background-image: url('../images/index_couple_1.webp');
     background-size: cover;
     background-position: center;
 }
-
 #homepage-bottom-image-2 {
     background-image: url('../images/index_couple_2.webp');
     background-size: cover;
@@ -333,7 +278,6 @@ main, footer {
     border-left-width: 0;
     border-right-width: 0;
 }
-
 #homepage-bottom-image-3 {
     background-image: url('../images/index_couple_3.webp');
     background-size: cover;
@@ -341,8 +285,7 @@ main, footer {
 }
 
 /* --------------- ABOUT US SECTION --------------------- */
-
-/* All hearts on page */
+/* All font aweseome hearts on page */
 .fa-heart {
     color: #ff0000;
     padding-top: 2px;
@@ -367,15 +310,12 @@ main, footer {
     margin: auto;
 }
 
-
 /* About Us Content */
 #about-us-content {
     padding-top: 20px;
     text-align: center;
     color: #4A3C47;
 }
-
-
 .about-us-image {
     height: 240px;
     width: 240px;
@@ -386,17 +326,12 @@ main, footer {
     vertical-align: middle;
     margin-top: 100px;
 }
-
 .about-us-lead-image {
     margin-top: 30px;
 }
 .about-us-last-image {
     margin-bottom: 50px;
 }
-
-
-
-
 .baby-image {
     height:120px;
     width: 120px;
@@ -417,18 +352,15 @@ main, footer {
 .about-us-last-paragraph {
     padding-bottom: 50px;
 }
-
 .about-us-text .fa-heart {
     padding-right: 10px;
 }
-
 .about-us-lead-text {
     font-family: 'parisienne', Arial, Helvetica, sans-serif;
     font-size: 40px;
     font-weight: bold;
     line-height: 1.5;
 }
-
 .about-us-story-text {
     font-family: 'roboto', Arial, Helvetica, sans-serif;
 }
@@ -478,14 +410,12 @@ main, footer {
     font-family: 'roboto', Arial, Helvetica, sans-serif;
     text-align: left;
     margin: auto;
-
 }
 .travel-map iframe{
     width: 100%;
     height: 100%;
     border: 15pt solid transparent;
 }
-
 
 /* --------------- HOTELS PAGE -------------------------- */
 
@@ -495,6 +425,8 @@ main, footer {
     font-size: 20pt;
     color: #fafafa;
 }
+
+/* Hotels content */
 .hotel-section a {
     text-decoration: none;
     width: auto;
@@ -523,13 +455,11 @@ main, footer {
     color: #e8bcde;
     background: rgba(0,0,0,0.5)
 }
-
 .hotel-image {
     width: 80%;
     height: auto;
     padding-top: 20px;
 }
-
 .hotel-text {
     text-align: center;
     font-family: 'roboto', Arial, Helvetica, sans-serif;
@@ -541,8 +471,51 @@ main, footer {
     padding-bottom: 30px;
 }
 
-/* --------------- RSVP PAGE ---------------------------- */
+/* --------------- RSVP AND FAQ PAGE -------------------- */
+/*RSVP and FAQ titles */
+.rsvp-faq-tablet {
+    font-size: 32pt;
+    font-family: 'Sail', 'Times New Roman', Times, serif;
+    width: 80%;
+    margin: auto;
+    background-size: cover;
+    background-position: bottom;
+    background-position-y: -25px;
+    border-color: #e8c1bc;
+}
+.page-heading-rsvp-faq {
+    height: 240px;
+    padding-top: 160px;
+    margin: 0;
+    width: 100%;
 
+    display: inline-block;
+    text-align: center;
+    font-size: 32px; 
+    line-height: 30px; 
+}
+
+/* RSVP and FAQ Images */
+.side-image {
+    margin-top: 110px;
+    background-size: cover;
+    background-position: center;
+    border-color: #e8c1bc;
+    border-style: solid;
+    border-width: 10px;
+    border-bottom: none;
+    height: auto;
+}
+.side-image-left {
+    border-right: none;
+}
+.side-image-right {
+    border-left: none;
+}
+
+
+
+/* --------------- RSVP PAGE ---------------------------- */
 /* Heading Font-Awesome */
 .page-heading .fa-calendar-check, .page-heading-rsvp-faq .fa-calendar-check {
     padding-top: 10px;
@@ -550,6 +523,7 @@ main, footer {
     color: #fafafa;
 }
 
+/* Images */
 #rsvp-title-image {
     background-image: url('../images/rsvp_top.webp');
 }
@@ -558,53 +532,46 @@ main, footer {
     background-image: url('../images/rsvp_side.webp');
 }
 
+/* Reminder content */
 #rsvp-reminder {
     margin: 0;
     color: #4A3C47;
     font-family: 'roboto', Arial, Helvetica, sans-serif;
     padding-top: 20px;
     font-weight: bold;
-
 }
+
+/* Form content */
 form {
     padding-bottom: 10px;
     color: #4A3C47;
     font-family: 'roboto', Arial, Helvetica, sans-serif;
 }
-
 .form-line {
     padding-top: 20px;
     margin: auto;
 }
-
 .meal-choices {
     padding-top: 5px;
 }
-
 .meal-option {
     text-align: center;
     font-family: 'sail', 'Times New Roman', Times, serif;
     padding-top: 10px;
 }
-
 #meal-question {
     text-align: center;
     font-family: 'sail', 'Times New Roman', Times, serif;
     font-size: 32pt;
     padding-top: 30px;
 }
-
 .food-option {
     text-align: left;
     padding-left: 30px;
     margin: auto;
 }
-
 .form-line textarea{
     text-align: left;
-}
-
-textarea {
     resize: none;
 }
 #submit-button {
@@ -621,6 +588,7 @@ textarea {
     color: #fafafa;
 }
 
+/* FAQ Images */
 #faq-title-image {
     background-image: url('../images/faq_top.webp');
     background-position-y: 20px;    
@@ -628,6 +596,7 @@ textarea {
 .faq-side-image {
     background-image: url('../images/faq_side.webp');
 }
+/* Accordion */
 /* Accordion title - not pressed */
 .accordion-button {
     font-family: 'parisienne', Arial, Helvetica, sans-serif;
@@ -636,18 +605,15 @@ textarea {
     color: #4A3C47;
     background-color: #e8bcde;
 }
-
 /* Accordion title - pressed */
 .accordion-button:not(.collapsed) {
     color: #fafafa;
     background-color: #a87d9f;
 }
-
 /* Remove blue border when clicked */
 .accordion-button:focus {
     box-shadow: none;
 }
-
 /* Accordion content */
 .accordion-body {
     font-family: 'roboto', Arial, Helvetica, sans-serif;
@@ -655,12 +621,11 @@ textarea {
     text-align: left;
 }
 
-
-/* --------------- Error 404 page------------------------ */
+/* --------------- Error 404 and Response pages----------- */
+/* Page layout */
 .page-spacer {
     padding-bottom: 180px;
 }
-
 .section-404-response {
     text-align: center;
     padding-top: 50px;
@@ -669,25 +634,19 @@ textarea {
     color: #4A3C47;
     vertical-align: center;
 }
-
 .section-404-response h2 {
     font-size: 32pt;
 }
-
 .section-404-response a {
     margin: auto;
 }
-
 .section-404-response i {
     padding-left: 20px;
     padding-right: 20px;
     font-size: 20pt;
 }
 
-
-
 /* --------------- FOOTER AND SOCIAL LINKS -------------- */
-
 /* Footer positioning */
 #footer {
     width: 100%;
@@ -746,7 +705,6 @@ textarea {
 }
 
 /* Social Media Links */
-
 footer ul {
     width:100%;
 }
@@ -764,65 +722,56 @@ footer ul {
     font-size: 15px;
     color: #4A3C47;
     font-family:'roboto', Arial, Helvetica, sans-serif;
-
 }
 .social-media-links a {
     display: block;
     width: 100%;
     height: 120px;
 }
-
 #instagram-hash, #twitter-hash {
     font-family:'roboto', Arial, Helvetica, sans-serif;
 }
-/* Footer effects */
 
+/* Footer effects */
 #email-link:hover {
     text-decoration: none;
     font-weight: bolder;
 }
-
 #logo-footer-container a:hover {
     text-decoration: none;
 }
-
 .facebook-link a, .twitter-link a, .instagram-link a {
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
 }
-
 .facebook-link a:hover {
     background-color: #fff;
     .fa-facebook, .gender {
         color: #1877F2;
     }
 }
-
 .twitter-link a:hover {
     background-color: #000;
     .fa-x-twitter, #twitter-hash {
         color:#fff;
     }
 }
-
 .instagram-link a:hover {
     background-color: #fff;
     .fa-instagram, #instagram-hash {
         color: #000;
     }
 }
-
 .social-media-links a:hover {
     text-decoration: none;
 }
 
 /* -------- Tablet Media Queries ------------------------ */
-
 @media screen and (max-width: 992px){
 
-    /* Reduces navigation bar height by half, centers the content and reduces text size */
+    /* Reduce navigation bar height by half, centers the content and reduces text size */
     .navbaritem, .navbaritem a {
         height: 60px;
     }
@@ -838,7 +787,7 @@ footer ul {
         font-size: 12pt;
     }
     
-    /* Removes postal address from footer */
+    /* Remove postal address from footer */
     #postal-address {
         display: none;
     }
@@ -849,13 +798,13 @@ footer ul {
         padding-top: 8px;
     }
 
-    /* Reduces size of footer logo */
+    /* Reduce size of footer logo */
     #logo-footer {
         font-size: 38px;
         padding-top: 13px;
     }
 
-    /* Reduces social media hashtag size */
+    /* Reduce social media hashtag size */
     .social-media-links a p, .gender {
         font-size: 10px !important;
         padding-top: 6px;
@@ -876,11 +825,10 @@ footer ul {
         border-right-width: 10px;
     }
 
-    /* About us hero image resize */
+    /* About us: hero image resize */
     .about-hero-image {
         background-position-y: 0px;
     }
-
 
     /* FAQ: Move image to title background */
     .question-page-heading {
@@ -897,8 +845,7 @@ footer ul {
 
 /* --------- Phone Media Queries ------------------------ */
 @media screen and (max-width: 767px){
-
-    /* Reduces logo bar height by half, centres and reduces content size */
+    /* Reduce logo bar height by half, centres and reduces content size */
     #logo-header, #logo-header a {
         height: 60px;
         text-align: center;
@@ -916,12 +863,11 @@ footer ul {
     #logo-header h1 {
         padding-top: 4px;
     }
-
-    /* Homepage: Hero Image moved below nav bar */
+    /* Homepage: move hero image below nav bar */
     #hero-outer {
         height: 480px;
     }
-    /*Homepage: Style new div for hero text */
+    /* Homepage: style new div for hero text */
     #phone-hero-text {
         padding: 0;
         margin: auto;
@@ -940,12 +886,10 @@ footer ul {
     .hero-invite {
         color: #4A3C47;
     }
-
     /* Homepage: adjust text box heights to fit all text */
     .homepage-title {
         padding-top: 20px;
     }
-
     .homepage-details {
         height: inherit;
     }
@@ -956,11 +900,11 @@ footer ul {
         padding-top: 220px;
     }
 
-    /* About-us text to take up more of the screen */
+    /* About-us: text to take up more of the screen */
     .about-us-text {
         width: 80%;
     }
-    /* About-us page layout changes */
+    /* About-us: page layout changes */
     .about-us-text {
         padding-top: 20px;
     }
@@ -971,8 +915,7 @@ footer ul {
         margin-top: 20px;
     }
 
-
-    /* Travel: Map height set */
+    /* Travel: map height set */
     .travel-map {
         height: 320px;
     }
@@ -981,12 +924,12 @@ footer ul {
         padding-top: 20px;
     }
 
-    /* Hotels: Reduce option text size */
+    /* Hotels: reduce option text size */
     .hotel-option {
         font-size: 30pt;
     }
 
-    /* RSVP image resize */
+    /* RSVP: image resize */
     .rsvp-faq-tablet {
         background-position-y: 90px;
     }
@@ -1000,7 +943,7 @@ footer ul {
         font-size: 16pt;
     }
 
-    /*404 and Response: Content moved down and resized */
+    /*404 and Response: move content down and resize */
     .page-spacer {
         padding-bottom: 200px;
     }
@@ -1011,13 +954,11 @@ footer ul {
         width: 80%;
         margin: auto;
     }
-    
 }
 
 /* --------- Small Phone Media Queries ------------------ */
 @media screen and (max-width: 420px){
-
-    /* Reduces footer text size and centres content vertically */
+    /* Reduce footer text size and centres content vertically */
     #footer {
         height: 80px;
     }
@@ -1042,19 +983,4 @@ footer ul {
     .hotel-option {
         font-size: 24pt;
     }
-    /* Page-title resize to fit on one line
-    .page-title {
-        font-size: 28pt;
-    } */
-
-    /* About us titles to fit on one line
-    .about-us-lead-text {
-        font-size: 22pt;
-    } */
-
-    /* 
-    FAQ: reduce question font size */
-    /* .accordion-button {
-        font-size: 14pt;
-    } */
 }
