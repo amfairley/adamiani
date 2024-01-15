@@ -1,4 +1,4 @@
-![Website logo](documentation/logo.png)
+![Website logo](/docs/images/website_logo.png)
 
 ---
 
@@ -8,7 +8,7 @@
 
 Adamiani is an informative wedding-vow renewal website with the aim of providing the invited guests with a convenient, yet stylish, repository of information regarding the upcoming event. It provides value through its RSVP form, travel and accommodation details, contact details, and the celebration schedule. The development followed a mobile-first approach utilising Bootstrap 5, as many users would need to access the information on the go; when either travelling for the event of on the day itself.
 
-![A mock-up image of the wedding website](/documents/websitename-mockup.png)
+![A mock-up image of the wedding website](/docs/images/website_mockup.png)
 
 [Click here to access the site](https://amfairley.github.io/adamiani/)
 
@@ -574,6 +574,8 @@ All images used were optimised using [adobe photoshop](https://www.adobe.com/uk/
 	* Used to validate the HTML code
 17. [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 	* Used to validate the CSS code
+18. [Multi Mockup](https://techsini.com/multi-mockup/index.php)
+	* Used to make mockup images of the site for the top of the README.md file
 
 ## Testing 
 
