@@ -93,7 +93,7 @@ main {
     position: fixed;
     padding: 0;
     margin: 0;
-    z-index: 1;
+    z-index: 10;
 }
 #header-section a {
     color: #4A3C47;
@@ -991,7 +991,7 @@ footer ul {
     #instagram-hash, #twitter-hash {
         display: none;
     }
-    
+
     /* Hotels: Reduce option text size */
     .hotel-option {
         font-size: 24pt;
