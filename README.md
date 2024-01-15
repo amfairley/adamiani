@@ -274,13 +274,35 @@ The **FAQ** page will resemble the RSVP page but with a bootstrap accordion comp
 
 ### Frameworks and Tools 
 
-- [Balsamiq](https://balsamiq.com/wireframes/)
-- [Git](https://git-scm.com/)
-- [Github](https://github.com/)
-- [Bootstrap v5.3](https://getbootstrap.com/)
-- [Font Awesome](https://fontawesome.com/search)
-- [Hover.css](https://ianlunn.github.io/Hover/)
-- [Google Fonts](https://fonts.google.com/about)
+1. [Visual Studio Code](https://code.visualstudio.com/)
+	*My IDE of choice for writing the HTML and CSS code for this project
+2. [Git](https://git-scm.com/)
+	* Used for version control
+3. [Github](https://github.com/)
+	* Used to store the code
+4. [Bootstrap v5.3](https://getbootstrap.com/)
+	* Used for its grid system and easier styling and responsiveness
+5. [Font Awesome](https://fontawesome.com/search)
+	* Used for the decorative icons throughout
+6. [Hover.css](https://ianlunn.github.io/Hover/)
+	* Used for the navigation bar hover effect
+7. [Google Fonts](https://fonts.google.com/about)
+	* Used to import typefaces
+8. [Favicon](https://favicon.io/)
+	* Used for the browser icon
+9. [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/)
+	* Used for testing
+10. [Balsamiq](https://balsamiq.com/wireframes/)
+	* Used for producing wireframes
+11. [Adobe Color Wheel](https://color.adobe.com/create/color-wheel)
+	* Used for creating the colour scheme
+12. [Adobe Photoshop](https://www.adobe.com/uk/)
+	* Used for image editing
+13. [Cloud Convert](https://cloudconvert.com/png-to-webp)
+	* Used to convert images from .png to .webp
+14. [Hexadecimal to RGB converter](https://www.rapidtables.com/convert/color/hex-to-rgb.html)
+	* Used for converting some colour schemes to rgb
+
 
 ## Features 
 
@@ -306,6 +328,11 @@ The **FAQ** page will resemble the RSVP page but with a bootstrap accordion comp
 
 ## Bugs 
 
+### Mistakes
+
+- Commit nomenclature was altered starting with commit 26 to be more in-line with professional standards. Commits prior to this utilised past-tense language.
+- Despite aiming for a mobile-first approach; a desktop first approach was actually taken in the development of this website. Due to my inexperience with HTML and CSS, I found it easier to imagine the layout of the website on desktop first and work towards mobile whilst I practiced and mastered CSS.
+
 ## Deployment 
 
 ### Deployment to GitHub pages
@@ -322,12 +349,6 @@ You can fork the repository by going the [GitHub repository](https://github.com/
 ### Deploying Locally
 
 To deploy locally; you can clone this project by typing `git clone https://github.com/amfairley/adamiani.git` into the terminal of your IDE of choice.
-
-
-
-
-### GitHub
-Commit nomenclature was altered starting with commit 26 to be more in-line with professional standards.
 
 ## Credits 
 
