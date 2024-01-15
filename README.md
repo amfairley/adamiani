@@ -570,21 +570,48 @@ All images used were optimised using [adobe photoshop](https://www.adobe.com/uk/
 	* Used to convert images from .png to .webp
 15. [Hexadecimal to RGB converter](https://www.rapidtables.com/convert/color/hex-to-rgb.html)
 	* Used for converting some colour schemes to rgb
-16. [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+16. [W3C HTML Validation Service](https://validator.w3.org/)
+	* Used to validate the HTML code
+17. [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 	* Used to validate the CSS code
 
 ## Testing 
 
 ### HTML Validation 
-HTML validator each page
-index.html
-about_us.html
-travel.html
-hotels.html
-rsvp.html
-faq.html
-response.html
-404.html
+HTML validation was completed using the [W3C HTML validation service](https://validator.w3.org/) on each page.
+Each page passed with no errors or warnings to show. Screenshots of the results are shown below:
+
+<details><summary>index.html</summary>
+<img src="docs/images/validate_html_index.png">
+</details>
+<br>
+<details><summary>about_us.html</summary>
+<img src="docs/images/validate_html_about_us.png">
+</details>
+<br>
+<details><summary>travel.html</summary>
+<img src="docs/images/validate_html_travel.png">
+</details>
+<br>
+<details><summary>hotels.html</summary>
+<img src="docs/images/validate_html_hotels.png">
+</details>
+<br>
+<details><summary>rsvp.html</summary>
+<img src="docs/images/validate_html_rsvp.png">
+</details>
+<br>
+<details><summary>faq.html</summary>
+<img src="docs/images/validate_html_faq.png">
+</details>
+<br>
+<details><summary>response.html</summary>
+<img src="docs/images/validate_html_response.png">
+</details>
+<br>
+<details><summary>404.html</summary>
+<img src="docs/images/validate_html_404.png">
+</details>
 
 ### CSS Validation 
 CSS validation was completed using the [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/). 
