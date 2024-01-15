@@ -321,7 +321,7 @@ You can fork the repository by going the [GitHub repository](https://github.com/
 
 ### Deploying Locally
 
-To deploy locally; you can clone this project by typing 'https://github.com/amfairley/adamiani.git' into the terminal of your IDE of choice.
+To deploy locally; you can clone this project by typing `git clone https://github.com/amfairley/adamiani.git` into the terminal of your IDE of choice.
 
 
 
