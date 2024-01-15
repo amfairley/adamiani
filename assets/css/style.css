@@ -748,21 +748,30 @@ footer ul {
 }
 .facebook-link a:hover {
     background-color: #fff;
-    .fa-facebook, .gender {
-        color: #1877F2;
-    }
+}
+.facebook-link a:hover .fa-facebook{
+    color:#1877F2;
+}
+.facebook-link a:hover .gender{
+    color:#1877F2;
 }
 .twitter-link a:hover {
     background-color: #000;
-    .fa-x-twitter, #twitter-hash {
-        color:#fff;
-    }
+}
+.twitter-link a:hover .fa-x-twitter{
+    color: #fff;
+}
+.twitter-link a:hover #twitter-hash{
+    color: #fff;
 }
 .instagram-link a:hover {
     background-color: #fff;
-    .fa-instagram, #instagram-hash {
-        color: #000;
-    }
+}
+.instagram-link a:hover .fa-instagram {
+    color: #000;
+}
+.instagram-link a:hover #instagram-hash {
+    color: #000;
 }
 .social-media-links a:hover {
     text-decoration: none;
