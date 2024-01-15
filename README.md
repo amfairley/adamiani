@@ -801,6 +801,47 @@ The website was tested on the following browsers:
 
 ## Bugs 
 
+**Bug 1: Clickable area of the navigation bar didn't fully cover the div**
+My intention was to make the whole of the naviagtion bar items clickable, rather than just the image or text, but it left a sliver of unlinked element at the bottom as shown here at the bottom of the blue Adamiani logo:
+
+![bug1](docs/images/bug_header_problem.png)
+
+I inspected the elements using google dev tools and found:
+
+![bug1](docs/images/bug_header_inspection.png)
+
+Since I had the anchor element as inline, the height of 120px that I had set was not taking effect. I solved this by adding `display:block;` to the CSS rules for `.navbaritem a {}`.
+
+**Bug 2: Hero image covers navigation bar when you scroll down**
+On index.html, after adding the hero image feature, it covered the navigation bar if you were to scroll down the page.
+
+![bug2](docs/images/bug_hero_image_inspection.png)
+
+This was fixed after some research by setting `z-index:1` in the CSS rules for the `.header-section{}` so that it always appears on top.
+
+**Bug 3: Overlapping formatting on the footer on smalle devices**
+On smaller screen sizes the footer elements overlapped as such:
+
+![bug3](docs/images/bug_footer_before.png)
+
+This was solved by adding the following CSS rules to hide the text under the social media links and reposition the email address:
+<br>
+`.gender{display:none;}` <br>
+`#instagram-hash, #twitter-hash {display:none;}`<br>
+`#email-address {padding-top:20px;}`<br>
+
+This resulted in: <br>
+![bug3](docs/images/bug_footer_after.png)
+
+**Bug 4: The accordion header would appear over the navigation bar if it was open and the page scrolled down**
+On the FAQ page, if an accordion section was open and the page scrolled down, it would appear above the navigation bar:
+
+![bug4](docs/images/bug_accordion_before.png)
+
+This was fixed by increasing the z-index of the the `.header-section{}` to 10 so that it always appears on top. This fixed the issue as shown here:
+
+![bug4](docs/images/bug_accordion_after.png)
+
 ### Mistakes
 
 - Commit nomenclature was altered starting with commit 26 to be more in-line with professional standards. Commits prior to this utilised past-tense language.
