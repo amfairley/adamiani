@@ -742,9 +742,6 @@ footer ul {
 }
 .facebook-link a, .twitter-link a, .instagram-link a {
     transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
 }
 .facebook-link a:hover {
     background-color: #fff;
