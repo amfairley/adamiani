@@ -10,7 +10,7 @@ Adamiani is an informative wedding-vow renewal website with the aim of providing
 
 ![A mock-up image of the wedding website](/documents/websitename-mockup.png)
 
-[Click here to access the site](https://amfairley.github.io/website_name/)
+[Click here to access the site](https://amfairley.github.io/adamiani/)
 
 ---
 
@@ -570,6 +570,8 @@ All images used were optimised using [adobe photoshop](https://www.adobe.com/uk/
 	* Used to convert images from .png to .webp
 15. [Hexadecimal to RGB converter](https://www.rapidtables.com/convert/color/hex-to-rgb.html)
 	* Used for converting some colour schemes to rgb
+16. [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+	* Used to validate the CSS code
 
 ## Testing 
 
@@ -585,7 +587,16 @@ response.html
 404.html
 
 ### CSS Validation 
-CSS validator
+CSS validation was completed using the [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/). 
+<br>
+[The results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Famfairley.github.io%2Fadamiani%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) showed no errors and 1014 warnings; all either linked to Bootstrap or Hover css.
+
+![CSS full results](docs/images/validate_css_master.png)
+
+When run with just my style sheet, no errors and no warnings were flagged:
+
+![CSS personal results](docs/images/validate_css_stylesheet.png)
+
 ### Accessibility
 Wave validator results for each page
 index.html
