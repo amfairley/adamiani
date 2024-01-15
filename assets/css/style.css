@@ -972,10 +972,10 @@ footer ul {
         font-size: 12px;
     }
     #phone-number {
-        padding-top: 10px;
+        padding-top: 15px;
     }
     #email-address {
-        padding-top: 10px;
+        padding-top: 20px;
         font-size: 7pt;
     }
     .social-media-links a p {
@@ -983,8 +983,15 @@ footer ul {
         padding-top: 6px;
     }
     .social-media-links .fa-brands {
-        padding-top: 6px;
+        padding-top: 20px;
     }
+    .gender {
+        display: none;
+    }
+    #instagram-hash, #twitter-hash {
+        display: none;
+    }
+    
     /* Hotels: Reduce option text size */
     .hotel-option {
         font-size: 24pt;
