@@ -801,6 +801,52 @@ The website was tested on the following browsers:
 | ----------- | ---------- | ------------------- | ----------------- |
 | Question raised on the FAQ page | Click on the FAQ section of the navigation bar | User is redirected to FAQ.html and the question is clear and answer opens when selected | Works as expected |
 
+
+### Manual Testing
+
+| **Feature** | **Action** | **Expected Result** | **Passed** | **Comments**|
+| ----------- | ---------- | ------------------- | ---------- | ----------- |
+| Navigation bar| | | | |
+| Logo | Click on the site logo | User is directed to the homepage | Yes | Tested on all pages |
+| Navigation bar item | Hover the item | A hover effect will take place | Yes | Tested on all items on all pages |
+| Navigation bar item | Un-hover the item | An animation versing the hover effect will take place | Yes | Tested on all items on all pages |
+| Home | Click on the "Home" link | User is directed to the homepage | Yes | Tested on all pages |
+| About us | Click on the "About us" link | User is directed to the about us page | Yes | Tested on all pages |
+| Travel | Click on the "Travel" link | User is directed to the travel page | Yes | Tested on all pages |
+| Hotels | Click on the "Hotels" link | User is directed to the hhotels page | Yes | Tested on all pages |
+| RSVP | Click on the "RSVP" link | User is directed to the RSVP page | Yes | Tested on all pages |
+| FAQ | Click on the "FAQ" link | User is directed to the FAQ page | Yes | Tested on all pages |
+| Footer | | | | |
+| Email in the footer | Click on the email address | An email to the couple is drafted with a generated subject in a new tab | Yes | Tested on all pages |
+| Logo in the footer | Click the logo | User is directed to the homepage | Yes | Tested on all pages |
+| Facebook logo 1 in the footer | Click the logo | User is taken to facebook.com in a new tab | Yes | Tested on all pages |
+| Facebook logo 2 in the footer | Click the logo | User is taken to facebook.com in a new tab | Yes | Tested on all pages |
+| X logo in the footer | Click the logo | User is taken to twitter.com in a new tab | Yes | Tested on all pages |
+| Instagram logo in the footer | Click the logo | User is taken to instagram.com in a new tab | Yes | Tested on all pages |
+| Homepage | | | | |
+| RSVP button | Hover over | Hover effect to occur | Yes | |
+| RSVP button | Click the RSVP button | User is directed to the RSVP page | Yes | |
+| Travel | | | | |
+| Maps | Map can be manipulated | Map can be zoomed in, moved around, and can opened in new tab | Yes | Tested on all 3 maps |
+| Hotels | | | | |
+| Hotel name | Can be hovered | A dark background appears and the text gets lighter | Yes | Tested all 3 hotel names |
+| Hotel name | Can be clicked | The hotel website or booking website will open in a new tab | Yes | Tested all 3 hotel names |
+| RSVP | | | | |
+| Name field | Leave blank | RSVP will refuse to submit without a value | Yes | |
+| Email field | Leave blank | RSVP will refuse to submit without a value | Yes | |
+| "I will be attending" drop down | Do not select anything | RSVP will refuse to submit without a selection | Yes | |
+| Form | Complete form and submit | User is directed to a response page | Yes | |
+| Submit button | Hover the RSVP button | Hover effects will take place | Yes | |
+| Response page | | | | |
+| Homepage button | Hover the button | Hover effects will take place | Yes | |
+| Homepage button | Click the button | User will be directed to the homepage | Yes | |
+| FAQ | | | | |
+| FAQ accordion | Click on a question | An answer will open up below it and fold back up on a second click | Yes | All questions tested |
+| 404 page | | | | |
+| 404 page | Typing in an incorrect URL after https://amfairley.github.io/adamiani/ | User is redirected to the error 404 page | Yes | |
+| Homepage button | Hover the button | Hover effects will take place | Yes | |
+| Homepage button | Click the button | User will be directed to the homepage | Yes | |
+
 ## Bugs 
 
 **Bug 1: Clickable area of the navigation bar didn't fully cover the div**
