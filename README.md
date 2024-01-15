@@ -263,7 +263,80 @@ The **FAQ** page will resemble the RSVP page but with a bootstrap accordion comp
 
 ### Surface 
 
+#### Changes from Skeleton
+- Collapsing the navigation bar into a burger menu on smaller screens did not look as good as I hoped; instead I kept the navigation icons with some hover effects. This works well, as there are only a handful of navigation icons.
+- 
 
+#### Colour Scheme
+I used the colour #E7BCDE as a starting point due to it’s romantic nature and utilised [adobe’s colour wheel](https://color.adobe.com/create/color-wheel) to create the following colour palettes:
+
+**Shades**
+
+![shades](docs/images/colour_scheme_shades.png)
+
+**Analogous**
+
+![analogous](docs/images/colour_scheme_analogous.png)
+
+**Complementary**
+
+![complementary](docs/images/colour_scheme_complementary.png)
+
+Chosen colours:
+-	#E7BCDE for the background colour to the webpage, including header and footer content and a border around the main content. It is also used for font colour where the font needs to pop against a darker background; for example the hero-text on index.html.
+-	#4A3C47 from shades due to it’s dark off-black nature allowing text to stand out clearly on a lighter background
+-	#D0BCE8 from analogous for a lighter colour that will stand out against a darker background
+-	#A87D9F from complementary for the background colour of hover-able items such as RSVP buttons and the items in the navigation bar
+-	#E8C1BC was chosen for a light off-orange colour to be the background of the page sections. This colour was found through experimentation with the starting pink
+
+Extra colours used:
+-	#000 (black) was used in parts where the contrast with a lighter background needed to be increased 
+-	#fff (white) was used sparingly in the website design
+-	#fafafa this off-white was used to colour most of the font awesome icons used in page titles
+-	#ff0000 (red) was used to colour the font awesome heart icons on the about us page
+
+Social media links:
+-	The hover effects given to the social media links takes them from in the style of the page to the style of the social media platform, representing the transition of one webpage to another when clicked.
+-	The facebook icons were coloured with the facebook blue #1877F2 and a white background
+-	The X/twitter icon was coloured with white text on a black background
+-	The Instagram icon was coloured with black text on a white background to match the site’s favicon; as the actual logo is multicoloured and was not able to be replicated here
+
+#### Typography
+
+I researched elegant fonts typically used for romantic themes and constructed the following “font palette” for my site:
+
+**[Sail](https://fonts.google.com/specimen/Sail)**:
+
+![sail](docs/images/typography_sail.png)
+
+The elegant lower case letters of Sail, combined with the flourishes on the capital letters lends itself perfectly to my legible site logo and was used for the logos both in the header and footer throughout the website. The back up typefaces provided were Times New Roman, Times, and Serif.
+
+**[Courgette](https://fonts.google.com/specimen/Courgette)**:
+
+![courgette](docs/images/typography_courgette.png)
+
+Navigation bar items were styled with Courgette. This capital letters of this font is easy to read at a glance whilst still maintaining elegance. The back up typefaces provided were Times New Roman, Times, and Serif.
+
+**[Meie Script](https://fonts.google.com/specimen/Meie+Script)**:
+
+![meie script](docs/images/typography_meie_script.png)
+
+The elegant flowing letters of Meie Script was used for the bride and groom names to convcey elegance and class. The back up typefaces provided were Times New Roman, Times, and Serif.
+
+**[Parisienne](https://fonts.google.com/specimen/Parisienne)**:
+
+![parisienne](docs/images/typography_parisienne.png)
+
+Meie Script did not prove legible at smaller font sizes; so parisienne was used for section titles to achieve the same effect. The back up typefaces provided were Arial, Helvetic, and Sans-Serif.
+
+**[Roboto](https://fonts.google.com/specimen/Roboto)**:
+
+![roboto](docs/images/typography_roboto.png)
+
+The text in the contact and hashtags for social media will used the Roboto typeface. This is the most popular font on google fonts, easy to read, and recognisable. The back up typefaces provided were Arial, Helvetic, and Sans-Serif.
+
+#### Images
+All images used were optimised using [adobe photoshop](https://www.adobe.com/uk/) and converted to .webp format for faster loading times using [cloud convert](https://cloudconvert.com/png-to-webp).
 
 ## Technologies Used 
 
@@ -275,7 +348,7 @@ The **FAQ** page will resemble the RSVP page but with a bootstrap accordion comp
 ### Frameworks and Tools 
 
 1. [Visual Studio Code](https://code.visualstudio.com/)
-	*My IDE of choice for writing the HTML and CSS code for this project
+	* My IDE of choice for writing the HTML and CSS code for this project
 2. [Git](https://git-scm.com/)
 	* Used for version control
 3. [Github](https://github.com/)
@@ -296,11 +369,13 @@ The **FAQ** page will resemble the RSVP page but with a bootstrap accordion comp
 	* Used for producing wireframes
 11. [Adobe Color Wheel](https://color.adobe.com/create/color-wheel)
 	* Used for creating the colour scheme
-12. [Adobe Photoshop](https://www.adobe.com/uk/)
+12. [Pexels](https://www.pexels.com/)
+	* Used for stock images
+13. [Adobe Photoshop](https://www.adobe.com/uk/)
 	* Used for image editing
-13. [Cloud Convert](https://cloudconvert.com/png-to-webp)
+14. [Cloud Convert](https://cloudconvert.com/png-to-webp)
 	* Used to convert images from .png to .webp
-14. [Hexadecimal to RGB converter](https://www.rapidtables.com/convert/color/hex-to-rgb.html)
+15. [Hexadecimal to RGB converter](https://www.rapidtables.com/convert/color/hex-to-rgb.html)
 	* Used for converting some colour schemes to rgb
 
 
@@ -354,5 +429,42 @@ To deploy locally; you can clone this project by typing `git clone https://githu
 
 ### Documentation 
 - The code-institute [template](https://github.com/Code-Institute-Org/ci-full-template) was used in order to have necessary tools preinstalled
-	
+
+### Media
+
+Most media images used were owned or created by the developer. Those that were not owned or created by the developer were taken from [Pexels](https://www.pexels.com) with credit to:
+
+- [Craig Adderly](https://www.pexels.com/@thatguycraig000/)
+    <details><summary>Index Reception Image</summary>
+    <img src="assets/images/index_reception.webp">
+    </details>
+- [Carlos Pernalete Tua](https://www.pexels.com/@carlos-pernalete-tua-210498/)
+    <details><summary>Travel Airplane Image</summary>
+    <img src="assets/images/travel_airplane.webp">
+    </details>
+- [Artem Yellow](https://www.pexels.com/@artem-yellow-422929671/)
+    <details><summary>Travel Svetiskhoveli Image</summary>
+    <img src="assets/images/travel_cathedral.webp">
+    </details>
+- [Rene Asmussen](https://www.pexels.com/@reneasmussen/)
+    <details><summary>Travel Reception Image</summary>
+    <img src="assets/images/travel_reception.webp">
+    </details>
+- [Vishwanth PindiBoina](https://www.pexels.com/@vishwanth07/)
+    <details><summary>Hotel Fancy Image</summary>
+    <img src="assets/images/hotel_fancy.webp">
+    </details>
+- [Dids .](https://www.pexels.com/@didsss/)
+    <details><summary>Mid-range Hotel Image</summary>
+    <img src="assets/images/hotel_mid.webp">
+    </details>
+- [John Smith](https://www.pexels.com/@manualman32/)
+    <details><summary>Budget Hotel Image</summary>
+    <img src="assets/images/hotel_cheap.webp">
+    </details>
+
+### Code
+
+The CSS for the sticky footer used in lines 79-86 of [assets/css/style.css](assets/css/style.css) was taken from [materialize css](https://materializecss.com/footer.html).
+
 ## Acknowledgements 
