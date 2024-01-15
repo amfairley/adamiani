@@ -342,7 +342,9 @@ All images used were optimised using [adobe photoshop](https://www.adobe.com/uk/
 
 **Browser tab**:
 
-![browser tab](docs/images/feature_browser_tab.png)
+<details><summary>Browser Tab</summary>
+<img src="docs/images/feature_browser_tab.png">
+</details>
 
 - A favicon appears on every page on the left of the browser tab.
 - The page title appearing in the browser tab changes depending on which page is active. The homepage displays Adamiani and the other pages display in the following way: Adamiani | Page Name e.g. Adamiani | About Us.
@@ -350,30 +352,40 @@ All images used were optimised using [adobe photoshop](https://www.adobe.com/uk/
 
 **Logo and Navigation Bar**:
 
-![navbar](docs/images/feature_nav.png)
+<details><summary>Navbar</summary>
+<img src="docs/images/feature_nav.png">
+</details>
 
 - Appears on all 8 pages including 404 and form submit response page.
 - It allows users to easily and intuitively navigate the website.
 - Its height is set to 120px and multiples of this will be used throughout the website.
 - On the left there is the site logo that also acts as a link to the homepage.
-- On the right there are the links to the 6 main pages of the website along with font awesome icons that allow the user to gauge the point of each page at a glance.
+- On the right there are the links to the 6 main pages of the website along with font awesome icons that allow the user to gauge the purpose of each page at a glance.
 - The current page is displayed with larger, bolder text and underlined.
 - When the pages are hovered, there is a short animation of a closing shutter and the background colour changes.
 
-![navbar hover](docs/images/feature_nav_hover.png)
+<details><summary>Navbar hover</summary>
+<img src="docs/images/feature_nav_hover.png">
+</details>
 
 - When un-hovered, the opposite animation happens.
 - It is responsive, taking up a full line on desktop, stacking the navigation links as two lines of three on tablets and placing the site logo above the navigation bar on mobile.
 
-![navbar tablet](docs/images/feature_nav_tablet.png)
+<details><summary>Navbar Tablet</summary>
+<img src="docs/images/feature_nav_tablet.png">
+</details>
 
-![navbar mobile](docs/images/feature_nav_mobile.png)
+<details><summary>Navbar Mobile</summary>
+<img src="docs/images/feature_nav_mobile.png">
+</details>
 
 - User stories covered: 2, 11
 
 **Footer**:
 
-![footer](docs/images/feature_footer.png)
+<details><summary>Footer</summary>
+<img src="docs/images/feature_footer.png">
+</details>
 
 - Appears on all 8 pages including 404 and form submit response page.
 - The height is set to 120px to match the navigation bar and reduced on very small mobile screens to 80px to save space.
@@ -382,12 +394,27 @@ All images used were optimised using [adobe photoshop](https://www.adobe.com/uk/
 - In the centre there is another page logo which also acts as a link to the homepage.
 - On the right there are four social media links; a facebook link for each of the couple, the wedding /twitter and the wedding Instagram. These open in a new page and have the attribute rel set to “noopener” to prevent any malicious behaviour from the social media sites.
 - These social media links have a hover animation transitioning between the current website theme and the destination website theme.
+
+<details><summary>Footer Social Media</summary>
+<img src="docs/images/feature_footer_fb.png"><img src="docs/images/feature_footer_x.png"><img src="docs/images/feature_footer_instagram.png">
+</details>
+
 - The footer is responsive with all the information being displayed on desktop, the postal address (deemed the least important) disappearing on tablet and below, and the site logo disappearing on phone screens.
 - The font sizes are also responsive to screen size.
 
-![footer tablet](docs/images/feature_footer_tablet.png)
+<details><summary>Footer Tablet</summary>
+<img src="docs/images/feature_footer_tablet.png">
+</details>
 
-![footer mobile](docs/images/feature_footer_mobile.png)
+<details><summary>Footer Mobile</summary>
+<img src="docs/images/feature_footer_mobile.png">
+</details>
+
+- On the smallest sizes, the social media text is removed and email is repositioned so that the information does not overlap.
+
+<details><summary>Footer Mobile - Small</summary>
+<img src="docs/images/feature_footer_mobile_small.png">
+</details>
 
 - User stories covered: 7, 13, 16
 
@@ -396,28 +423,44 @@ All images used were optimised using [adobe photoshop](https://www.adobe.com/uk/
 - The content of this and other pages is 95% of the width of the screen at most with a pink border connecting the navigation bar to the footer and the internal page content having a different background colour.
 - A central Hero Image that conveys the importance and meaning of both the site and the event. It is set to 480px in height (4 x the navigation bar) leaving some of the content below peeking above the bottom of the page to lead the user to explore further down the page.
 - A hero text clearly portraying the purpose of the website as an online invitation to the event along with the date and location.
--A rsvp button that links to the rsvp portion of the website and shows the deadline. It inverts its colour pallet when hovered from light to dark to indicate that the user should click it along with the text becoming bold.
+- A rsvp button that links to the rsvp portion of the website and shows the deadline. It inverts its colour pallet when hovered from light to dark to indicate that the user should click it along with the text becoming bold.
 - The hero image and text are responsive, changing size depending on the screen size and for mobile sizes and below the hero text appears below the hero image instead of on top.
 
-![hero image](docs/images/feature_index_hero.png)
+<details><summary>Hero Image</summary>
+<img src="docs/images/feature_index_hero.png">
+</details>
 
-![hero image mobile](docs/images/feature_index_hero_mobile.png)
+<details><summary>Hero Image Mobile</summary>
+<img src="docs/images/feature_index_hero_mobile.png">
+</details>
 
 - The next section gives a title, an image, and some text for the ceremony. The image and text are reversed for the reception section below it. Both of these sections are set to 360px (3x the navigation bar) to make the site look well structured. These are responsive, with 33:66 image:text ratio on desktop, 50:50 on tablet and finally the image and text being on separate lines on mobile devices. These sections give information on the itinerary of the day and some background information.
 
-![index content desktop](doc/images/feature_index_content_desktop.png)
+<details><summary>Homepage content: Desktop</summary>
+<img src="docs/images/feature_index_content_desktop.png">
+</details>
 
-![index content tablet](doc/images/feature_index_content_tablet.png)
+<details><summary>Homepage content: Tablet</summary>
+<img src="docs/images/feature_index_content_tablet.png">
+</details>
 
-![index content mobile](doc/images/feature_index_content_mobile.png)
+<details><summary>Homepage content: Mobile</summary>
+<img src="docs/images/feature_index_content_mobile.png">
+</details>
 
 - Before the footer there is another 360px high section with images of the couple in it providing some visual background information on the couple. These are responsive and resize on large screens. On tablets one of the images is hidden with the remaining two taking up 50% of the section width. On mobile there is only one image.
 
-![index images desktop](docs/images/feature_index_images_desktop.png)
+<details><summary>Homepage Images: Desktop</summary>
+<img src="docs/images/feature_index_images_desktop.png">
+</details>
 
-![index images tablet](docs/images/feature_index_images_tablet.png)
+<details><summary>Homepage Images: Tablet</summary>
+<img src="docs/images/feature_index_images_tablet.png">
+</details>
 
-![index images mobile](docs/images/feature_index_images_mobile.png)
+<details><summary>Homepage Images: Mobile</summary>
+<img src="docs/images/feature_index_images_mobile.png">
+</details>
 
 - User stories covered: 1, 3, 4, 11, 12, 15
 
@@ -426,15 +469,23 @@ All images used were optimised using [adobe photoshop](https://www.adobe.com/uk/
 - Pages other than the index page will have a page title at the top bringing unity to the site. This has the same pink colour as the hero text on the homepage and is the same height as the navigation bar (120px). It includes a font awesome icon to help the user intuit the purpose and value of the page. Here it is a heart, which is coloured red to resemble love.
 - A hero image is placed beneath the title to give some space before the text. It is also set to a multiple of 120px and changes size in response to changing screen sizes.
 
-![about us title](docs/images/feature_about_us_title.png)
+<details><summary>About Us Title</summary>
+<img src="docs/images/feature_about_us_title.png">
+</details>
 
 - Then there are repeating sections of images and story text. They swap orientation from right to left and left to right to give the idea of pages in a book and they describe the relationship so far. On desktop and tablet the images are centred vertically to the text to show which part they relate to. On mobile most of the images are removed so as not to clutter the screen and the final image is replaced with the wedding image; deemed the most important and appropriate image. The text width on mobile is extended to compensate for the lack of images.
 
-![about us desktop](docs/images/feature_about_us_content.png)
+<details><summary>About Us: Desktop</summary>
+<img src="docs/images/feature_about_us_content.png">
+</details>
 
-![about us tablet](docs/images/feature_about_us_content_tablet.png)
+<details><summary>About Us: Tablet</summary>
+<img src="docs/images/feature_about_us_content_tablet.png">
+</details>
 
-![about us mobile](docs/images/feature_about_us_content_mobile.png)
+<details><summary>About Us: Mobile</summary>
+<img src="docs/images/feature_about_us_content_mobile.png">
+</details>
 
 - User stories covered: 11, 15
 
@@ -442,17 +493,25 @@ All images used were optimised using [adobe photoshop](https://www.adobe.com/uk/
 
 - The travel page has the same themed header as the about-us page with a plane font awesome icon to suggest travel.
 
-![travel title](docs/images/feature_travel_title.png)
+<details><summary>Travel Title</summary>
+<img src="docs/images/feature_travel_title.png">
+</details>
 
 - The page consists of three sections; travel information for the country, for the ceremony, and for the reception. Each section contains an image, some text and a map. The order of these is reversed for the central section (ceremony) to make the page pleasing to the eye. 
 - The maps are zoomed out enough for a general view and can be manipulated by the user for more information.
 - The sections are responsive. Dropping below desktop size, the images are lost and the sections are split 50:50 between the map and the text. On mobile devices the title, map, and text of each section each occupy the full screen width.
 
-![travel desktop](docs/images/feature_travel_desktop.png)
+<details><summary>Travel: Desktop</summary>
+<img src="docs/images/feature_travel_desktop.png">
+</details>
 
-![travel tablet](docs/images/feature_travel_tablet.png)
+<details><summary>Travel: Tablet</summary>
+<img src="docs/images/feature_travel_tablet.png">
+</details>
 
-![travel mobile](docs/images/feature_travel_mobile.png)
+<details><summary>Travel: Mobile</summary>
+<img src="docs/images/feature_travel_mobile.png">
+</details>
 
 -	User stories covered: 6, 11
 
@@ -460,16 +519,23 @@ All images used were optimised using [adobe photoshop](https://www.adobe.com/uk/
 
 - A similar page title is used with a changed font awesome icon to indicate the purpose of the page
 
-![hotels title](docs/images/feature_hotels_title.png)
+<details><summary>Hotels Title</summary>
+<img src="docs/images/feature_hotels_title.png">
+</details>
 
 - Images use the golden ratio to appeal to the user
 - Three hotel options are given for different budgets with links to the hotel homepage that open in new pages
 
-![hotels section](docs/images/feature_hotels_section.png)
+<details><summary>Hotels Section</summary>
+<img src="docs/images/feature_hotels_section_top.png">
+<img src="docs/images/feature_hotels_section_bottom.png">
+</details>
 
 - When the hotel names are hovered the text colour changes and a dark background in the shape of a button appears around it to indicate its use.
 
-![hotels hover](docs/images/feature_hotel_hover.png)
+<details><summary>Hotels name hover</summary>
+<img src="docs/images/feature_hotels_hover.png">
+</details>
 
 - User stories covered: 5,  11
 
@@ -478,18 +544,26 @@ All images used were optimised using [adobe photoshop](https://www.adobe.com/uk/
 - This page title has a change of font to Sail, as the Meie Script was deemed inelegant and illegible when in all-caps.
 - The RSVP form is preceded by a reminder of the deadline to submit the form; informing the user of the timeline.
 
-![RSVP title](docs/images/feature_rsvp_title.png)
+<details><summary>RSVP Title</summary>
+<img src="docs/images/feature_rsvp_title.png">
+</details>
 
 - The RSVP form utilises text inputs, email input, a drop down selection part and radio buttons to gather all information needed by the client. The name, email, and selection of event are required for the form to be submitted, stopping the user from prematurely submitting information.
 - The submit button text reads “RSVP” and mimics the colour scheme and the hover effect of the RSVP button from the homepage.
 
-![RSVP form](docs/images/feature_rsvp_form.png)
+<details><summary>RSVP Form</summary>
+<img src="docs/images/feature_rsvp_form.png">
+</details>
 
-![RSVP hover](docs/images/feature_rsvp_hover.png)
+<details><summary>RSVP button hover</summary>
+<img src="docs/images/feature_rsvp_hover.png">
+</details>
 
 - On tablet and below; the side images are removed to make space for the central content and an image replaces the background of the page title.
 
-![RSVP tablet](docs/images/feature_rsvp_tablet.png)
+<details><summary>RSVP: Tablet</summary>
+<img src="docs/images/feature_rsvp_tablet.png">
+</details>
 
 - User stories covered: 3, 4, 11
 
@@ -498,16 +572,20 @@ All images used were optimised using [adobe photoshop](https://www.adobe.com/uk/
 - The FAQ page follows the same layout and responsiveness as the RSVP page.
 - The title has a question mark font awesome icon to convey the purpose of the page.
 
-![FAQ title](docs/images/feature_faq_title.png)
+<details><summary>FAQ Title</summary>
+<img src="docs/images/feature_faq_title.png">
+</details>
 
-![FAQ tablet](docs/images/feature_faq_tablet.png)
+<details><summary>FAQ: Tablet</summary>
+<img src="docs/images/feature_faq_tablet.png">
+</details>
 
 - The central section contains a bootstrap accordion consisting of frequently asked wedding questions and their answers.
 - When a question is clicked, the answer appears below and the question background and font colour change as a visual representation of its change in state.
 
-![FAQ accordion closed](docs/images/feature_faq_accordion_closed.png)
-
-![FAQ accordion open](docs/images/feature_faq_accordion_open.png)
+<details><summary>FAQ: Accordion open</summary>
+<img src="docs/images/feature_faq_accordion_open.png">
+</details>
 
 - User stories covered: 5, 8, 9, 10, 11, 12, 14, 16, 17
 
@@ -515,9 +593,13 @@ All images used were optimised using [adobe photoshop](https://www.adobe.com/uk/
 - The error 404 page not found page is intentionally simple as to not distract the user with unnecessary media or imply that this page has another use. It consists of a large title explaining the error, a brief whimsical paragraph and a button to return the user to the homepage.
 - The button follows the same colour theme and hover effect as the RSVP button on the homepage
 
-![Error 404](docs/images/feature_error_404.png)
+<details><summary>Error 404 Page</summary>
+<img src="docs/images/feature_error_404.png">
+</details>
 
-![Error 404 hover](docs/images/feature_error_404_hover.png)
+<details><summary>Error 404 button hover</summary>
+<img src="docs/images/feature_error_404_hover.png">
+</details>
 
 - User stories covered: 11
 
@@ -525,9 +607,13 @@ All images used were optimised using [adobe photoshop](https://www.adobe.com/uk/
 - The response page to the RSVP form submission has the same layout as the error 404 page.
 - The button follows the same colour theme and hover effect as the RSVP button on the homepage
 
-![Response](docs/images/feature_response.png)
+<details><summary>Response page</summary>
+<img src="docs/images/feature_response.png">
+</details>
 
-![Response hover](docs/images/feature_response_hover.png)
+<details><summary>Response button hover</summary>
+<img src="docs/images/feature_response_hover.png">
+</details>
 
 - User stories covered: 11
 
