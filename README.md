@@ -635,11 +635,131 @@ The website was tested on the following browsers:
 
 ### Testing User Stories 
 
-1. Number 1 user story example
+1. As a First Time Visitor, I want to immediately know the purpose of the site, who is involved, and the time and location of the event so that I can make sure that I am on the correct site and add it to my diary.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 | ----------- | ---------- | ------------------- | ----------------- |
-| Example Feature | Action Taken | What should happen | What did happen | 
+| Index.html hero image and text | Go to the website link | Homepage loads quickly with information on screen | Works as expected | 
+<br>
+
+2. As a First Time Visitor, I want the site navigation to be intuitive so that I can easily access the desired information.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ----------- | ---------- | ------------------- | ----------------- |
+| Navigation bar has labels and font-awesome icons | Click the navigation bar icons | Clicking navigation bar items takes you to the corresponding page | Works as expected | 
+<br>
+
+3. As a First Time Visitor, I want to be able to RSVP to the event so as to inform the couple of my attendance.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ----------- | ---------- | ------------------- | ----------------- |
+| The RSVP form submits and lets the user know that the submission was successful | Filling out the RSVP form and leaving our name, email, or event choice | The form will not submit without the name, email, and which even they are attending information | Works as expected |
+| Same as above | Filling out all of the RSVP form | The user will be directed to the response.html page notifying the user has successfully submitted the form and providing a link back to the homepage | Works as expected |
+<br>
+
+4. As a Returning Visitor, I want to know the deadline by which I need to RSVP by so that I do not miss out on attending the event.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ----------- | ---------- | ------------------- | ----------------- |
+| Homepage RSVP button has deadline on it | Either go to the website or click on the home section of the navigation bar | The user is redirected to index.html and can clearly see the RSVP deadline | Works as expected | 
+| The deadline is clear above the RSVP form | Click on the RSVP section of the navigation bar | User is redirected to rsvp.html and can clearly view the information | Works as expected |
+<br>
+
+5. As a Returning Visitor, I want to see accommodation options near the event so I can plan my trip.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ----------- | ---------- | ------------------- | ----------------- |
+| Hotels page shows accommodation options for three price ranges | Click on the hotels section of the navigation bar | User is redirected to hotels.html and can clearly view the information | Works as expected | 
+| Hotel names link to hotel websites | Click on the hotel names | Hotel websites or booking websites open in a new tab | Works as expected |
+<br>
+
+6. As a Returning Visitor, I want to see travel options to get to the event so I can plan my trip.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ----------- | ---------- | ------------------- | ----------------- |
+| Travel page shows locations and recommended options | Click on the travel section of the navigation bar | User is redirected to travel.html. The information is clear and embedded maps are easy to manipulate | Works as expected | 
+<br>
+
+7. As a Returning Visitor, I want to be able to contact the married couple so as to pass on my congratulations or ask questions.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ----------- | ---------- | ------------------- | ----------------- |
+| Contact section of the footer | Scroll to the bottom of any page on the website | Contact information is clear on the left hand side | Works as expected | 
+| Email link in footer | Click the email in the footer | A new page opens in their email of choice with a draft email to adamiani2020@gmail.com with a custom subject | Opens an email to adamiani@gmail.com. Corrected each footer mailto: option to adamiani2020@gmail.com and now works as expected |
+| Social media section of the footer | Scroll to the bottom of any page in the website | Social media links are clear on the right hand side. Selecting them opens the social media platform in a new window | Works as expected |
+<br>
+
+8. As a Returning Visitor, I want to see if my children are welcome at the event so I can arrange child care if needed.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ----------- | ---------- | ------------------- | ----------------- |
+| Question raised on the FAQ page | Click on the FAQ section of the navigation bar | User is redirected to FAQ.html and the question is clear and answer opens when selected | Works as expected | 
+<br>
+
+9. As a Returning Visitor, I want to be able to check the dress code for the event so that I will not look out of place.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ----------- | ---------- | ------------------- | ----------------- |
+| Question raised on the FAQ page | Click on the FAQ section of the navigation bar | User is redirected to FAQ.html and the question is clear and answer opens when selected | Works as expected | 
+<br>
+
+10. As a Returning Visitor, I want to be able to check what sort of gift I should bring so I can set myself a budget.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ----------- | ---------- | ------------------- | ----------------- |
+| Question raised on the FAQ page | Click on the FAQ section of the navigation bar | User is redirected to FAQ.html and the question is clear and answer opens when selected | Works as expected | 
+<br>
+
+11. As a Frequent Visitor, I want to be able to tell which page of the site I am currently on so I can know what the page is about at a glance.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ----------- | ---------- | ------------------- | ----------------- |
+| Navigation bar | User is on any of webpages | The 6 main webpages appearing in the navigation bar will have their navigation bar font bold and larger than the others. The 404 page and response.html will not have any extra stylings in the navigation bar | Works as expected | 
+| Titular font awesome icons | Be on the about us, travel, hotels, RSVP, or FAQ pages | The title has a font awesome icon visually explaining the purpose of the current page at a glance | Works as expected |
+<br>
+
+12.  As a Frequent Visitor, I want to see the itinerary for the day of the event so I am prepared for the event.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ----------- | ---------- | ------------------- | ----------------- |
+| Homepage section | Load the webpage or click home on the navigation bar | The user is redirected to index.html and can see some information about the ceremony and reception | Works as expected |
+|  Question raised on the FAQ page | Click on the FAQ section of the navigation bar | User is redirected to FAQ.html and the question is clear and answer opens when selected | Works as expected |
+<br>
+
+13. As a Frequent Visitor, I want to see social links so I can follow them for any updates or image sharing.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ----------- | ---------- | ------------------- | ----------------- |
+| Social media section of the footer | Scroll to the bottom of any page on the website | Social media links are clear on the right hand side. Selecting them opens the social media platform in a new window | Works as expected | 
+<br>
+
+14. As a Frequent Visitor, I want to be able to check if there are any rules surrounding using social media at/for the event so I do not go against the wishes of the couple.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ----------- | ---------- | ------------------- | ----------------- |
+| Question raised on the FAQ page | Click on the FAQ section of the navigation bar | User is redirected to FAQ.html and the question is clear and answer opens when selected | Works as expected | 
+<br>
+
+15. As a Frequent Visitor, I want to see background information on the couple so as to keep myself better informed.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ----------- | ---------- | ------------------- | ----------------- |
+| About us page | Click on the about us section of the navigation bar | User is redirected to about_us.html and can see the couple’s story laid out nicely | Works as expected | 
+<br>
+
+16. As a Frequent Visitor, I want to be able to contact the married couple if I have any personal queries that are not answered in the FAQs.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ----------- | ---------- | ------------------- | ----------------- |
+| Question raised on the FAQ page | Click on the FAQ section of the navigation bar | User is redirected to FAQ.html and the question is clear and answer opens when selected | Works as expected |
+| Contact section of the footer | Scroll to the bottom of any page on the website | Contact information is clear and any links open in a new tab | Works as expected | 
+<br>
+
+17. As a Frequent Visitor, I want to be to check some Frequently Asked Questions to answer my question or inform me of things I have not yet considered.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ----------- | ---------- | ------------------- | ----------------- |
+| Question raised on the FAQ page | Click on the FAQ section of the navigation bar | User is redirected to FAQ.html and the question is clear and answer opens when selected | Works as expected |
 
 ## Bugs 
 
