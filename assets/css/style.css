@@ -297,17 +297,10 @@ main {
     font-size: 20pt;
 }
 
-/* Hero Image */
-.about-hero-image {
-    background-image: url('../images/about_us_hero.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-    background-position-y: -70px; 
-    height: 360px;
-    width: 95%;
-    padding: 0;
-    margin: auto;
+/* Video settings */
+#about-us-video {
+    width:80%;
+    padding-top: 20px;
 }
 
 /* About Us Content */
@@ -829,11 +822,6 @@ footer ul {
     /* Homepage: add margin to index_couple_2 to centre images */
     #homepage-bottom-image-2 {
         border-right-width: 10px;
-    }
-
-    /* About us: hero image resize */
-    .about-hero-image {
-        background-position-y: 0px;
     }
 
     /* FAQ: Move image to title background */
