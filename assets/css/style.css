@@ -160,7 +160,7 @@ main {
 /* Hover.css: animation colours */
 .hvr-shutter-in-vertical:hover {
     background-color: transparent;
-    color: #000;
+    color: #000 !important;
 }
 
 /* Hover.css: un-shuttering colour */
