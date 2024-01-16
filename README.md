@@ -1040,6 +1040,12 @@ This was fixed by increasing the z-index of the the `.header-section{}` to 10 so
 
 When validating the accessibility of rsvp.html with the wave validator, it highlighted the requirement for the radio buttons be grouped within a fieldset with a legend for a screen reader to describe the purpose of the radio buttons. To fix this, each radio button group div was put inside its own fieldset element along with a legend with a class of sr-only describing the radio button group. This way, it is accessible to those using screen readers but does not impact the layout of the page with a new legend heading.
 
+### Known bugs ###
+
+On some screen sizes a sliver of the hover effect can be seen between the navigation bar items. This occurs when the bootstrap resizing of the columns is off by 1px.
+
+![Known bug 1](docs/images/known_bug_1.png)
+
 ### Mistakes
 
 - Commit nomenclature was altered starting with commit 26 to be more in-line with professional standards. Commits prior to this utilised past-tense language.
