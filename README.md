@@ -722,32 +722,49 @@ rsvp.html
 faq.html
 response.html
 404.html
+
 ### Performance
-Google lighthouse results for each page
-index.html
-Desktop
-Mobile
-about_us.html
-Desktop
-Mobile
-travel.html
-Desktop
-Mobile
-hotels.html
-Desktop
-Mobile
-rsvp.html
-Desktop
-Mobile
-faq.html
-Desktop
-Mobile
-response.html
-Desktop
-Mobile
-404.html
-Desktop
-Mobile
+Lighthouse within the google chrome devtools was used to confirm that the websiting was performing well, accessible, utilised best practices and follows basic search engine optimisation (SEO) advice. All pages passed. Please note there is confetti/fireworks on the screen grabs for those that pass with a score of 100 in each section that are constant and therefore had to appear on the image.
+
+<details><summary>index.html</summary>
+<img src="docs/images/lighthouse_index.png">
+</details>
+<br>
+
+<details><summary>about_us.html</summary>
+<img src="docs/images/lighthouse_about_us.png">
+</details>
+<br>
+
+<details><summary>travel.html</summary>
+<img src="docs/images/lighthouse_travel.png">
+</details>
+<br>
+
+<details><summary>hotels.html</summary>
+<img src="docs/images/lighthouse_hotels.png">
+</details>
+<br>
+
+<details><summary>rsvp.html</summary>
+<img src="docs/images/lighthouse_rsvp.png">
+</details>
+<br>
+
+<details><summary>faq.html</summary>
+<img src="docs/images/lighthouse_faq.png">
+</details>
+<br>
+
+<details><summary>response.html</summary>
+<img src="docs/images/lighthouse_response.png">
+</details>
+<br>
+
+<details><summary>404.html</summary>
+<img src="docs/images/lighthouse_404.png">
+</details>
+<br>
 
 ### Performing tests of various devices ###
 The website was tested using Google Chrome Developer Tools device toggle option for all available device options. All work as expected.
