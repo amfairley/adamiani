@@ -467,10 +467,15 @@ All images used were optimised using [adobe photoshop](https://www.adobe.com/uk/
 **About-us**:
 
 - Pages other than the index page will have a page title at the top bringing unity to the site. This has the same pink colour as the hero text on the homepage and is the same height as the navigation bar (120px). It includes a font awesome icon to help the user intuit the purpose and value of the page. Here it is a heart, which is coloured red to resemble love.
-- A hero image is placed beneath the title to give some space before the text. It is also set to a multiple of 120px and changes size in response to changing screen sizes.
 
 <details><summary>About Us Title</summary>
 <img src="docs/images/feature_about_us_title.png">
+</details>
+
+- Under the title is a video of the wedding ceremony which does not autoplay and has controls that the user can manipulate.
+
+<details><summary>About Us Video</summary>
+<img src="docs/images/feature_about_us_video.png">
 </details>
 
 - Then there are repeating sections of images and story text. They swap orientation from right to left and left to right to give the idea of pages in a book and they describe the relationship so far. On desktop and tablet the images are centred vertically to the text to show which part they relate to. On mobile most of the images are removed so as not to clutter the screen and the final image is replaced with the wedding image; deemed the most important and appropriate image. The text width on mobile is extended to compensate for the lack of images.
@@ -743,7 +748,7 @@ Each footer has an alert for a redundant link due to the two facebook links bein
 
 There is an alert for a redundant link in the RSVP button of the hero text, as there is already a link to the RSVP page in the navigation bar. However having this extra link is intentionally and will offer good user experience to a first time user using the website to RSVP.
 
-***rsvp.html Errors and alerts**
+**rsvp.html Errors and Alerts**
 
 There were 3 alerts for missing fieldsets for the radio buttons in the RSVP form. This was fixed and described in bug #5, removing these alerts.
 
@@ -751,16 +756,16 @@ There were 3 alerts for missing fieldsets for the radio buttons in the RSVP form
 
 There is an alert for suspicious link text in the homepage button due to the use of "click here" on the button. However this is intentional and required for good user experience as it explains the function of the button in a pleasing way.
 
-**All results**
+**All Wave Results:**
 
-[index.html](https://wave.webaim.org/report#/https://amfairley.github.io/adamiani/)
-[about_us.html](https://wave.webaim.org/report#/https://amfairley.github.io/adamiani/about_us)
-[travel.html](https://wave.webaim.org/report#/https://amfairley.github.io/adamiani/travel)
-[hotels.html](https://wave.webaim.org/report#/https://amfairley.github.io/adamiani/hotels)
-[rsvp.html](https://wave.webaim.org/report#/https://amfairley.github.io/adamiani/rsvp)
-[faq.html](https://wave.webaim.org/report#/https://amfairley.github.io/adamiani/faq)
-[response.html](https://wave.webaim.org/report#/https://amfairley.github.io/adamiani/response)
-[404.html](https://wave.webaim.org/report#/https://amfairley.github.io/adamiani/response)
+[index.html](https://wave.webaim.org/report#/https://amfairley.github.io/adamiani/)<br>
+[about_us.html](https://wave.webaim.org/report#/https://amfairley.github.io/adamiani/about_us)<br>
+[travel.html](https://wave.webaim.org/report#/https://amfairley.github.io/adamiani/travel)<br>
+[hotels.html](https://wave.webaim.org/report#/https://amfairley.github.io/adamiani/hotels)<br>
+[rsvp.html](https://wave.webaim.org/report#/https://amfairley.github.io/adamiani/rsvp)<br>
+[faq.html](https://wave.webaim.org/report#/https://amfairley.github.io/adamiani/faq)<br>
+[response.html](https://wave.webaim.org/report#/https://amfairley.github.io/adamiani/response)<br>
+[404.html](https://wave.webaim.org/report#/https://amfairley.github.io/adamiani/response)<br>
 
 ### Performance
 Lighthouse within the google chrome devtools was used to confirm that the websiting was performing well, accessible, utilised best practices and follows basic search engine optimisation (SEO) advice. All pages passed. Please note there is confetti/fireworks on the screen grabs for those that pass with a score of 100 in each section that are constant and therefore had to appear on the image.
