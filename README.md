@@ -26,7 +26,7 @@ Adamiani is an informative wedding-vow renewal website with the aim of providing
 
 ### Site Owner Goals
 - Provide key event information to all the guests.
-- Allow for digital RSVPs to reduced issues common to physical post (lost letters, postal delays etc.)
+- Allow for digital RSVPs to reduce issues common to physical post (lost letters, postal delays etc.).
 - Provide answers to frequently asked questions to reduce repetition if they were to respond to individual guests.
 - Provide contact information to the guests for further queries.
 - Promote the event in a way that encourages invitees to attend and RSVP.
@@ -68,20 +68,20 @@ Adamiani is an informative wedding-vow renewal website with the aim of providing
 - **What value does the project provide?** This wedding-renewal website allows guests to the event to see key information included, but not limited to:
 	- Who the event is celebrating
 	- When and where the event is
-	- Travel and accommadation options for the event
+	- Travel and accommodation options for the event
 - **What are the business needs?** The business in this case would be the couple arranging the event. Their needs would be:
 	- Easy way to get RSVP responses
 	- An FAQ page that answers basic questions, in order to reduce repeating answers to different invitees
-- **Who is the target audience?** The target audience is the invited guests to the vow-renewal service.
+- **Who is the target audience?** The target audience is the invited guests to the vow-renewal service
 - **What are the user requirements and expectations?**
-	- An intuitive and simple navigation system.
-	- Able to quickly and easily locate relevant information.
-	- All functions and links work as expected.
-	- External links open in a new browser tab.
-	- Any embedded video or audio does not autoplay and has options to play, pause, adjust volume, fullscreen, and share.
-	- The functionality and design of the website works regardless of screen size.
-	- Contact information readily available.
-	- Accessibility.
+	- An intuitive and simple navigation system
+	- Able to quickly and easily locate relevant information
+	- All functions and links work as expected
+	- External links open in a new browser tab
+	- Any embedded video or audio does not autoplay and has options to play, pause, adjust volume, fullscreen, and share
+	- The functionality and design of the website works regardless of screen size
+	- Contact information readily available
+	- Accessibility
 - **What information is required?** Through previous use of wedding websites, brainstorming, and discussions with friends and colleagues; the following are requirements for an all-encompassing wedding or wedding vow renewal website:
 	- **Who?**: A clear indication of who is having the ceremony
 	- **When?**: The time and date of the ceremony
@@ -123,7 +123,7 @@ The following proposed web-pages and sections will cover the remaining content a
 ##### Section: Footer
 - This section will be present on every page to create unity across the site
 - This section will house contact details, as to be available on every webpage
-- The contact details will cover email address, whatsapp, and postal address
+- The contact details will cover email address, phone number, and postal address
 - Social media links will be grouped here
 ##### Webpage: Homepage
 - The heading and hero image will convey the time and location of the event
@@ -166,14 +166,12 @@ Required pages and their main sections:
 		- Name 
 		- Whose plus-one (if applicable)
 		- Contact email
-		- Dietry restrictions
 		- Meal choices
-		- A message for the happy couple
 		- A song recommendation for the evening disco
+		- Any other information
 		- A submit button
 - **FAQ**: Meets the FAQ requirment
 	1. Central Q/A paragraphs posing and answering FAQs
-	2. Links to other parts of websites if the answers can be found there
 	3. Contact information for any other queries
 
 #### Information Architecture
@@ -215,48 +213,46 @@ The **homepage** will be split into four sections on desktop to be clear and con
 - On tablet; the ceremony and reception information sections will be split 1:1 with the image, there will only be 2 images in the images section
 - On mobile; the overlaid text on the hero image will instead appear below it. The ceremony image will be placed vertically above the ceremony details. Likewise with the reception details and image. The images section preceding the footer will contain only 1 image
 
-The **about us** page will consist of a title with an image underneath and then 4 sections containing an image and text.
+The **about us** page will consist of a title with an image underneath and then sections containing an image and text.
 - The header section will use take up half of the page width and will be centred
 - The text and image sections will also take up half of the page width and will be centred to create a pleasing column effect to the page  
 - The images used to accompany the text sections will be small, stylised, and vertically centred
 - The order of text/image will be reversed for each section giving the impression of pages in a book
-- On tablet; the sections will be set to 100%
 - On mobile; the images will be removed from the text sections and instead appear above the footer
 
 The **travel/accommodation** page will consist of a heading, followed by three sections detailing flights, travel to the ceremoney, and travel to the reception. These three sections will be split equalling into a text element with the information, an image, and a map element. Each consecutive section will have the position of the map and image flipped. Before the footer there will be an accommodation section detailing hotel options for three budgets and links to the respective hotel websites.
 - At tablet sizes the images will be lost for the flight, ceremony, and travel sections with the containing elements now taking up 50% of the width each
 - On tablets the hotel options will be split over two lines, equally sized and centred on the page
 - On mobiles the flight, ceremony, and reception details will appear above the map elements and the hotel options will appear on their own lines arranged vertically
-- On mobiles the column width for content will take up 70% of the width
 
 The **RSVP** page will consist of a title, a central RSVP form and a border image each side
-- On tablet and mobile the border images will be moved to inside the title and below the RSVP form
+- On tablet and mobile the border images will be removed and the title will have a background image
 
 The **FAQ** page will resemble the RSVP page but with a bootstrap accordion component housing the questions instead of a form
 
 #### Wireframes
 
-### Home page
+##### Home page
 - [Desktop](docs/wireframes/homepage_desktop.png)
 - [Tablet](docs/wireframes/homepage_tablet.png)
 - [Mobile](docs/wireframes/homepage_mobile.png)
 
-### About us
+##### About us
 - [Desktop](docs/wireframes/aboutus_desktop.png)
 - [Tablet](docs/wireframes/aboutus_tablet.png)
 - [Mobile](docs/wireframes/aboutus_mobile.png)
 
-### Travel
+##### Travel
 - [Desktop](docs/wireframes/travel_desktop.png)
 - [Tablet](docs/wireframes/travel_tablet.png)
 - [Mobile](docs/wireframes/travel_mobile.png)
 
-### RSVP
+##### RSVP
 - [Desktop](docs/wireframes/rsvp_desktop.png)
 - [Tablet](docs/wireframes/rsvp_tablet.png)
 - [Mobile](docs/wireframes/rsvp_mobile.png)
 
-### FAQ
+##### FAQ
 - [Desktop](docs/wireframes/faq_desktop.png)
 - [Tablet](docs/wireframes/faq_tablet.png)
 - [Mobile](docs/wireframes/faq_mobile.png)
@@ -264,11 +260,12 @@ The **FAQ** page will resemble the RSVP page but with a bootstrap accordion comp
 ### Surface 
 
 #### Changes from Skeleton
-- Collapsing the navigation bar into a burger menu on smaller screens did not look as good as I hoped; instead I kept the navigation icons with some hover effects. This works well, as there are only a handful of navigation icons.
-- Due to the number of pages in the navigation bar and to help with the distribution of information; the travel/accommodation page has been split into two separate pages named travel and hotels. 
+- Collapsing the navigation bar into a burger menu on smaller screens did not look as good as I hoped; instead I kept the navigation icons with some hover effects. This works well, as there are only a handful of navigation icons
+- Due to the number of pages in the navigation bar and to help with the distribution of information; the travel/accommodation page has been split into two separate pages named travel and hotel
+- Only one image will be shown at the bottom of the about us page as this looks better
 
 #### Colour Scheme
-I used the colour #E7BCDE as a starting point due to it’s romantic nature and utilised [adobe’s colour wheel](https://color.adobe.com/create/color-wheel) to create the following colour palettes:
+I used the colour #E8BCDE as a starting point due to it’s romantic nature and utilised [adobe’s colour wheel](https://color.adobe.com/create/color-wheel) to create the following colour palettes:
 
 **Shades**
 
@@ -283,7 +280,7 @@ I used the colour #E7BCDE as a starting point due to it’s romantic nature and 
 ![complementary](docs/images/colour_scheme_complementary.png)
 
 Chosen colours:
--	#E7BCDE for the background colour to the webpage, including header and footer content and a border around the main content. It is also used for font colour where the font needs to pop against a darker background; for example the hero-text on index.html.
+-	#E8BCDE for the background colour to the webpage, including header and footer content and a border around the main content. It is also used for font colour where the font needs to pop against a darker background; for example the hero-text on index.html.
 -	#4A3C47 from shades due to it’s dark off-black nature allowing text to stand out clearly on a lighter background
 -	#D0BCE8 from analogous for a lighter colour that will stand out against a darker background
 -	#A87D9F from complementary for the background colour of hover-able items such as RSVP buttons and the items in the navigation bar
@@ -292,11 +289,11 @@ Chosen colours:
 Extra colours used:
 -	#000 (black) was used in parts where the contrast with a lighter background needed to be increased 
 -	#fff (white) was used sparingly in the website design
--	#fafafa this off-white was used to colour most of the font awesome icons used in page titles
+-	#fafafa (off-white) was used to colour most of the font awesome icons used in page titles
 -	#ff0000 (red) was used to colour the font awesome heart icons on the about us page
 
 Social media links:
--	The hover effects given to the social media links takes them from in the style of the page to the style of the social media platform, representing the transition of one webpage to another when clicked.
+-	The hover effects given to the social media links takes them the style of the page to the style of the social media platform, representing the transition of one webpage to another when clicked
 -	The facebook icons were coloured with the facebook blue #1877F2 and a white background
 -	The X/twitter icon was coloured with white text on a black background
 -	The Instagram icon was coloured with black text on a white background to match the site’s favicon; as the actual logo is multicoloured and was not able to be replicated here
@@ -315,7 +312,7 @@ The elegant lower case letters of Sail, combined with the flourishes on the capi
 
 ![courgette](docs/images/typography_courgette.png)
 
-Navigation bar items were styled with Courgette. This capital letters of this font is easy to read at a glance whilst still maintaining elegance. The back up typefaces provided were Times New Roman, Times, and Serif.
+Navigation bar items were styled with Courgette. This capital letters of this font are easy to read at a glance whilst still maintaining elegance. The back up typefaces provided were Times New Roman, Times, and Serif.
 
 **[Meie Script](https://fonts.google.com/specimen/Meie+Script)**:
 
@@ -358,7 +355,7 @@ All images used were optimised using [adobe photoshop](https://www.adobe.com/uk/
 
 - Appears on all 8 pages including 404 and form submit response page.
 - It allows users to easily and intuitively navigate the website.
-- Its height is set to 120px and multiples of this will be used throughout the website.
+- Its height is set to 120px and multiples of this are used throughout the website.
 - On the left there is the site logo that also acts as a link to the homepage.
 - On the right there are the links to the 6 main pages of the website along with font awesome icons that allow the user to gauge the purpose of each page at a glance.
 - The current page is displayed with larger, bolder text and underlined.
@@ -392,7 +389,7 @@ All images used were optimised using [adobe photoshop](https://www.adobe.com/uk/
 - On the left there are contact details of the couple.
 - The contact email address is bold when hovered indicating that it is a link. When clicked it creates a new email to the couple with a pre-written email subject line in a new page.
 - In the centre there is another page logo which also acts as a link to the homepage.
-- On the right there are four social media links; a facebook link for each of the couple, the wedding /twitter and the wedding Instagram. These open in a new page and have the attribute rel set to “noopener” to prevent any malicious behaviour from the social media sites.
+- On the right there are four social media links; a facebook link for each of the couple, the event X/Twitter and the event Instagram. These open in a new page and have the attribute rel set to “noopener” to prevent any malicious behaviour from the social media sites.
 - These social media links have a hover animation transitioning between the current website theme and the destination website theme.
 
 <details><summary>Footer Social Media</summary>
@@ -728,7 +725,7 @@ The navigation bar on each page showed 6 constrast errors on the font colour use
 
 ![Navbar contrast error](docs/images/wave_contrast_error.png)
 
-However this is due to a quirck of using hover.css where the starting background colour is hidden behind the transition, so it is checking the contrast between the unhovered font colour and the hovered background colour. Here are the contrast values taken from google chrome devtools to show the actual contrast values. Pre-hover the font colour and background colour are identical to the page logo, so that is used here:
+However this is due to a quirk of using hover.css where the starting background colour is hidden behind the transition, so it is checking the contrast between the unhovered font colour and the hovered background colour. Here are the contrast values taken from google chrome devtools to show the actual contrast values. Pre-hover the font colour and background colour are identical to the page logo, so that is used here:
 
 Normal: Contrast of 6.25
 
@@ -746,7 +743,7 @@ Each footer has an alert for a redundant link due to the two facebook links bein
 
 **index.html Errors and Alerts**
 
-There is an alert for a redundant link in the RSVP button of the hero text, as there is already a link to the RSVP page in the navigation bar. However having this extra link is intentionally and will offer good user experience to a first time user using the website to RSVP.
+There is an alert for a redundant link in the RSVP button of the hero text, as there is already a link to the RSVP page in the navigation bar. However having this extra link is intentional and will offer good user experience to a first time user using the website to RSVP.
 
 **about_us.html Errors and Alerts**
 
@@ -769,10 +766,10 @@ There is an alert for suspicious link text in the homepage button due to the use
 [rsvp.html](https://wave.webaim.org/report#/https://amfairley.github.io/adamiani/rsvp)<br>
 [faq.html](https://wave.webaim.org/report#/https://amfairley.github.io/adamiani/faq)<br>
 [response.html](https://wave.webaim.org/report#/https://amfairley.github.io/adamiani/response)<br>
-[404.html](https://wave.webaim.org/report#/https://amfairley.github.io/adamiani/response)<br>
+[404.html](https://wave.webaim.org/report#/https://amfairley.github.io/adamiani/404)<br>
 
 ### Performance
-Lighthouse within the google chrome devtools was used to confirm that the websiting was performing well, accessible, utilised best practices and follows basic search engine optimisation (SEO) advice. All pages passed. Please note there is confetti/fireworks on the screen grabs for those that pass with a score of 100 in each section that are constant and therefore had to appear on the image.
+Lighthouse within the google chrome devtools was used to confirm that the websiting was performing well, is accessible, utilising best practices, and follows basic search engine optimisation (SEO) advice. All pages passed. Please note there is confetti/fireworks on the screen grabs for those that pass with a score of 100 in each section that are constant and therefore had to appear on the image.
 
 <details><summary>index.html</summary>
 <img src="docs/images/lighthouse_index.png">
@@ -812,7 +809,6 @@ Lighthouse within the google chrome devtools was used to confirm that the websit
 <details><summary>404.html</summary>
 <img src="docs/images/lighthouse_404.png">
 </details>
-<br>
 
 ### Performing tests of various devices ###
 The website was tested on a 14" laptop and using the Google Chrome Developer Tools device toggle option for all available device options. All work as expected.
@@ -844,7 +840,7 @@ The website was tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 | ----------- | ---------- | ------------------- | ----------------- |
-| The RSVP form submits and lets the user know that the submission was successful | Filling out the RSVP form and leaving our name, email, or event choice | The form will not submit without the name, email, and which even they are attending information | Works as expected |
+| The RSVP form submits and lets the user know that the submission was successful | Filling out the RSVP form and leaving out name, email, or event choice | The form will not submit without the name, email, and which event they are attending information | Works as expected |
 | Same as above | Filling out all of the RSVP form | The user will be directed to the response.html page notifying the user has successfully submitted the form and providing a link back to the homepage | Works as expected |
 <br>
 
@@ -905,7 +901,7 @@ The website was tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 | ----------- | ---------- | ------------------- | ----------------- |
-| Navigation bar | User is on any of webpages | The 6 main webpages appearing in the navigation bar will have their navigation bar font bold and larger than the others. The 404 page and response.html will not have any extra stylings in the navigation bar | Works as expected | 
+| Navigation bar | User is on any of webpages | The 6 main webpages appearing in the navigation bar will have their navigation bar font bolder than the others and underlined. The 404 page and response.html will not have any extra stylings in the navigation bar | Works as expected | 
 | Titular font awesome icons | Be on the about us, travel, hotels, RSVP, or FAQ pages | The title has a font awesome icon visually explaining the purpose of the current page at a glance | Works as expected |
 <br>
 
@@ -950,7 +946,7 @@ The website was tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 | ----------- | ---------- | ------------------- | ----------------- |
-| Question raised on the FAQ page | Click on the FAQ section of the navigation bar | User is redirected to FAQ.html and the question is clear and answer opens when selected | Works as expected |
+| FAQ page | Click on the FAQ section of the navigation bar | User is redirected to FAQ.html and the questions are clear and answers open when selected | Works as expected |
 
 
 ### Manual Testing
@@ -960,11 +956,11 @@ The website was tested on the following browsers:
 | Navigation bar| | | | |
 | Logo | Click on the site logo | User is directed to the homepage | Yes | Tested on all pages |
 | Navigation bar item | Hover the item | A hover effect will take place | Yes | Tested on all items on all pages |
-| Navigation bar item | Un-hover the item | An animation versing the hover effect will take place | Yes | Tested on all items on all pages |
+| Navigation bar item | Un-hover the item | An animation reversing the hover effect will take place | Yes | Tested on all items on all pages |
 | Home | Click on the "Home" link | User is directed to the homepage | Yes | Tested on all pages |
 | About us | Click on the "About us" link | User is directed to the about us page | Yes | Tested on all pages |
 | Travel | Click on the "Travel" link | User is directed to the travel page | Yes | Tested on all pages |
-| Hotels | Click on the "Hotels" link | User is directed to the hhotels page | Yes | Tested on all pages |
+| Hotels | Click on the "Hotels" link | User is directed to the hotels page | Yes | Tested on all pages |
 | RSVP | Click on the "RSVP" link | User is directed to the RSVP page | Yes | Tested on all pages |
 | FAQ | Click on the "FAQ" link | User is directed to the FAQ page | Yes | Tested on all pages |
 | Footer | | | | |
@@ -981,7 +977,7 @@ The website was tested on the following browsers:
 | Wedding video | Nothing | Video does not autoplay | Yes | |
 | Wedding video | Press play | Video will play and can be paused, volume controlled and full screened with controls | Yes | | 
 | Travel | | | | |
-| Maps | Map can be manipulated | Map can be zoomed in, moved around, and can opened in new tab | Yes | Tested on all 3 maps |
+| Maps | Maps can be manipulated | Maps can be zoomed in, moved around, and can open in a new tab | Yes | Tested on all 3 maps |
 | Hotels | | | | |
 | Hotel name | Can be hovered | A dark background appears and the text gets lighter | Yes | Tested all 3 hotel names |
 | Hotel name | Can be clicked | The hotel website or booking website will open in a new tab | Yes | Tested all 3 hotel names |
@@ -1023,13 +1019,13 @@ On index.html, after adding the hero image feature, it covered the navigation ba
 
 This was fixed after some research by setting `z-index:1` in the CSS rules for the `.header-section{}` so that it always appears on top.
 
-**Bug 3: Overlapping formatting on the footer on smalle devices**
+**Bug 3: Overlapping formatting on the footer on smaller devices**
 
 On smaller screen sizes the footer elements overlapped as such:
 
 ![bug3](docs/images/bug_footer_before.png)
 
-This was solved by adding the following CSS rules to hide the text under the social media links and reposition the email address:
+This was solved by adding the following CSS rules to the small phone media queries to hide the text under the social media links and reposition the email address:
 <br>
 `.gender{display:none;}` <br>
 `#instagram-hash, #twitter-hash {display:none;}`<br>
@@ -1078,7 +1074,11 @@ You can fork the repository by going the [GitHub repository](https://github.com/
 
 ### Deploying Locally
 
-To deploy locally; you can clone this project by typing `git clone https://github.com/amfairley/adamiani.git` into the terminal of your IDE of choice.
+To deploy locally; you can clone this project by typing 
+<br>
+`git clone https://github.com/amfairley/adamiani.git`
+<br>
+into the terminal of your IDE of choice.
 
 ## Credits 
 
