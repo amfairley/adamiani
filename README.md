@@ -748,6 +748,10 @@ Each footer has an alert for a redundant link due to the two facebook links bein
 
 There is an alert for a redundant link in the RSVP button of the hero text, as there is already a link to the RSVP page in the navigation bar. However having this extra link is intentionally and will offer good user experience to a first time user using the website to RSVP.
 
+**about_us.html Errors and Alerts**
+
+There is an alert for no transcript on the video, however this video only has a muscial background and no speech, so it is not possible to add a transcript.
+
 **rsvp.html Errors and Alerts**
 
 There were 3 alerts for missing fieldsets for the radio buttons in the RSVP form. This was fixed and described in bug #5, removing these alerts.
@@ -973,6 +977,9 @@ The website was tested on the following browsers:
 | Homepage | | | | |
 | RSVP button | Hover over | Hover effect to occur | Yes | |
 | RSVP button | Click the RSVP button | User is directed to the RSVP page | Yes | |
+| About us | | | | |
+| Wedding video | Nothing | Video does not autoplay | Yes | |
+| Wedding video | Press play | Video will play and can be paused, volume controlled and full screened with controls | Yes | | 
 | Travel | | | | |
 | Maps | Map can be manipulated | Map can be zoomed in, moved around, and can opened in new tab | Yes | Tested on all 3 maps |
 | Hotels | | | | |
@@ -1110,6 +1117,8 @@ Most media images used were owned or created by the developer. Those that were n
     <details><summary>Budget Hotel Image</summary>
     <img src="assets/images/hotel_cheap.webp">
     </details>
+
+The wedding video was shot and edited by [Z Studio Tbilisi](https://www.youtube.com/@ZstudioTbilisi).
 
 ### Code
 
