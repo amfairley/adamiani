@@ -660,6 +660,8 @@ All images used were optimised using [adobe photoshop](https://www.adobe.com/uk/
 	* Used to validate the HTML code
 17. [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 	* Used to validate the CSS code
+18. [Wave Web Accessibility Evaluation Tool](https://wave.webaim.org/)
+	* Used to validate the accessibility of each webpage
 18. [Multi Mockup](https://techsini.com/multi-mockup/index.php)
 	* Used to make mockup images of the site for the top of the README.md file
 
@@ -713,15 +715,52 @@ When run with just my style sheet, no errors and no warnings were flagged:
 ![CSS personal results](docs/images/validate_css_stylesheet.png)
 
 ### Accessibility
-Wave validator results for each page
-index.html
-about_us.html
-travel.html
-hotels.html
-rsvp.html
-faq.html
-response.html
-404.html
+The [Wave Web Accessibility Evaluation Tool](https://wave.webaim.org/) was used ensure that each page of the website met high accessibility standards. 
+
+**Navigation Bar Errors and Alerts**
+
+The navigation bar on each page showed 6 constrast errors on the font colour used for the headings:
+
+![Navbar contrast error](docs/images/wave_contrast_error.png)
+
+However this is due to a quirck of using hover.css where the starting background colour is hidden behind the transition, so it is checking the contrast between the unhovered font colour and the hovered background colour. Here are the contrast values taken from google chrome devtools to show the actual contrast values. Pre-hover the font colour and background colour are identical to the page logo, so that is used here:
+
+Normal: Contrast of 6.25
+
+![Navbar actual contrast 1](docs/images/wave_contrast_real_1.png)
+
+Hovered: Contrast of 6.09
+
+![Navbar actual contrast 2](docs/images/wave_contrast_real_2.png)
+
+Each header has an alert for an underlined text, however this is intentional and is part of the active-page class to highlight the current page to the user.
+
+**Footer Errors and Alerts**
+
+Each footer has an alert for a redundant link due to the two facebook links being next to each other. Currently they are both linked to the homepage of facebook for privacy reasons, but when in use these links will link to the grooms facebook page and the brides facebook page, eliminating this alert.
+
+**index.html Errors and Alerts**
+
+There is an alert for a redundant link in the RSVP button of the hero text, as there is already a link to the RSVP page in the navigation bar. However having this extra link is intentionally and will offer good user experience to a first time user using the website to RSVP.
+
+***rsvp.html Errors and alerts**
+
+There were 3 alerts for missing fieldsets for the radio buttons in the RSVP form. This was fixed and described in bug #5, removing these alerts.
+
+**404 Errors and Alerts**
+
+There is an alert for suspicious link text in the homepage button due to the use of "click here" on the button. However this is intentional and required for good user experience as it explains the function of the button in a pleasing way.
+
+**All results**
+
+[index.html](https://wave.webaim.org/report#/https://amfairley.github.io/adamiani/)
+[about_us.html](https://wave.webaim.org/report#/https://amfairley.github.io/adamiani/about_us)
+[travel.html](https://wave.webaim.org/report#/https://amfairley.github.io/adamiani/travel)
+[hotels.html](https://wave.webaim.org/report#/https://amfairley.github.io/adamiani/hotels)
+[rsvp.html](https://wave.webaim.org/report#/https://amfairley.github.io/adamiani/rsvp)
+[faq.html](https://wave.webaim.org/report#/https://amfairley.github.io/adamiani/faq)
+[response.html](https://wave.webaim.org/report#/https://amfairley.github.io/adamiani/response)
+[404.html](https://wave.webaim.org/report#/https://amfairley.github.io/adamiani/response)
 
 ### Performance
 Lighthouse within the google chrome devtools was used to confirm that the websiting was performing well, accessible, utilised best practices and follows basic search engine optimisation (SEO) advice. All pages passed. Please note there is confetti/fireworks on the screen grabs for those that pass with a score of 100 in each section that are constant and therefore had to appear on the image.
@@ -767,7 +806,7 @@ Lighthouse within the google chrome devtools was used to confirm that the websit
 <br>
 
 ### Performing tests of various devices ###
-The website was tested using Google Chrome Developer Tools device toggle option for all available device options. All work as expected.
+The website was tested on a 14" laptop and using the Google Chrome Developer Tools device toggle option for all available device options. All work as expected.
 
 ### Browser Compatability 
 
@@ -953,6 +992,7 @@ The website was tested on the following browsers:
 ## Bugs 
 
 **Bug 1: Clickable area of the navigation bar didn't fully cover the div**
+
 My intention was to make the whole of the naviagtion bar items clickable, rather than just the image or text, but it left a sliver of unlinked element at the bottom as shown here at the bottom of the blue Adamiani logo:
 
 ![bug1](docs/images/bug_header_problem.png)
@@ -964,6 +1004,7 @@ I inspected the elements using google dev tools and found:
 Since I had the anchor element as inline, the height of 120px that I had set was not taking effect. I solved this by adding `display:block;` to the CSS rules for `.navbaritem a {}`.
 
 **Bug 2: Hero image covers navigation bar when you scroll down**
+
 On index.html, after adding the hero image feature, it covered the navigation bar if you were to scroll down the page.
 
 ![bug2](docs/images/bug_hero_image_inspection.png)
@@ -971,6 +1012,7 @@ On index.html, after adding the hero image feature, it covered the navigation ba
 This was fixed after some research by setting `z-index:1` in the CSS rules for the `.header-section{}` so that it always appears on top.
 
 **Bug 3: Overlapping formatting on the footer on smalle devices**
+
 On smaller screen sizes the footer elements overlapped as such:
 
 ![bug3](docs/images/bug_footer_before.png)
@@ -985,6 +1027,7 @@ This resulted in: <br>
 ![bug3](docs/images/bug_footer_after.png)
 
 **Bug 4: The accordion header would appear over the navigation bar if it was open and the page scrolled down**
+
 On the FAQ page, if an accordion section was open and the page scrolled down, it would appear above the navigation bar:
 
 ![bug4](docs/images/bug_accordion_before.png)
@@ -992,6 +1035,10 @@ On the FAQ page, if an accordion section was open and the page scrolled down, it
 This was fixed by increasing the z-index of the the `.header-section{}` to 10 so that it always appears on top. This fixed the issue as shown here:
 
 ![bug4](docs/images/bug_accordion_after.png)
+
+**Bug 5: Accessibility issue with the RSVP form**
+
+When validating the accessibility of rsvp.html with the wave validator, it highlighted the requirement for the radio buttons be grouped within a fieldset with a legend for a screen reader to describe the purpose of the radio buttons. To fix this, each radio button group div was put inside its own fieldset element along with a legend with a class of sr-only describing the radio button group. This way, it is accessible to those using screen readers but does not impact the layout of the page with a new legend heading.
 
 ### Mistakes
 
@@ -1058,3 +1105,7 @@ Most media images used were owned or created by the developer. Those that were n
 The CSS for the sticky footer used in lines 79-86 of [assets/css/style.css](assets/css/style.css) was taken from [materialize css](https://materializecss.com/footer.html).
 
 ## Acknowledgements 
+
+- My mentor [Julia Konovalova](https://github.com/IuliiaKonovalova) for their continued guidance and support with this project
+- [Code Institute](https://codeinstitute.net/global/) Slack community members for their support and help
+- My fellow [Code Institute](https://codeinstitute.net/global/) learning cohort for all of their advice and support
