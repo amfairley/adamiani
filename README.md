@@ -4,7 +4,7 @@
 
 # Adamiani
 
-### This site is designed as a vow renewal website to be used by those invited to the festivities.
+*This site is designed as a vow renewal website to be used by those invited to the festivities.*
 
 Adamiani is an informative wedding-vow renewal website with the aim of providing the invited guests with a convenient, yet stylish, repository of information regarding the upcoming event. It provides value through its RSVP form, travel and accommodation details, contact details, and the celebration schedule. The development followed a mobile-first approach utilising Bootstrap 5, as many users would need to access the information on the go; when either travelling for the event of on the day itself.
 
@@ -370,9 +370,9 @@ The text in the contact and hashtags for social media will used the Roboto typef
 #### Images
 All images used were optimised using [adobe photoshop](https://www.adobe.com/uk/) and converted to .webp format for faster loading times using [cloud convert](https://cloudconvert.com/png-to-webp).
 
-#### Features
+### Features
 
-**Browser tab**:
+#### Browser tab:
 
 <details><summary>Browser Tab</summary>
 <img src="docs/images/feature_browser_tab.png">
@@ -382,7 +382,7 @@ All images used were optimised using [adobe photoshop](https://www.adobe.com/uk/
 - The page title appearing in the browser tab changes depending on which page is active. The homepage displays Adamiani and the other pages display in the following way: Adamiani | Page Name e.g. Adamiani | About Us.
 - User stories covered: 11
 
-**Logo and Navigation Bar**:
+#### Logo and Navigation Bar:
 
 <details><summary>Navbar</summary>
 <img src="docs/images/feature_nav.png">
@@ -413,7 +413,7 @@ All images used were optimised using [adobe photoshop](https://www.adobe.com/uk/
 
 - User stories covered: 2, 11
 
-**Footer**:
+ #### Footer:
 
 <details><summary>Footer</summary>
 <img src="docs/images/feature_footer.png">
@@ -450,7 +450,7 @@ All images used were optimised using [adobe photoshop](https://www.adobe.com/uk/
 
 - User stories covered: 7, 13, 16
 
-**Homepage**:
+#### Homepage:
 
 - The content of this and other pages is 95% of the width of the screen at most with a pink border connecting the navigation bar to the footer and the internal page content having a different background colour.
 - A central Hero Image that conveys the importance and meaning of both the site and the event. It is set to 480px in height (4 x the navigation bar) leaving some of the content below peeking above the bottom of the page to lead the user to explore further down the page.
@@ -496,7 +496,7 @@ All images used were optimised using [adobe photoshop](https://www.adobe.com/uk/
 
 - User stories covered: 1, 3, 4, 11, 12, 15
 
-**About-us**:
+#### About-us:
 
 - Pages other than the index page will have a page title at the top bringing unity to the site. This has the same pink colour as the hero text on the homepage and is the same height as the navigation bar (120px). It includes a font awesome icon to help the user intuit the purpose and value of the page. Here it is a heart, which is coloured red to resemble love.
 
@@ -504,7 +504,7 @@ All images used were optimised using [adobe photoshop](https://www.adobe.com/uk/
 <img src="docs/images/feature_about_us_title.png">
 </details>
 
-- Under the title is a video of the wedding ceremony which does not autoplay and has controls that the user can manipulate.
+- Under the title is a video of the wedding ceremony. This is set to not autoplay for best user experience and has controls that the user can manipulate.
 
 <details><summary>About Us Video</summary>
 <img src="docs/images/feature_about_us_video.png">
@@ -526,7 +526,7 @@ All images used were optimised using [adobe photoshop](https://www.adobe.com/uk/
 
 - User stories covered: 11, 15
 
-**Travel**:
+#### Travel:
 
 - The travel page has the same themed header as the about-us page with a plane font awesome icon to suggest travel.
 
@@ -552,7 +552,7 @@ All images used were optimised using [adobe photoshop](https://www.adobe.com/uk/
 
 -	User stories covered: 6, 11
 
-**Hotels**:
+#### Hotels:
 
 - A similar page title is used with a changed font awesome icon to indicate the purpose of the page
 
@@ -576,7 +576,7 @@ All images used were optimised using [adobe photoshop](https://www.adobe.com/uk/
 
 - User stories covered: 5,  11
 
-**RSVP**:
+#### RSVP:
 - The RSVP page is split into three columns. The central column contains the page title in the same format as the other pages and the RSVP form. This is flanked on either side by thin border images that really bring the user to the central form.
 - This page title has a change of font to Sail, as the Meie Script was deemed inelegant and illegible when in all-caps.
 - The RSVP form is preceded by a reminder of the deadline to submit the form; informing the user of the timeline.
@@ -604,7 +604,7 @@ All images used were optimised using [adobe photoshop](https://www.adobe.com/uk/
 
 - User stories covered: 3, 4, 11
 
-**FAQ**:
+#### FAQ:
 
 - The FAQ page follows the same layout and responsiveness as the RSVP page.
 - The title has a question mark font awesome icon to convey the purpose of the page.
@@ -626,7 +626,7 @@ All images used were optimised using [adobe photoshop](https://www.adobe.com/uk/
 
 - User stories covered: 5, 8, 9, 10, 11, 12, 14, 16, 17
 
-**404**:
+#### 404:
 - The error 404 page not found page is intentionally simple as to not distract the user with unnecessary media or imply that this page has another use. It consists of a large title explaining the error, a brief whimsical paragraph and a button to return the user to the homepage.
 - The button follows the same colour theme and hover effect as the RSVP button on the homepage
 
@@ -640,7 +640,7 @@ All images used were optimised using [adobe photoshop](https://www.adobe.com/uk/
 
 - User stories covered: 11
 
-**Response**:
+#### Response:
 - The response page to the RSVP form submission has the same layout as the error 404 page.
 - The button follows the same colour theme and hover effect as the RSVP button on the homepage
 
@@ -1102,7 +1102,7 @@ However on smaller screens the page automatically scrolls back up to the text bo
 
 ### Mistakes
 
-- Commit nomenclature was altered starting with commit 26 to be more in-line with professional standards. Commits prior to this utilised past-tense language.
+- Commit nomenclature was altered starting with commit 26 to be more in-line with professional standards. Commits prior to this utilised past-tense language. In future, I will be more careful with my commit language.
 - Despite aiming for a mobile-first approach; a desktop first approach was actually taken in the development of this website. Due to my inexperience with HTML and CSS, I found it easier to imagine the layout of the website on desktop first and work towards mobile whilst I practiced and mastered CSS.
 
 ## Deployment 
@@ -1125,6 +1125,17 @@ To deploy locally; you can clone this project by typing
 `git clone https://github.com/amfairley/adamiani.git`
 <br>
 into the terminal of your IDE of choice.
+
+### Addition of 404.html
+The 404 page was added in the following way:
+- Create a file named 404.html
+- Create the content and style as desired
+- Create a new file named 404.md
+- Put the following code into the 404.md:
+
+`---` <br>
+`permalink: /404.html` <br>
+`---`
 
 ## Credits 
 
