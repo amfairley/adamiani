@@ -1118,6 +1118,11 @@ footer ul {
         display: none;
     }
 
+    /* About us: Reduce title text size */
+    .about-us-title {
+        font-size: 28pt;
+    }
+
     /* Hotels: Reduce option text size */
     .hotel-option {
         font-size: 24pt;
