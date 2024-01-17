@@ -291,9 +291,9 @@ The below wireframes were designed before starting any of the code and were revi
 - [Tablet](docs/wireframes/homepage_tablet_final.png)
 - [Mobile](docs/wireframes/homepage_mobile_final.png)
 ##### About us
-- [Desktop](docs/wireframes/aboutus_desktop_final.png)
-- [Tablet](docs/wireframes/aboutus_tablet_final.png)
-- [Mobile](docs/wireframes/aboutus_mobile_final.png)
+- [Desktop](docs/wireframes/about_us_desktop_final.png)
+- [Tablet](docs/wireframes/about_us_tablet_final.png)
+- [Mobile](docs/wireframes/about_us_mobile_final.png)
 ##### Travel
 - [Desktop](docs/wireframes/travel_desktop_final.png)
 - [Tablet](docs/wireframes/travel_tablet_final.png)
