@@ -230,9 +230,9 @@ The **RSVP** page will consist of a title, a central RSVP form and a border imag
 
 The **FAQ** page will resemble the RSVP page but with a bootstrap accordion component housing the questions instead of a form
 
-#### Initial Wireframes
+#### Preliminary Wireframes
 
-The below wireframes were designed before starting any of the code and were improved or modified during the project building process.
+The below wireframes were designed before starting any of the code and were revisited during the project building process in order to try out how different layouts or features would work visually.
 
 ##### Home page
 - [Desktop](docs/wireframes/homepage_desktop.png)
@@ -257,45 +257,61 @@ The below wireframes were designed before starting any of the code and were impr
 
 #### Final Wireframes
 
-Changes to the wireframes
-- Collapsing the navigation bar into a burger menu on smaller screens did not look as good as I hoped; instead I kept the navigation icons with some hover effects. This works well, as there are only a handful of navigation icons
+**Site Layout changes:**
 - Due to the number of pages in the navigation bar and to help with the distribution of information; the travel/accommodation page has been split into two separate pages named travel and hotels
-- Only one image will be shown at the bottom of the about us page as this looks better
+- The hotels page will consist of 3 hotel options arranged vertically with links to the hotels sites and will look the same on desktop, tablet and mobile
 - Addition of a 404.html page to direct the user back to the homepage if they were to mistype a URL. This will be intnetionally quite blank highlighting the central section explaining that the user has made a mistake and a button directing them to the homepage
-- Addition of a response.html page that is reached by successfully submitting the RSVP form. The purpose of this is to let the user know that the submission was successful, thank them, and direct them back to the homepage. The layout will follow the same template as the 404.html page 
+- Addition of a response.html page that is reached by successfully submitting the RSVP form. The purpose of this is to let the user know that the submission was successful, thank them, and direct them back to the homepage. The layout will follow the same template as the 404.html page and will not have any altered effects on tablet or mobile size screens
+
+**Navigation bar changes:**
+- Collapsing the navigation bar into a burger menu on smaller screens did not look as good as I hoped; instead I kept the navigation icons with some hover effects. This works well, as there are only a handful of navigation icons and can be centred nicely underneath the site logo
+
+**Homepage Changes:**
+- The welcome text is removed, as the invitation below the couples names achieves the same effect
+- A button to RSVP is added to the hero text with a deadline, prompting the user to RSVP in a timely manner
+
+**About Us Changes:**
+- Only one image will be shown at the bottom of the about us page on mobile as this looks better
+
+**Travel Changes:**
+- Removal of the hotel sections
+- Reordered the maps and text on mobile devices to be more user friendly
+
+**RSVP Changes:**
+- Extend the RSVP form to the bottom of the page and have the submit button inside the form
+- Remove the bottom image on tablet and mobile
+
+**FAQ Changes:**
+- Extend the FAQ accordion to the bottom of the page 
+- Remove the bottom image on tablet and mobile
+
 
 ##### Home page
-- [Desktop](docs/wireframes/homepage_desktop.png)
-- [Tablet](docs/wireframes/homepage_tablet.png)
-- [Mobile](docs/wireframes/homepage_mobile.png)
+- [Desktop](docs/wireframes/homepage_desktop_final.png)
+- [Tablet](docs/wireframes/homepage_tablet_final.png)
+- [Mobile](docs/wireframes/homepage_mobile_final.png)
 ##### About us
-- [Desktop](docs/wireframes/aboutus_desktop.png)
-- [Tablet](docs/wireframes/aboutus_tablet.png)
-- [Mobile](docs/wireframes/aboutus_mobile.png)
+- [Desktop](docs/wireframes/aboutus_desktop_final.png)
+- [Tablet](docs/wireframes/aboutus_tablet_final.png)
+- [Mobile](docs/wireframes/aboutus_mobile_final.png)
 ##### Travel
-- [Desktop](docs/wireframes/travel_desktop.png)
-- [Tablet](docs/wireframes/travel_tablet.png)
-- [Mobile](docs/wireframes/travel_mobile.png)
+- [Desktop](docs/wireframes/travel_desktop_final.png)
+- [Tablet](docs/wireframes/travel_tablet_final.png)
+- [Mobile](docs/wireframes/travel_mobile_final.png)
 ##### Hotels
-- [Desktop](docs/wireframes/travel_desktop.png)
-- [Tablet](docs/wireframes/travel_tablet.png)
-- [Mobile](docs/wireframes/travel_mobile.png)
+- [Desktop](docs/wireframes/hotels_final.png)
 ##### RSVP
-- [Desktop](docs/wireframes/rsvp_desktop.png)
-- [Tablet](docs/wireframes/rsvp_tablet.png)
-- [Mobile](docs/wireframes/rsvp_mobile.png)
+- [Desktop](docs/wireframes/rsvp_desktop_final.png)
+- [Tablet](docs/wireframes/rsvp_tablet_final.png)
+- [Mobile](docs/wireframes/rsvp_mobile_final.png)
 ##### Response
-- [Desktop](docs/wireframes/rsvp_desktop.png)
-- [Tablet](docs/wireframes/rsvp_tablet.png)
-- [Mobile](docs/wireframes/rsvp_mobile.png)
+- [Desktop](docs/wireframes/response_final.png)
 ##### FAQ
-- [Desktop](docs/wireframes/faq_desktop.png)
-- [Tablet](docs/wireframes/faq_tablet.png)
-- [Mobile](docs/wireframes/faq_mobile.png)
+- [Desktop](docs/wireframes/faq_desktop_final.png)
+- [Tablet](docs/wireframes/faq_tablet_final.png)
+- [Mobile](docs/wireframes/faq_mobile_final.png)
 ##### 404
-- [Desktop](docs/wireframes/rsvp_desktop.png)
-- [Tablet](docs/wireframes/rsvp_tablet.png)
-- [Mobile](docs/wireframes/rsvp_mobile.png)
+- [Desktop](docs/wireframes/404_final.png)
 
 ### Surface 
 
