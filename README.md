@@ -230,39 +230,74 @@ The **RSVP** page will consist of a title, a central RSVP form and a border imag
 
 The **FAQ** page will resemble the RSVP page but with a bootstrap accordion component housing the questions instead of a form
 
-#### Wireframes
+#### Initial Wireframes
+
+The below wireframes were designed before starting any of the code and were improved or modified during the project building process.
 
 ##### Home page
 - [Desktop](docs/wireframes/homepage_desktop.png)
 - [Tablet](docs/wireframes/homepage_tablet.png)
 - [Mobile](docs/wireframes/homepage_mobile.png)
-
 ##### About us
 - [Desktop](docs/wireframes/aboutus_desktop.png)
 - [Tablet](docs/wireframes/aboutus_tablet.png)
 - [Mobile](docs/wireframes/aboutus_mobile.png)
-
 ##### Travel
 - [Desktop](docs/wireframes/travel_desktop.png)
 - [Tablet](docs/wireframes/travel_tablet.png)
 - [Mobile](docs/wireframes/travel_mobile.png)
-
 ##### RSVP
 - [Desktop](docs/wireframes/rsvp_desktop.png)
 - [Tablet](docs/wireframes/rsvp_tablet.png)
 - [Mobile](docs/wireframes/rsvp_mobile.png)
-
 ##### FAQ
 - [Desktop](docs/wireframes/faq_desktop.png)
 - [Tablet](docs/wireframes/faq_tablet.png)
 - [Mobile](docs/wireframes/faq_mobile.png)
 
-### Surface 
+#### Final Wireframes
 
-#### Changes from Skeleton
+Changes to the wireframes
 - Collapsing the navigation bar into a burger menu on smaller screens did not look as good as I hoped; instead I kept the navigation icons with some hover effects. This works well, as there are only a handful of navigation icons
-- Due to the number of pages in the navigation bar and to help with the distribution of information; the travel/accommodation page has been split into two separate pages named travel and hotel
+- Due to the number of pages in the navigation bar and to help with the distribution of information; the travel/accommodation page has been split into two separate pages named travel and hotels
 - Only one image will be shown at the bottom of the about us page as this looks better
+- Addition of a 404.html page to direct the user back to the homepage if they were to mistype a URL. This will be intnetionally quite blank highlighting the central section explaining that the user has made a mistake and a button directing them to the homepage
+- Addition of a response.html page that is reached by successfully submitting the RSVP form. The purpose of this is to let the user know that the submission was successful, thank them, and direct them back to the homepage. The layout will follow the same template as the 404.html page 
+
+##### Home page
+- [Desktop](docs/wireframes/homepage_desktop.png)
+- [Tablet](docs/wireframes/homepage_tablet.png)
+- [Mobile](docs/wireframes/homepage_mobile.png)
+##### About us
+- [Desktop](docs/wireframes/aboutus_desktop.png)
+- [Tablet](docs/wireframes/aboutus_tablet.png)
+- [Mobile](docs/wireframes/aboutus_mobile.png)
+##### Travel
+- [Desktop](docs/wireframes/travel_desktop.png)
+- [Tablet](docs/wireframes/travel_tablet.png)
+- [Mobile](docs/wireframes/travel_mobile.png)
+##### Hotels
+- [Desktop](docs/wireframes/travel_desktop.png)
+- [Tablet](docs/wireframes/travel_tablet.png)
+- [Mobile](docs/wireframes/travel_mobile.png)
+##### RSVP
+- [Desktop](docs/wireframes/rsvp_desktop.png)
+- [Tablet](docs/wireframes/rsvp_tablet.png)
+- [Mobile](docs/wireframes/rsvp_mobile.png)
+##### Response
+- [Desktop](docs/wireframes/rsvp_desktop.png)
+- [Tablet](docs/wireframes/rsvp_tablet.png)
+- [Mobile](docs/wireframes/rsvp_mobile.png)
+##### FAQ
+- [Desktop](docs/wireframes/faq_desktop.png)
+- [Tablet](docs/wireframes/faq_tablet.png)
+- [Mobile](docs/wireframes/faq_mobile.png)
+##### 404
+- [Desktop](docs/wireframes/rsvp_desktop.png)
+- [Tablet](docs/wireframes/rsvp_tablet.png)
+- [Mobile](docs/wireframes/rsvp_mobile.png)
+
+### Surface 
 
 #### Colour Scheme
 I used the colour #E8BCDE as a starting point due to it’s romantic nature and utilised [adobe’s colour wheel](https://color.adobe.com/create/color-wheel) to create the following colour palettes:
@@ -1050,9 +1085,20 @@ When validating the accessibility of rsvp.html with the wave validator, it highl
 
 ### Known bugs ###
 
+**Known bug 1: navigation bar**
+
 On some screen sizes a sliver of the hover effect can be seen between the navigation bar items. This occurs when the bootstrap resizing of the columns is off by 1px.
 
-![Known bug 1](docs/images/known_bug_1.png)
+![Known bug navigation bar](docs/images/known_bug_nav.png)
+
+**Known bug 2: RSVP submission error**
+
+When trying to submit the RSVP form whilst leaving out some required information; an error occurs prompting the user to fill out the information. This is shown here when zoomed out:
+
+![Known bug rsvp](docs/images/known_bug_rsvp.png)
+
+However on smaller screens the page automatically scrolls back up to the text box or drop down selection that was missed. In doing so this movement on the screen remove the error message. There is currently no fix for this.
+
 
 ### Mistakes
 

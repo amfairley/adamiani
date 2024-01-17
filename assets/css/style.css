@@ -18,7 +18,9 @@
 .orange-background {
     background-color: #e8c1bc;
 }
-main, footer {
+
+main,
+footer {
     background-color: #e8bcde;
 }
 
@@ -37,6 +39,7 @@ main, footer {
     color: #e8bcde;
     padding-right: 30px;
 }
+
 .rsvp-faq-title {
     font-size: 32pt;
     font-family: 'Sail', 'Times New Roman', Times, serif;
@@ -47,6 +50,7 @@ main, footer {
     padding-left: 20px;
     border-radius: 25px;
 }
+
 .page-heading {
     height: 240px;
     padding-top: 160px;
@@ -56,9 +60,10 @@ main, footer {
     opacity: 0.8;
     display: inline-block;
     text-align: center;
-    font-size: 32px; 
-    line-height: 30px; 
+    font-size: 32px;
+    line-height: 30px;
 }
+
 .page-title-container {
     padding: 0;
 }
@@ -69,6 +74,7 @@ main, footer {
     background-color: #e8bcde;
     border-color: #a87d9f;
 }
+
 .adamiani-btn:hover {
     font-weight: bold;
     background-color: #a87d9f;
@@ -80,7 +86,8 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-  }
+}
+
 main {
     flex: 1 0 auto;
 }
@@ -95,6 +102,7 @@ main {
     margin: 0;
     z-index: 10;
 }
+
 #header-section a {
     color: #4A3C47;
     text-decoration: none;
@@ -102,7 +110,9 @@ main {
     width: 100%;
     height: 120px;
 }
-#logo-header, .navbaritem {
+
+#logo-header,
+.navbaritem {
     height: 120px;
     text-align: center;
     padding: 0;
@@ -113,18 +123,22 @@ main {
     text-align: left;
     background-color: #e8bcde;
 }
+
 #logo-header h1 {
     padding-top: 10px;
 }
+
 #logo-header i {
     display: inline-block;
     font-size: 32pt;
 }
+
 #logo-header a {
     font-family: 'Sail', 'Times New Roman', Times, serif;
     padding-top: 10px;
     padding-left: 10px;
 }
+
 #logo-header span {
     font-size: 50pt;
 }
@@ -134,11 +148,13 @@ main {
     font-size: 14pt;
     padding: 0;
 }
+
 .navbaritem i {
     display: block;
     padding-top: 33px;
     font-size: 22pt;
 }
+
 .navbaritem p {
     display: block;
     width: 100%;
@@ -146,10 +162,11 @@ main {
     text-align: center;
     font-size: 15px;
     font-weight: 300;
-    letter-spacing: 2px;    
+    letter-spacing: 2px;
 }
+
 .ui-menu-colour {
-    background-color:  #a87d9f;
+    background-color: #a87d9f;
 }
 
 /* Hover.css: change starting colour */
@@ -176,6 +193,7 @@ main {
     position: relative;
     top: 120px;
 }
+
 #hero-image {
     height: 480px;
     width: 100%;
@@ -195,6 +213,7 @@ main {
     background-color: rgba(74, 60, 71, 0.8);
     padding-bottom: 20px;
 }
+
 .hero-title {
     font-family: 'Meie Script', 'Times New Roman', Times, serif;
     font-size: 46pt;
@@ -205,6 +224,7 @@ main {
     margin-top: 300px;
     margin-bottom: 0px;
 }
+
 .hero-invite {
     font-family: 'roboto', Arial, Helvetica, sans-serif;
     font-size: 1rem;
@@ -220,16 +240,19 @@ main {
     height: 360px;
     color: #4A3C47;
 }
+
 .homepage-title {
     font-family: 'parisienne', Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 30pt;
     padding-top: 50px;
 }
+
 .homepage-text {
     font-family: 'roboto', Arial, Helvetica, sans-serif;
     word-spacing: 2px;
 }
+
 .homepage-images {
     text-align: center;
     padding: 0;
@@ -237,6 +260,7 @@ main {
     border-style: solid;
     border-width: 10px;
 }
+
 .homepage-ceremony-image {
     height: 340px;
     background-image: url('../images/index_cathedral.webp');
@@ -246,6 +270,7 @@ main {
     background-position: bottom;
     width: 100%;
 }
+
 .homepage-reception-image {
     height: 340px;
     background-image: url('../images/index_reception.webp');
@@ -259,18 +284,20 @@ main {
 /* Homepage Image Section */
 
 .homepage-bottom-image {
-    height:360px;
+    height: 360px;
     text-align: center;
     padding: 0;
     border-color: #e8c1bc;
     border-style: solid;
     border-width: 10px;
 }
+
 #homepage-bottom-image-1 {
     background-image: url('../images/index_couple_1.webp');
     background-size: cover;
     background-position: center;
 }
+
 #homepage-bottom-image-2 {
     background-image: url('../images/index_couple_2.webp');
     background-size: cover;
@@ -278,6 +305,7 @@ main {
     border-left-width: 0;
     border-right-width: 0;
 }
+
 #homepage-bottom-image-3 {
     background-image: url('../images/index_couple_3.webp');
     background-size: cover;
@@ -299,7 +327,7 @@ main {
 
 /* Video settings */
 #about-us-video {
-    width:80%;
+    width: 80%;
     padding-top: 20px;
 }
 
@@ -309,6 +337,7 @@ main {
     text-align: center;
     color: #4A3C47;
 }
+
 .about-us-image {
     height: 240px;
     width: 240px;
@@ -319,16 +348,20 @@ main {
     vertical-align: middle;
     margin-top: 100px;
 }
+
 .about-us-lead-image {
     margin-top: 30px;
 }
+
 .about-us-last-image {
     margin-bottom: 50px;
 }
+
 .baby-image {
-    height:120px;
+    height: 120px;
     width: 120px;
 }
+
 .about-us-text {
     position: relative;
     height: auto;
@@ -339,27 +372,32 @@ main {
     vertical-align: middle;
     padding-top: 100px;
 }
+
 .about-us-lead-paragraph {
     padding-top: 30px;
 }
+
 .about-us-last-paragraph {
     padding-bottom: 50px;
 }
+
 .about-us-text .fa-heart {
     padding-right: 10px;
 }
+
 .about-us-lead-text {
     font-family: 'parisienne', Arial, Helvetica, sans-serif;
     font-size: 40px;
     font-weight: bold;
     line-height: 1.5;
 }
+
 .about-us-story-text {
     font-family: 'roboto', Arial, Helvetica, sans-serif;
 }
 
 /* --------------- TRAVEL SECTION ----------------------- */
-/* Travel heading Font-Awesome */ 
+/* Travel heading Font-Awesome */
 .page-heading .fa-plane {
     padding-top: 10px;
     font-size: 20pt;
@@ -373,6 +411,7 @@ main {
     color: #4A3C47;
     margin: auto;
 }
+
 .travel-title {
     font-family: 'parisienne', Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -382,6 +421,7 @@ main {
     padding-bottom: 20px;
     padding-top: 20px;
 }
+
 .travel-image {
     height: 322px;
     overflow: hidden;
@@ -390,21 +430,26 @@ main {
     background-position: center;
     border: 15pt solid transparent;
 }
+
 #airplane {
     background-image: url('../images/travel_airplane.webp');
 }
+
 #svetitskhoveli {
     background-image: url('../images/travel_cathedral.webp');
 }
+
 #travel-reception-image {
     background-image: url('../images/travel_reception.webp');
 }
+
 .travel-text {
     font-family: 'roboto', Arial, Helvetica, sans-serif;
     text-align: left;
     margin: auto;
 }
-.travel-map iframe{
+
+.travel-map iframe {
     width: 100%;
     height: 100%;
     border: 15pt solid transparent;
@@ -424,9 +469,11 @@ main {
     text-decoration: none;
     width: auto;
 }
+
 .hotel-section {
     padding-top: 30px;
 }
+
 .hotel-option {
     font-family: 'parisienne', Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -435,6 +482,7 @@ main {
     color: #4A3C47;
     padding-top: 20px;
 }
+
 .hotel-link {
     font-family: 'Courgette', 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -444,15 +492,18 @@ main {
     padding-right: 20px;
     padding-left: 20px;
 }
+
 .hotel-link:hover {
     color: #e8bcde;
-    background: rgba(0,0,0,0.5)
+    background: rgba(0, 0, 0, 0.5)
 }
+
 .hotel-image {
     width: 80%;
     height: auto;
     padding-top: 20px;
 }
+
 .hotel-text {
     text-align: center;
     font-family: 'roboto', Arial, Helvetica, sans-serif;
@@ -476,6 +527,7 @@ main {
     background-position-y: -25px;
     border-color: #e8c1bc;
 }
+
 .page-heading-rsvp-faq {
     height: 240px;
     padding-top: 160px;
@@ -484,8 +536,8 @@ main {
 
     display: inline-block;
     text-align: center;
-    font-size: 32px; 
-    line-height: 30px; 
+    font-size: 32px;
+    line-height: 30px;
 }
 
 /* RSVP and FAQ Images */
@@ -499,9 +551,11 @@ main {
     border-bottom: none;
     height: auto;
 }
+
 .side-image-left {
     border-right: none;
 }
+
 .side-image-right {
     border-left: none;
 }
@@ -510,7 +564,8 @@ main {
 
 /* --------------- RSVP PAGE ---------------------------- */
 /* Heading Font-Awesome */
-.page-heading .fa-calendar-check, .page-heading-rsvp-faq .fa-calendar-check {
+.page-heading .fa-calendar-check,
+.page-heading-rsvp-faq .fa-calendar-check {
     padding-top: 10px;
     font-size: 20pt;
     color: #fafafa;
@@ -540,33 +595,40 @@ form {
     color: #4A3C47;
     font-family: 'roboto', Arial, Helvetica, sans-serif;
 }
+
 .form-line {
     padding-top: 20px;
     margin: auto;
 }
+
 .meal-choices {
     padding-top: 5px;
 }
+
 .meal-option {
     text-align: center;
     font-family: 'sail', 'Times New Roman', Times, serif;
     padding-top: 10px;
 }
+
 #meal-question {
     text-align: center;
     font-family: 'sail', 'Times New Roman', Times, serif;
     font-size: 32pt;
     padding-top: 30px;
 }
+
 .food-option {
     text-align: left;
     padding-left: 30px;
     margin: auto;
 }
-.form-line textarea{
+
+.form-line textarea {
     text-align: left;
     resize: none;
 }
+
 #submit-button {
     text-align: center;
     padding-top: 10px;
@@ -575,7 +637,8 @@ form {
 /* --------------- FAQ PAGE ----------------------------- */
 
 /* Heading Font-Awesome */
-.page-heading .fa-circle-question, .page-heading-rsvp-faq .fa-circle-question {
+.page-heading .fa-circle-question,
+.page-heading-rsvp-faq .fa-circle-question {
     padding-top: 10px;
     font-size: 20pt;
     color: #fafafa;
@@ -584,11 +647,13 @@ form {
 /* FAQ Images */
 #faq-title-image {
     background-image: url('../images/faq_top.webp');
-    background-position-y: 20px;    
+    background-position-y: 20px;
 }
+
 .faq-side-image {
     background-image: url('../images/faq_side.webp');
 }
+
 /* Accordion */
 /* Accordion title - not pressed */
 .accordion-button {
@@ -598,15 +663,18 @@ form {
     color: #4A3C47;
     background-color: #e8bcde;
 }
+
 /* Accordion title - pressed */
 .accordion-button:not(.collapsed) {
     color: #fafafa;
     background-color: #a87d9f;
 }
+
 /* Remove blue border when clicked */
 .accordion-button:focus {
     box-shadow: none;
 }
+
 /* Accordion content */
 .accordion-body {
     font-family: 'roboto', Arial, Helvetica, sans-serif;
@@ -619,6 +687,7 @@ form {
 .page-spacer {
     padding-bottom: 180px;
 }
+
 .section-404-response {
     text-align: center;
     padding-top: 50px;
@@ -627,12 +696,15 @@ form {
     color: #4A3C47;
     vertical-align: center;
 }
+
 .section-404-response h2 {
     font-size: 32pt;
 }
+
 .section-404-response a {
     margin: auto;
 }
+
 .section-404-response i {
     padding-left: 20px;
     padding-right: 20px;
@@ -663,19 +735,24 @@ form {
     color: #4A3C47;
     padding-left: 10px;
 }
+
 #phone-number {
     display: block;
     padding-top: 30px;
 }
+
 #email-address {
     display: block;
 }
+
 #email-address i {
     padding-right: 2px;
 }
+
 #email-link {
     color: inherit;
 }
+
 #postal-address {
     display: block;
 }
@@ -684,11 +761,13 @@ form {
 #logo-footer-container {
     padding-top: 20px;
 }
+
 #logo-footer-container a {
     display: block;
     height: 80px;
     width: 100%;
 }
+
 #logo-footer {
     text-align: center;
     padding-top: 8px;
@@ -699,30 +778,37 @@ form {
 
 /* Social Media Links */
 footer ul {
-    width:100%;
+    width: 100%;
 }
+
 .social-media-links {
     text-align: center;
     padding: 0;
 }
+
 .social-media-links .fa-brands {
     display: block;
     padding-top: 30px;
     font-size: 30px;
     color: #4A3C47;
 }
-.social-media-links .gender, .social-media-links a p {
+
+.social-media-links .gender,
+.social-media-links a p {
     font-size: 15px;
     color: #4A3C47;
-    font-family:'roboto', Arial, Helvetica, sans-serif;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
 }
+
 .social-media-links a {
     display: block;
     width: 100%;
     height: 120px;
 }
-#instagram-hash, #twitter-hash {
-    font-family:'roboto', Arial, Helvetica, sans-serif;
+
+#instagram-hash,
+#twitter-hash {
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
 }
 
 /* Footer effects */
@@ -730,69 +816,89 @@ footer ul {
     text-decoration: none;
     font-weight: bolder;
 }
+
 #logo-footer-container a:hover {
     text-decoration: none;
 }
-.facebook-link a, .twitter-link a, .instagram-link a {
+
+.facebook-link a,
+.twitter-link a,
+.instagram-link a {
     transition: all 0.5s ease-in-out;
 }
+
 .facebook-link a:hover {
     background-color: #fff;
 }
-.facebook-link a:hover .fa-facebook{
-    color:#1877F2;
+
+.facebook-link a:hover .fa-facebook {
+    color: #1877F2;
 }
-.facebook-link a:hover .gender{
-    color:#1877F2;
+
+.facebook-link a:hover .gender {
+    color: #1877F2;
 }
+
 .twitter-link a:hover {
     background-color: #000;
 }
-.twitter-link a:hover .fa-x-twitter{
+
+.twitter-link a:hover .fa-x-twitter {
     color: #fff;
 }
-.twitter-link a:hover #twitter-hash{
+
+.twitter-link a:hover #twitter-hash {
     color: #fff;
 }
+
 .instagram-link a:hover {
     background-color: #fff;
 }
+
 .instagram-link a:hover .fa-instagram {
     color: #000;
 }
+
 .instagram-link a:hover #instagram-hash {
     color: #000;
 }
+
 .social-media-links a:hover {
     text-decoration: none;
 }
 
 /* -------- Tablet Media Queries ------------------------ */
-@media screen and (max-width: 992px){
+@media screen and (max-width: 992px) {
 
     /* Reduce navigation bar height by half, centers the content and reduces text size */
-    .navbaritem, .navbaritem a {
+    .navbaritem,
+    .navbaritem a {
         height: 60px;
     }
+
     #header-section a {
         height: 60px;
     }
+
     .navbaritem i {
         padding-top: 10px;
         font-size: 16pt;
     }
+
     .navbaritem p {
         padding-top: 2px;
         font-size: 12pt;
     }
-    
+
     /* Remove postal address from footer */
     #postal-address {
         display: none;
     }
+
     #phone-number {
         padding-top: 30px;
     }
+
     #email-address {
         padding-top: 8px;
     }
@@ -804,7 +910,8 @@ footer ul {
     }
 
     /* Reduce social media hashtag size */
-    .social-media-links a p, .gender {
+    .social-media-links a p,
+    .gender {
         font-size: 10px !important;
         padding-top: 6px;
     }
@@ -831,6 +938,7 @@ footer ul {
         background-size: cover;
         overflow: hidden;
     }
+
     /* FAQ: reduce question font size */
     .accordion-button {
         font-size: 20pt;
@@ -838,38 +946,48 @@ footer ul {
 }
 
 /* --------- Phone Media Queries ------------------------ */
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px) {
+
     /* Reduce logo bar height by half, centres and reduces content size */
-    #logo-header, #logo-header a {
+    #logo-header,
+    #logo-header a {
         height: 60px;
         text-align: center;
         padding-top: 2px;
     }
+
     #logo-header a i {
         font-size: 20pt;
     }
-    #logo-header a span  {
+
+    #logo-header a span {
         font-size: 32pt;
     }
+
     #logo-header i {
         padding-top: 0;
     }
+
     #logo-header h1 {
         padding-top: 4px;
     }
+
     /* Homepage: move hero image below nav bar */
     #hero-outer {
         height: 480px;
     }
+
     /* Homepage: style new div for hero text */
     #phone-hero-text {
         padding: 0;
         margin: auto;
         width: 95%;
     }
+
     .hero-info {
         background-color: #e8c1bc;
     }
+
     .hero-title {
         margin-top: 120px;
         font-size: 28pt;
@@ -877,19 +995,23 @@ footer ul {
         color: #4A3C47;
         padding-top: 10px;
     }
+
     .hero-invite {
         color: #4A3C47;
     }
+
     /* Homepage: adjust text box heights to fit all text */
     .homepage-title {
         padding-top: 20px;
     }
+
     .homepage-details {
         height: inherit;
     }
 
     /* Page title moved below navbar */
-    .page-heading, .page-heading-rsvp-faq{
+    .page-heading,
+    .page-heading-rsvp-faq {
         height: 300px;
         padding-top: 220px;
     }
@@ -898,13 +1020,16 @@ footer ul {
     .about-us-text {
         width: 80%;
     }
+
     /* About-us: page layout changes */
     .about-us-text {
         padding-top: 20px;
     }
+
     .about-us-last-paragraph {
         padding-bottom: 0;
     }
+
     .about-us-image {
         margin-top: 20px;
     }
@@ -913,6 +1038,7 @@ footer ul {
     .travel-map {
         height: 320px;
     }
+
     /* Travel: text positioning */
     .travel-text {
         padding-top: 20px;
@@ -932,6 +1058,7 @@ footer ul {
     #faq-title-image {
         background-position-y: 120px;
     }
+
     /*FAQ: reduce question font size */
     .accordion-button {
         font-size: 16pt;
@@ -941,9 +1068,11 @@ footer ul {
     .page-spacer {
         padding-bottom: 200px;
     }
+
     .section-404-response h2 {
         font-size: 16pt;
     }
+
     .return-button {
         width: 80%;
         margin: auto;
@@ -951,32 +1080,41 @@ footer ul {
 }
 
 /* --------- Small Phone Media Queries ------------------ */
-@media screen and (max-width: 420px){
+@media screen and (max-width: 420px) {
+
     /* Reduce footer text size and centres content vertically */
     #footer {
         height: 80px;
     }
+
     .contact-details {
         font-size: 12px;
     }
+
     #phone-number {
         padding-top: 15px;
     }
+
     #email-address {
         padding-top: 20px;
         font-size: 7pt;
     }
+
     .social-media-links a p {
         font-size: 12px;
         padding-top: 6px;
     }
+
     .social-media-links .fa-brands {
         padding-top: 20px;
     }
+
     .gender {
         display: none;
     }
-    #instagram-hash, #twitter-hash {
+
+    #instagram-hash,
+    #twitter-hash {
         display: none;
     }
 
