@@ -43,7 +43,6 @@ footer {
 .rsvp-faq-title {
     font-size: 32pt;
     font-family: 'Sail', 'Times New Roman', Times, serif;
-    padding-right: 0;
     background: black;
     opacity: 0.7;
     padding-right: 20px;
@@ -416,7 +415,6 @@ main {
     font-family: 'parisienne', Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 48pt;
-    padding-top: 10px;
     color: #4A3C47;
     padding-bottom: 20px;
     padding-top: 20px;
@@ -478,7 +476,6 @@ main {
     font-family: 'parisienne', Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 48pt;
-    padding-top: 10px;
     color: #4A3C47;
     padding-top: 20px;
 }
@@ -533,7 +530,6 @@ main {
     padding-top: 160px;
     margin: 0;
     width: 100%;
-
     display: inline-block;
     text-align: center;
     font-size: 32px;
@@ -559,7 +555,6 @@ main {
 .side-image-right {
     border-left: none;
 }
-
 
 
 /* --------------- RSVP PAGE ---------------------------- */
@@ -635,7 +630,6 @@ form {
 }
 
 /* --------------- FAQ PAGE ----------------------------- */
-
 /* Heading Font-Awesome */
 .page-heading .fa-circle-question,
 .page-heading-rsvp-faq .fa-circle-question {
